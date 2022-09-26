@@ -1,0 +1,140 @@
+%%% D-sek common package
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{dsek}[2022/09/26]
+
+\ExplSyntaxOn
+
+\RequirePackage{xparse}
+\RequirePackage{graphicx}
+
+\str_new:N \g_dsek_resource_dir_str
+\str_gset:Nn \g_dsek_resource_dir_str { resources/ }
+
+\bool_new:N \g_dsek_in_color_bool
+
+%%% Optioner
+%% Grafik i färg eller svartvitt?
+\DeclareOption{color}{\bool_set_true:N \g_dsek_in_color_bool}
+\DeclareOption{bw}   {\bool_set_false:N \g_dsek_in_color_bool}
+
+\ProcessOptions\relax
+
+%%% Kommandon
+%% Textstumpar
+
+\tl_const:Nn \c_dsek_long_name_tl {D-sektionen~inom~TLTH}
+
+\NewDocumentCommand \Dseklongname {} {\tl_to_str:N \c_dsek_long_name_tl}
+
+%% Grafik
+
+\dim_new:N \l_dsek_height_dim
+
+\cs_new_protected:Npn \__dsek_graphic:nn #1#2 {
+  \group_begin:
+  \bool_set_eq:NN \l_dsek_in_color_bool \g_dsek_in_color_bool
+
+  \dim_set:Nn \l_dsek_height_dim {10pt}
+
+  \keys_define:nn { dsek / graphics }
+  {
+    bw    .bool_set_inverse:N = \l_dsek_in_color_bool,
+    bw    .default:n = {true},
+
+    color .bool_set:N = \l_dsek_in_color_bool,
+    color .default:n = {true},
+
+    height
+    .dim_set:N = \l_dsek_height_dim,
+  }
+
+  \keys_set:nn { dsek / graphics } { #2 }
+
+  \includegraphics[ height = \l_dsek_height_dim ]
+  {
+    \g_dsek_resource_dir_str #1
+    \bool_if:NTF \l_dsek_in_color_bool
+      {-color}
+      {-bw}
+  }
+  \group_end:
+}
+
+\cs_generate_variant:Nn \__dsek_graphic:nn { nx }
+
+\NewDocumentCommand{\Dsymbol}{ O{} } {
+  \__dsek_graphic:nx { D-symbol } { #1 , color=false }
+}
+
+\NewDocumentCommand{\Dseksigil}{ O{} } {
+  \__dsek_graphic:nx { D-guild-sigil } { #1 }
+}
+
+\NewDocumentCommand{\Cprogsigil}{ O{} } {
+  \__dsek_graphic:nx { C-program-sigil } { #1 }
+}
+
+\NewDocumentCommand{\Dprogsigil}{ O{} } {
+  \__dsek_graphic:nx { D-program-sigil } { #1 }
+}
+
+%% Listor
+
+\NewDocumentEnvironment{boldlist}{ m } {
+  \begin{list}{\textbf{#1}}
+} {
+  \end{list}
+}
+
+\NewDocumentEnvironment{attlist}{} {
+  \begin{boldlist}{att}
+} {
+  \end{boldlist}
+}
+
+%% Signaturer
+
+\dim_new:N \g_dsek_sign_space_height
+\dim_gset:Nn \g_dsek_sign_space_height {15mm}
+
+\NewDocumentCommand{\setsignspaceheight}{ m }{
+  \dim_gset:Nn \g_dsek_sign_space_height { #1 }
+}
+
+\dim_new:N \l__dsek_sign_width
+\NewDocumentCommand{\signature}{ o m m m } {
+  \group_begin:
+  \dim_zero_new:N \l__dsek_sign_space_height
+  \dim_set_eq:NN \l__dsek_sign_space_height \g_dsek_sign_space_height
+
+  \settowidth{\l__dsek_sign_width}{#2}
+  \settowidth{\l_tmpa_dim}{#3}
+
+  \dim_set:Nn \l__dsek_sign_width {
+    \dim_max:nn {\l_tmpa_dim} {\l__dsek_sign_width}}
+
+  \settowidth{\l_tmpa_dim}{#4}
+
+  \dim_set:Nn \l__dsek_sign_width {
+    \dim_max:nn {\l_tmpa_dim} {\l__dsek_sign_width}}
+
+  \dim_add:Nn \l__dsek_sign_width {2em}
+
+  \keys_define:nn { dsek / signatures } {
+    hspace .dim_set:N = \l__dsek_sign_space_height,
+    width  .dim_set:N = \l__dsek_sign_width
+  }
+
+  \IfValueT{#1} {\keys_set:nn { dsek / signatures } { #1 }}
+
+  \parbox[t]{ \dim_use:N \l__dsek_sign_width }{
+    \raggedright #2
+    \vspace{ \dim_use:N \l__dsek_sign_space_height }\\
+    #3 \\
+    #4
+  }
+  \group_end:
+}
+
+\ExplSyntaxOff
