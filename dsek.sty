@@ -7,6 +7,7 @@
 
 \RequirePackage{xparse}
 \RequirePackage{graphicx}
+\RequirePackage{enumitem}
 
 \str_new:N \g_dsek_resource_dir_str
 \str_gset:Nn \g_dsek_resource_dir_str { resources/ }
@@ -98,16 +99,10 @@
 
 %% Listor
 
-\NewDocumentEnvironment{boldlist}{ m } {
-  \begin{list}{\textbf{#1}}
-} {
-  \end{list}
-}
-
 \NewDocumentEnvironment{attlist}{} {
-  \begin{boldlist}{att}
+  \begin{itemize}[label=\textbf{att}]
 } {
-  \end{boldlist}
+  \end{itemize}
 }
 
 %% Signaturer
