@@ -2,3 +2,6 @@
 *.log
 *.pdf
 *.aux
+
+# Testing stuff
+results/
