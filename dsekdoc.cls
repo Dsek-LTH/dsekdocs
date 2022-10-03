@@ -38,9 +38,17 @@
 \RequirePackage{lastpage}
 
 %% Font configuration
-\setmainfont{Domitian}[Numbers=OldStyle]
-\setsansfont{TeX Gyre Heros}[Scale=MatchUppercase]
-\providefontfamily\tffamily{Domitian}
+\setmainfont{Domitian-Roman.otf}[
+  Numbers=OldStyle,
+  BoldFont=Domitian-Bold.otf,
+  ItalicFont=Domitian-Italic.otf,
+  BoldItalicFont=Domitian-BoldItalic.otf]
+\setsansfont{texgyreheros-regular.otf}[
+  Scale=MatchLowercase,
+  BoldFont=texgyreheros-bold.otf,
+  ItalicFont=texgyreheros-italic.otf,
+  BoldItalicFont=texgyreheros-bolditalic.otf]
+\providefontfamily\tffamily{texgyrepagella-regular.otf}
 
 \ExplSyntaxOn
 %% Languages
