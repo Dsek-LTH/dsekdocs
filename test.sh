@@ -1,23 +1,43 @@
 #!/usr/bin/env bash
 
 main_dir=$PWD
-latex_cmd="lualatex --interaction=nonstopmode"
 
-test -d results && rm -rf results
+export TEXINPUTS="$TEXINPUT:$main_dir::"
 
-cp -r tests results
+latex_flags="--interaction=nonstopmode"
+lualatex_cmd="lualatex"
+xelatex_cmd="xelatex"
 
-for dir in results/*; do
+fmt="%-20s%12s%12s\n"
+test -d results || cp -r tests results
+
+cd $main_dir/results
+
+printf "$fmt" "File" "$lualatex_cmd" "$xelatex_cmd"
+for dir in *; do
 	cd $dir
-	echo "$dir: "
+	cp -f $main_dir/tests/$dir/*.tex .
+	printf "$fmt" "$dir/" "" ""
 	for file in *.tex; do
-		echo -n -e "\t$file: "
-		TEXINPUTS="$TEXINPUTS:$main_dir::" $latex_cmd $file > /dev/null
+		short_file=`basename $file .tex`
+		lualatex_status="✘"
+		xelatex_status="✘"
+		$lualatex_cmd \
+			 $latex_flags \
+			 --jobname=lua-$short_file \
+			 $file &> /dev/null
 		if [ $# -eq 0 ]; then
-			echo "✔"
-		else
-			echo "✘"
+		    lualatex_status="✔"
 		fi
+		xename=xe$short_file
+		$xelatex_cmd \
+			 $latex_flags \
+			 --jobname=xe-$short_file \
+			 $file &> /dev/null
+		if [ $# -eq 0 ]; then
+		    xelatex_status="✔"
+		fi
+		printf "$fmt" "    $file" "$lualatex_status" "$xelatex_status"
 	done
-	cd $main_dir
+	cd $main_dir/results
 done
