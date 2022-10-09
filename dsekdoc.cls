@@ -1,12 +1,12 @@
 %%% D-sek doc documentclass
 
-%%% Class identification
+%% Class identification
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{dsekdoc}[2022/06/12]
 
 \ExplSyntaxOn
 
-%%% Declaration of options
+%% Declaration of options
 \bool_new:N \g_dsek_in_english_bool
 \DeclareOption{english}{\bool_set_true:N \g_dsek_in_english_bool}
 
@@ -72,25 +72,71 @@
 \setlength{\parindent}{0mm}
 \setlength{\parskip}{3mm}
 
-%% Försättsblad
+%% Document properties
+
+% Title
 
 \tl_new:N \g_dsek_title_tl
-\tl_new:N \g_dsek_covp_text_tl
-\tl_new:N \g_dsek_date_tl
 
 \NewDocumentCommand \settitle { m } {
   \tl_set:Nn \g_dsek_title_tl { #1 }
   \title{ #1 }
 }
 
-\NewDocumentCommand \setcovptext { m } {
-  \tl_set:Nn \g_dsek_covp_text_tl { #1 }
+\NewDocumentCommand \usetitle {} {
+  \tl_use:N \g_dsek_date_tl
 }
+
+% Short Title
+
+\tl_new:N \g_dsek_short_title_tl
+
+\NewDocumentCommand \setshorttitle { m }{
+  \tl_set:Nn \g_dsek_short_title_tl { #1 }
+}
+
+\NewDocumentCommand \useshorttitle {} {
+  \tl_use:N \g_dsek_title_tl
+}
+
+% Date
+
+\tl_new:N \g_dsek_date_tl
 
 \NewDocumentCommand \setdate { m }{
   \tl_set:Nn \g_dsek_date_tl { #1 }
   \date{ #1 }
 }
+
+\NewDocumentCommand \usedate {} {
+  \tl_use:N \g_dsek_date_tl
+}
+
+% Meeting
+
+\tl_new:N \g_dsek_meeting_tl
+
+\NewDocumentCommand \setmeeting { m }{
+  \tl_set:Nn \g_dsek_meeting_tl { #1 }
+}
+
+\NewDocumentCommand \usemeeting {} {
+  \tl_use:N \g_dsek_meeting_tl
+}
+
+% Cover page text
+
+\tl_new:N \g_dsek_covp_text_tl
+
+\NewDocumentCommand \setcovptext { m } {
+  \tl_set:Nn \g_dsek_covp_text_tl { #1 }
+}
+
+\NewDocumentCommand \usecovptext {} {
+  \tl_use:N \g_dsek_covp_text_tl
+}
+
+%% Cover page
 
 \NewDocumentCommand \coverpage {} {
   \begin{titlepage}
@@ -108,17 +154,6 @@
 }
 
 %% Headers and footers
-
-\tl_new:N \g_dsek_short_title_tl
-\tl_new:N \g_dsek_meeting_tl
-
-\NewDocumentCommand \setshorttitle { m }{
-  \tl_set:Nn \g_dsek_short_title_tl { #1 }
-}
-
-\NewDocumentCommand \setmeeting { m }{
-  \tl_set:Nn \g_dsek_meeting_tl { #1 }
-}
 
 \newpagestyle{main}{
   \sethead {
