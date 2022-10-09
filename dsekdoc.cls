@@ -72,6 +72,41 @@
 \setlength{\parindent}{0mm}
 \setlength{\parskip}{3mm}
 
+%% Försättsblad
+
+\tl_new:N \g_dsek_title_tl
+\tl_new:N \g_dsek_covp_text_tl
+\tl_new:N \g_dsek_date_tl
+
+\NewDocumentCommand \settitle { m } {
+  \tl_set:Nn \g_dsek_title_tl { #1 }
+  \title{ #1 }
+}
+
+\NewDocumentCommand \setcovptext { m } {
+  \tl_set:Nn \g_dsek_covp_text_tl { #1 }
+}
+
+\NewDocumentCommand \setdate { m }{
+  \tl_set:Nn \g_dsek_date_tl { #1 }
+  \date{ #1 }
+}
+
+\NewDocumentCommand \coverpage {} {
+  \begin{titlepage}
+    \begin{center}
+      \vspace{10mm}
+      \textsc{\Huge \Dseklongname} \\[5mm]
+      \rule{\linewidth}{1pt} \\[4mm]
+      \Huge \tl_use:N \g_dsek_title_tl \\
+      \rule{\linewidth}{1pt} \\
+      \vspace{5mm}
+      \Large \tl_use:N \g_dsek_covp_text_tl \\[20mm]
+      \Dseksigil[color, height=70mm]
+    \end{center}
+  \end{titlepage}
+}
+
 %% Headers and footers
 
 \tl_new:N \g_dsek_short_title_tl
@@ -92,8 +127,8 @@
       {\small\textsc{\tl_use:N \g_dsek_short_title_tl}}}
   }{}{
     \parbox{60mm}{\small
-      \hbox{} \hfill{\makeatletter \@date \makeatother}}
       \hbox{} \hfill{\tl_use:N \g_dsek_meeting_tl} \\
+      \hbox{} \hfill{\tl_use:N \g_dsek_date_tl}}
   }
   \setheadrule{0pt}
   \setfootrule{.4pt}
