@@ -48,7 +48,7 @@
   BoldFont=texgyreheros-bold.otf,
   ItalicFont=texgyreheros-italic.otf,
   BoldItalicFont=texgyreheros-bolditalic.otf]
-\providefontfamily\tffamily{texgyrepagella-regular.otf}
+\providefontfamily\tffamily{Domitian-Roman.otf}
 
 \ExplSyntaxOn
 %% Languages
@@ -73,14 +73,12 @@
 \setlength{\parskip}{3mm}
 
 %% Headers and footers
+
 \tl_new:N \g_dsek_short_title_tl
-\titleformat*{\paragraph}{\sffamily\bfseries}
-\titleformat*{\subparagraph}{\sffamily\bfseries}
-\setlength{\parindent}{0mm}
 \tl_new:N \g_dsek_meeting_tl
 
 \NewDocumentCommand \setshorttitle { m }{
-  \tl_set:Nx \g_dsek_short_title_tl { #1 }
+  \tl_set:Nn \g_dsek_short_title_tl { #1 }
 }
 
 \NewDocumentCommand \setmeeting { m }{
@@ -90,17 +88,17 @@
 \newpagestyle{main}{
   \sethead {
     \parbox{18mm}{\Dseksigil[height=16mm]}
-    \parbox{80mm}{{\textsc{\Dseklongname}} \newline
-      {\small\textsc{\tl_to_str:N \g_dsek_short_title_tl}}}
+    \parbox{80mm}{{\textsc{\Dseklongname}} \\
+      {\small\textsc{\tl_use:N \g_dsek_short_title_tl}}}
   }{}{
     \parbox{60mm}{\small
-      \hbox{} \hfill{\tl_to_str:N \g_dsek_meeting_tl} \\
       \hbox{} \hfill{\makeatletter \@date \makeatother}}
+      \hbox{} \hfill{\tl_use:N \g_dsek_meeting_tl} \\
   }
   \setheadrule{0pt}
   \setfootrule{.4pt}
   \setfoot{}{\tffamily\thepage\ (\pageref{LastPage})}{}
 }
 \pagestyle{main}
-\ExplSyntaxOff
 
+\ExplSyntaxOff
