@@ -98,10 +98,17 @@
 
 %% Listor
 
-\NewDocumentEnvironment{attlist}{} {
-  \begin{itemize}[label=\textbf{att}]
+\NewDocumentEnvironment{boldlist}{ m } {
+  \begin{itemize}[label=\textbf{ #1 },
+                  labelsep=.5em]
 } {
   \end{itemize}
+}
+
+\NewDocumentEnvironment{attlist}{} {
+  \begin{boldlist}{att}
+} {
+  \end{boldlist}
 }
 
 %% Signaturer
