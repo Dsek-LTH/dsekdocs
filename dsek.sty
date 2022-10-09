@@ -9,8 +9,8 @@
 \RequirePackage{graphicx}
 \RequirePackage{enumitem}
 
-\str_new:N \g_dsek_resource_dir_str
-\str_gset:Nn \g_dsek_resource_dir_str { images/ }
+\str_new:N \g_dsek_image_dir_str
+\str_gset:Nn \g_dsek_image_dir_str { images/ }
 
 \bool_new:N \g_dsek_in_color_bool
 
@@ -25,11 +25,15 @@
 %% Textstumpar
 
 \tl_const:Nn \c_dsek_long_name_tl {D-sektionen~inom~TLTH}
-
 \NewDocumentCommand \Dseklongname {} {\tl_use:N \c_dsek_long_name_tl}
 
 \tl_const:Nn \c_idet_name_tl {iDét}
 \NewDocumentCommand \idet {} {\tl_use:N \c_idet_name_tl}
+
+% Utskott
+
+\tl_const:Nn \c_medaljk_name_tl {Medaljelelekommitén}
+\NewDocumentCommand \medaljk {} {\tl_use:N \c_medaljk_name_tl}
 
 % Poster
 
@@ -38,9 +42,6 @@
 
 \tl_const:Nn \c_overpeppare_name_tl {Øverpeppare}
 \NewDocumentCommand \overpeppare {} {\tl_use:N \c_overpeppare_name_tl}
-
-\tl_const:Nn \c_medaljk_name_tl {Medaljelelekommitén}
-\NewDocumentCommand \medaljk {} {\tl_use:N \c_medaljk_name_tl}
 
 \tl_const:Nn \c_medaljk_member_name_tl {Medaljelelekommitémedlem}
 \NewDocumentCommand \medaljkmedlem {} {\tl_use:N \c_medaljk_member_name_tl}
@@ -69,7 +70,7 @@
   \keys_set:nn { dsek / graphics } { #2 }
 
   \includegraphics[ height = \l_dsek_height_dim ] {
-    \g_dsek_resource_dir_str #1
+    \g_dsek_image_dir_str #1
     \bool_if:NTF \l_dsek_in_color_bool
       {-color}
       {-bw}
