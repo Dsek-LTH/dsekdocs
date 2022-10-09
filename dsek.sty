@@ -31,8 +31,8 @@
 \tl_const:Nn \c_idet_name_tl {iDét}
 \NewDocumentCommand \idet {} {\tl_to_str:N \c_idet_name_tl}
 
-
 % Poster
+
 \tl_const:Nn \c_overphos_name_tl {Øverphøs}
 \NewDocumentCommand \overphos {} {\tl_to_str:N \c_overphos_name_tl}
 
@@ -51,26 +51,24 @@
 
 \cs_new_protected:Npn \__dsek_graphic:nn #1#2 {
   \group_begin:
+
   \bool_set_eq:NN \l_dsek_in_color_bool \g_dsek_in_color_bool
 
   \dim_set:Nn \l_dsek_height_dim {10pt}
 
-  \keys_define:nn { dsek / graphics }
-  {
-    bw    .bool_set_inverse:N = \l_dsek_in_color_bool,
-    bw    .default:n = {true},
+  \keys_define:nn { dsek / graphics } {
+    bw     .bool_set_inverse:N = \l_dsek_in_color_bool,
+    bw     .default:n = {true},
 
-    color .bool_set:N = \l_dsek_in_color_bool,
-    color .default:n = {true},
+    color  .bool_set:N = \l_dsek_in_color_bool,
+    color  .default:n = {true},
 
-    height
-    .dim_set:N = \l_dsek_height_dim,
+    height .dim_set:N = \l_dsek_height_dim,
   }
 
   \keys_set:nn { dsek / graphics } { #2 }
 
-  \includegraphics[ height = \l_dsek_height_dim ]
-  {
+  \includegraphics[ height = \l_dsek_height_dim ] {
     \g_dsek_resource_dir_str #1
     \bool_if:NTF \l_dsek_in_color_bool
       {-color}
@@ -115,6 +113,7 @@
 }
 
 \dim_new:N \l__dsek_sign_width
+
 \NewDocumentCommand{\signature}{ o m m m } {
   \group_begin:
   \dim_zero_new:N \l__dsek_sign_space_height
@@ -142,7 +141,7 @@
 
   \parbox[t]{ \dim_use:N \l__dsek_sign_width }{
     \raggedright #2
-    \vspace{ \dim_use:N \l__dsek_sign_space_height }\\
+    \vspace{ \dim_use:N \l__dsek_sign_space_height } \\
     #3 \\
     #4
   }
