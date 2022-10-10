@@ -48,5 +48,6 @@
 }
 
 \titleformat{\section}{\sffamily\LARGE\bfseries}{\thesection.}{0.5em}{\LARGE}
+\titlespacing*{\section}{0mm}{0mm}{2.5mm}
 
 \ExplSyntaxOff
