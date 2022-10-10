@@ -35,6 +35,7 @@
   headheight = 16mm
 ]{geometry}
 \RequirePackage[pagestyles]{titlesec}
+\RequirePackage{hyperref}
 \RequirePackage{lastpage}
 
 %% Font configuration
@@ -65,6 +66,7 @@
 \titleformat*{\section}{\Large\sffamily\bfseries}
 \titleformat*{\subsection}{\large\sffamily\bfseries}
 \titleformat*{\subsubsection}{\sffamily\bfseries}
+
 
 %% Paragraph styling
 \titleformat*{\paragraph}{\sffamily\bfseries}
