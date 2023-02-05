@@ -18,10 +18,16 @@ Att åtgärda dessa kommer oavsett kräva förändringar som inte är bakåtkomp
 
 ## Test-first utveckling
 
-I största möjliga mån ska utvecklingen ske enligt test-first metodiken.  Det som står lite i vägen för det här är att testen inte kan vara helt automatiserade, då fel kan uppstå som inte går att märka automatiskt.
+I största möjliga mån ska utvecklingen ske enligt test-first metodiken.  Det som
+står lite i vägen för det här är att testen inte kan vara helt automatiserade,
+då fel kan uppstå som inte går att märka automatiskt.
+
+I framtiden kan vi kanske använda oss av
+[l3build](https://github.com/latex3/l3build) för att bygga och testa.
 
 ## Semantisk versionshantering
-Utvecklingen av paketet bör använda sig av [semantisk versionshantering](https://semver.org/lang/sv/#semantisk-versionshantering-200) för att göra det lätt att hantera versionerna ur ett användarperspektiv. Eftersom semantisk versionshantering kräver att ett publikt API deklareras så kommer API:t för det här projektet avse dess dokumentkommandon och dokumentklasser.
+Utvecklingen av paketet bör använda sig av [semantisk versionshantering](https://semver.org/lang/sv/#semantisk-versionshantering-200)
+för att göra det lätt att hantera versionerna ur ett användarperspektiv.  Eftersom semantisk versionshantering kräver att ett publikt API deklareras så kommer API:t för det här projektet avse dess dokumentkommandon och dokumentklasser.
 
 # Lite resurser för LaTeX-utveckling
 
