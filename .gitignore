@@ -6,3 +6,6 @@
 # Testing stuff
 results/
 build/
+
+# Publishing stuff
+*.zip

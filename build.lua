@@ -28,7 +28,7 @@ typesetfiles = {"*.tex"}
 installfiles = {"*.sty", "*.cls"}
 tagfiles     = {"*.sty", "*.cls"}
 
-textfiles = {"*.md", "*.txt", "LICENSE"}
+textfiles = {"ctan/*.md", "*.txt", "LICENSE"}
 
 -- Announcements
 ancmts = {}
