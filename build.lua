@@ -30,6 +30,10 @@ tagfiles     = {"*.sty", "*.cls"}
 
 textfiles = {"ctan/*.md", "*.txt", "LICENSE"}
 
+-- Typesetting documentation
+
+typesetexe = "xelatex"
+
 -- Announcements
 ancmts = {}
 
