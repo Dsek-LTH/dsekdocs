@@ -86,7 +86,7 @@
 }
 
 \NewDocumentCommand \usetitle {} {
-  \tl_use:N \g_dsek_date_tl
+  \tl_use:N \g_dsek_title_tl
 }
 
 % Short Title
