@@ -23,9 +23,9 @@ uploadconfig = {
 }
 
 -- Files
-sourcefiles  = {"*.sty", "*.cls"}
+sourcefiles  = {"*.sty", "*.cls", "images/"}
 typesetfiles = {"*.tex"}
-installfiles = {"*.sty", "*.cls"}
+installfiles = {"*.sty", "*.cls", "images/"}
 tagfiles     = {"*.sty", "*.cls"}
 
 textfiles = {"ctan/*.md", "*.txt", "LICENSE"}
