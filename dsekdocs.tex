@@ -21,8 +21,9 @@
 \maketitle
 
 \section{Overview}
-This is the manual for version 0.1.1 of the \textsf{dsekdocs} packages for the typesetting of
-documents for the D-guild at the technical faculty of Lund university.
+This is the manual for version 0.1.1 of the \textsf{dsekdocs} packages for the
+typesetting of documents for the D-guild at the technical faculty of Lund
+university.
 
 \section{The \textsf{dsek} package}
 This package contains macros for the inclusion of D-guild related stuff in any
@@ -32,8 +33,8 @@ document.  To use it, write \cs{usepackage\{dsek\}}.
 The \textsf{dsek} package uses the free Domitian and \TeX Gyre Heros as stand
 ins for non-free Palatino and Helvetica fonts.
 
-It is worth noting that it by default uses old style figures, i.e. lower case
-numbers, by default.  If you want to turn that off somewhere, like maybe in a
+It is worth noting that it by default uses old style figures, i.e. ``lower case
+numbers'', by default.  If you want to turn that off somewhere, like maybe in a
 table, use
 
 \cs{addfontfeatures\{Numbers=\{Monospaced,Lining\}\}}
@@ -61,27 +62,32 @@ prevent misspellings when writing hard to spell phrases.
 \subsubsection{Graphics}
 
 These are commands that insert some kind of graphic when used.  All graphics
-accept these options as the sole optional arguments (comma separated if multiple):
+accept these options as the optional arguments (comma separated if multiple):
 
 \begin{description}
-  \item[\texttt{bw}] Forces the usage of the black and white version of the graphic.
-  \item[\texttt{color}] Forces the usage of the colored version of the graphic (if it
-    exists).
+  \item[\texttt{bw}] Forces the usage of the black and white version of the
+    graphic.
+  \item[\texttt{color}] Forces the usage of the colored version of the graphic
+    (if it exists).
   \item[\texttt{height=}\textit{dim}] Sets the height of the graphic.
 \end{description}
 
-% TODO: fix graphics by including the images directory in the input path somehow
 \begin{center}
   \begin{tabular}{r | c c}
     Command & Colored & Black and white \\ \hline
-    \cs{Dsymbol} & N/A & \Dsymbol[bw, height=10mm]
-    \\
+    \cs{Dsymbol} & N/A & \Dsymbol[bw, height=10mm] \\
+    \cs{Dseksigil} & \Dseksigil[color, height=20mm] & \Dseksigil[bw,
+      height=20mm] \\
+    \cs{Cprogsigil} & \Cprogsigil[color, height=20mm] & \Cprogsigil[bw,
+      height=20mm] \\
+    \cs{Dprogsigil} & \Dprogsigil[color, height=20mm] & \Dprogsigil[bw,
+      height=20mm] \\
   \end{tabular}
 \end{center}
 
 \subsubsection{Lists}
 As it is often desirable to create so called ``att-listor'' to reflect decisions
-taken or the proposed actions in motions, there are facilities to create them.
+taken or the proposed actions in motions, facilities to create them are provided:
 
 \begin{center}
   \begin{tabular}{l}
@@ -91,8 +97,30 @@ taken or the proposed actions in motions, there are facilities to create them.
   \end{tabular}
 \end{center}
 
-If you would like to create a list with another word in the same style, use the
-\texttt{boldlist} environment:
+For example:
+
+\begin{center}
+  \begin{tabular}{l | l}
+    \begin{minipage}{0.5\linewidth}
+      \texttt{Mötet beslutade} \\
+      \cs{begin\{attlist\}}\\
+      \cs{item} \texttt{steka pannkakor,} \\
+      \cs{item} \texttt{D-sektionen är bäst!} \\
+      \cs{end\{attlist\}}
+    \end{minipage}
+    &
+    \begin{minipage}{0.5\linewidth}
+      Mötet beslutade
+      \begin{attlist}
+      \item steka pannkakor,
+      \item D-sektionen är bäst!
+      \end{attlist}
+    \end{minipage}
+  \end{tabular}
+\end{center}
+
+If you would like to create a list in the same style but with another word in
+place of \textit{att}, use the \texttt{boldlist} environment:
 
 \begin{center}
   \begin{tabular}{l}
@@ -110,17 +138,31 @@ signatures.
   \cs{signature}\oarg{options}\marg{date and location}\marg{name}\marg{title}
 \end{center}
 
+For instance, a signature declaration that looks like this:
+
+\begin{center}
+  \cs{signature}\texttt{\{Lund, dag som ovan\}\{Trula Trulsson\}\{Ordförande\}}
+\end{center}
+
+results in
+
+\begin{center}
+  \signature{Lund, dag som ovan}{Trula Trulsson}{Ordförande}
+\end{center}
+
 \noindent
-The options accepted are as follows:
+The signature command accepts the following options:
 \begin{description}
-  \item[\texttt{width=}\textlangle\textit{dim}\textrangle] Sets the width of the signature.  By
-    default, it is set to the maximum of the widths of the entered texts.
-  \item[\texttt{hspace=}\textlangle\textit{dim}\textrangle] Sets the height of the signature space.
-    By default it is set to 15mm.
+  \item[\texttt{width=}\textlangle\textit{dim}\textrangle] Sets the width of the
+    signature.  By default, it is set to the maximum of the widths of the
+    entered texts.
+  \item[\texttt{hspace=}\textlangle\textit{dim}\textrangle] Sets the height of
+    the signature space.  By default it is set to 15mm.
 \end{description}
 
 \noindent
-Additionally, the default signature space height can be set through this command:
+Additionally, the default signature height space for all signatures can be set
+through this command:
 \begin{center}
   \cs{setsignspaceheight}\marg{dim}
 \end{center}
@@ -130,8 +172,8 @@ The \textsf{dsek} package accepts the following options, (comma separated if
 multiple):
 
 \begin{description}
-\item[\texttt{bw}] Makes graphics render in black and white by default.
-\item[\texttt{color}] Makes graphics render in color by default.
+  \item[\texttt{bw}] Makes graphics render in black and white by default.
+  \item[\texttt{color}] Makes graphics render in color by default.
 \end{description}
 
 \section{The \textsf{dsekdoc} document class}
@@ -186,10 +228,10 @@ inserted.
 
 \section{The \textsf{dsekregdoc} document class}
 The \textsf{dsekregdoc} document class is meant to be used for the creation of
-the guild's regulatory documents.  The only thing that it provied is the
+the guild's regulatory documents.  The only thing that it provides is the
 \textsf{regsection} list environment.  It is intended to be the body of each
 section of a regulatory document; it begins right after the \cs{section} call
-and ends right before the next one.  Inside it, each proclamation is declared 
+and ends right before the next one.  Inside it, each proclamation is declared
 like so:
 
 \begin{center}
@@ -202,8 +244,8 @@ like so:
 
 The \textsf{dsekdoc} and \textsf{dsekregdoc} document classes make use of the
 \href{https://ctan.org/pkg/fontspec}{\textsf{fontspec}} and
-\href{https://ctan.org/pkg/polyglossia}{\textsf{polyglossia}} packages, both of which are
-incompatible with \textsf{pdflatex}. So, to use them, use \textsf{xelatex} or
-\textsf{lualatex} instead.
+\href{https://ctan.org/pkg/polyglossia}{\textsf{polyglossia}} packages, both of
+which are incompatible with \textsf{pdflatex}.  So, to use them, use
+\textsf{xelatex} or \textsf{lualatex} instead.
 
 \end{document}
