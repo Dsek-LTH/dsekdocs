@@ -4,6 +4,8 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{dsekdoc}[2022/06/12]
 
+\RequirePackage{expl3}
+
 \ExplSyntaxOn
 
 %% Declaration of options

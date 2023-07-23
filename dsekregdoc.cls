@@ -4,6 +4,8 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{dsekregdoc}[2022/10/06]
 
+\RequirePackage{expl3}
+
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{dsekdoc}}
 
 \ProcessOptions \relax
