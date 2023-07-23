@@ -50,6 +50,7 @@
 
 \dim_new:N \l_dsek_height_dim
 
+% A helper command for creating graphic commands
 \cs_new_protected:Npn \__dsek_graphic:nn #1#2 {
   \group_begin:
 
@@ -57,6 +58,7 @@
 
   \dim_set:Nn \l_dsek_height_dim {10pt}
 
+  % Define how options passed are going to be handled
   \keys_define:nn { dsek / graphics } {
     bw     .bool_set_inverse:N = \l_dsek_in_color_bool,
     bw     .default:n = {true},
@@ -67,8 +69,10 @@
     height .dim_set:N = \l_dsek_height_dim,
   }
 
+  % Process the options
   \keys_set:nn { dsek / graphics } { #2 }
 
+  % Actually insert the graphics
   \includegraphics[ height = \l_dsek_height_dim ] {
     \g_dsek_image_dir_str #1
     \bool_if:NTF \l_dsek_in_color_bool
