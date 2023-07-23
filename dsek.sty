@@ -14,15 +14,15 @@
 
 \bool_new:N \g_dsek_in_color_bool
 
-%%% Optioner
-%% Grafik i färg eller svartvitt?
+%%% Options
+%% Graphics in color or in black and white by default?
 \DeclareOption{color}{\bool_set_true:N \g_dsek_in_color_bool}
 \DeclareOption{bw}   {\bool_set_false:N \g_dsek_in_color_bool}
 
 \ProcessOptions\relax
 
-%%% Kommandon
-%% Textstumpar
+%%% Commands
+%% Snippets
 
 \tl_const:Nn \c_dsek_long_name_tl {D-sektionen~inom~TLTH}
 \NewDocumentCommand \Dseklongname {} {\tl_use:N \c_dsek_long_name_tl}
@@ -30,12 +30,12 @@
 \tl_const:Nn \c_idet_name_tl {iDét}
 \NewDocumentCommand \idet {} {\tl_use:N \c_idet_name_tl}
 
-% Utskott
+% Commitees
 
 \tl_const:Nn \c_medaljk_name_tl {Medaljelelekommitén}
 \NewDocumentCommand \medaljk {} {\tl_use:N \c_medaljk_name_tl}
 
-% Poster
+% Positions
 
 \tl_const:Nn \c_overphos_name_tl {Øverphøs}
 \NewDocumentCommand \overphos {} {\tl_use:N \c_overphos_name_tl}
@@ -46,7 +46,7 @@
 \tl_const:Nn \c_medaljk_member_name_tl {Medaljelelekommitémedlem}
 \NewDocumentCommand \medaljkmedlem {} {\tl_use:N \c_medaljk_member_name_tl}
 
-%% Grafik
+%% Graphics
 
 \dim_new:N \l_dsek_height_dim
 
@@ -96,7 +96,7 @@
   \__dsek_graphic:nx { D-program-sigil } { #1 }
 }
 
-%% Listor
+%% Lists
 
 \NewDocumentEnvironment{boldlist}{ m } {
   \begin{itemize}[label=\textbf{ #1 },
@@ -111,7 +111,7 @@
   \end{boldlist}
 }
 
-%% Signaturer
+%% Signatures
 
 \dim_new:N \g_dsek_sign_space_height
 \dim_gset:Nn \g_dsek_sign_space_height {15mm}
