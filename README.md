@@ -1,50 +1,64 @@
-# Vad är dsekdocs?
+# dsekdocs
 
-dsekdocs är ett nytt paket för att typsätta D-sektionens LaTeX-dokument.  Det är menat att ersätta det (i skrivande stund) 20 år gammla paketet [dsek-latex](https://github.com/Dsek-LTH/dsek-latex).
+`dsekdocs` is a package for the typesetting of [the D-guild](https://dsek.se/)'s LaTeX documents. It is meant to replace the now 20 year old package [dsek-latex](https://github.com/Dsek-LTH/dsek-latex). `dsekdocs` consists of a regular LaTeX package, [`dsek.sty`](dsek.sty), and two document classes: [`dsekdoc.cls`](dsekdoc.cls) and [`dsekregdoc.cls`](dsekregdoc.cls).
 
-# Varför ersätta `dsek-latex`?
 
-Trots att det har tjänat oss väl så länge har det några större brister:
+## Dependencies
 
-- `dsekcommon` är ett paket och inte en dokumentklass, trots att det är invasivt och ändrar flertalet grejer när man inkluderar det,
-- avsaknad av en rimlig struktur med dokumentklasser,
-- [referenser till](https://github.com/Dsek-LTH/dsek-latex/blob/master/dsekcommands.dtx#L570) [saker som inte](https://github.com/Dsek-LTH/dsek-latex/blob/master/dsekcommands.dtx#L607) [har varit relevanta på länge](https://github.com/Dsek-LTH/dsek-latex/blob/master/dsekcommands.dtx#L539),
-- omfattande hänsynstaganden för kompabilitet med [TtH](http://hutchinson.belmont.ma.us/tth/), vilket inte heller har varit relevant på länge,
-- beroende på [lth-symb](https://github.com/Dsek-LTH/dsek-latex#lth-symboler-how-to), vilket är svårt att hantera med vanliga verktyg.
+`dsek` depends on
 
-Att åtgärda dessa kommer oavsett kräva förändringar som inte är bakåtkompatibla, så att välja att skapa ett nytt paket är inte ogrundat.
+-   xparse
+-   graphicx
+-   enumitem
 
-# Hur ska dsekdocs utvecklas?
+`dsekdoc` depends on
 
-## Test-first utveckling
+-   dsek
+-   fontspec†
+-   polyglossia†
+-   calc
+-   geometry
+-   titlesec
+-   hyperref
+-   lastpage
 
-I största möjliga mån ska utvecklingen ske enligt test-first metodiken.  Det som
-står lite i vägen för det här är att testen inte kan vara helt automatiserade,
-då fel kan uppstå som inte går att märka automatiskt.
+`dsekregdoc` depends on
 
-I framtiden kan vi kanske använda oss av
-[l3build](https://github.com/latex3/l3build) för att bygga och testa.
+-   dsekdoc
 
-## Semantisk versionshantering
-Utvecklingen av paketet bör använda sig av [semantisk versionshantering](https://semver.org/lang/sv/#semantisk-versionshantering-200)
-för att göra det lätt att hantera versionerna ur ett användarperspektiv.  Eftersom semantisk versionshantering kräver att ett publikt API deklareras så kommer API:t för det här projektet avse dess dokumentkommandon och dokumentklasser.
+† - these packages are incompatible with `pdflatex`. This means that **`dsekdoc` and `dsekregdoc` do not work with `pdflatex`.** Use `xelatex` or `lualatex` instead!
 
-# Lite resurser för LaTeX-utveckling
 
-- [LaTeX på Wikibooks](https://en.wikibooks.org/wiki/LaTeX) är en bra referens för det mesta.
-- [The LaTeX Companion](https://ptgmedia.pearsoncmg.com/images/9780201362992/samplepages/0201362996.pdf) är en bra referens att ha. Registret i slutet av boken är väldigt användbart, speciellt om man lär sig vad färgerna betyder.
-- [Minutes in less than hours](http://tutex.tug.org/pracjourn/2005-4/hefferon/hefferon.pdf) är ett exempel på hur ett LaTeX-paket snabbt kan tas fram.
-- [The visual LaTeX FAQ](https://texdoc.org/serve/visualFAQ.pdf/0) är en PDF där man kan klicka på olika delar av dokumentet för att få reda på hur de är implementerade.
+## Building
 
-## LaTeX3-resurser
-Paketet använder en del LaTeX3-kod för att ha mer lättläslig kod.
-Tyvärr så är det rätt glest med dokumentation och vägledning för LaTeX3 i dagens läge, men här är några resurser som har varit användbara än så länge:
+`dsekdocs` uses [`l3build`](https://ctan.org/pkg/l3build) for building the package documentation and the ready to publish CTAN-package.
 
-- [expl3-dokumentationen](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/expl3.pdf) är en bra bas för att förstå den experimentella syntaxen "Expl3". 
-- [xparse-dokumentationen](http://mirrors.ctan.org/macros/latex/contrib/xargs/xargs.pdf) är bra för att förstå paketet xparse som används för att skapa dokumentkommandon.
-- [The LaTeX3 interfaces](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/interface3.pdf)
-är en referens för det mesta LaTeX3. Den beskriver de olika datatyperna och hur man använder dem.
+To build the package documentation, you can run
 
-## Paketering av LaTeX-kod
-- [How to Package Your LaTeX Package](https://texdoc.org/serve/dtxtut.pdf/0)
-- [The .dtx format](https://www.texdev.net/2009/10/05/the-dtx-format/) och [A model .dtx file](https://www.texdev.net/2009/10/06/a-model-dtx-file/)
+```shell
+$ l3build docs
+```
+
+and to build the CTAN package, you can run
+
+```shell
+$ l3build ctan
+```
+
+
+## Development
+
+
+### Semantic versioning
+
+`dsekdocs` uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Read through it before determining what kind of version bump to create.
+
+
+### LaTeX
+
+Documentation for the development of LaTeX packages is kind of scarce; especially so since we are using the relatively modern Expl syntax introduced in LaTeX3. Regardless, some good resources are:
+
+-   [The expl3 docuementation](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/expl3.pdf) is a good base for understanding the syntax.
+-   [The xparse docuementation](http://mirrors.ctan.org/macros/latex/contrib/l3packages/xparse.pdf) is good for understanding the `xparse` package, which is featured heavily for the introduction of user-facing commands and environments.
+-   [The LaTeX3 interfaces](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/interface3.pdf) is a reference for most things LaTeX3. It describes all the different datatypes and how to use them.
+-   The LaTeX Companion is a reference for all kinds of LaTeX concepts, not just LaTeX3.
