@@ -5,11 +5,7 @@ Package: lipsum ....-..-.. v... 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count...
 \l__lipsum_a_int=\count...
 \l__lipsum_b_int=\count...
-(../lipsum.ltd.tex))(dsekregdoc.aux
-LaTeX Info: Redefining \rmfamily on input line ....
-LaTeX Info: Redefining \sffamily on input line ....
-LaTeX Info: Redefining \ttfamily on input line ....
-)
+(../lipsum.ltd.tex))(dsekregdoc.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line ....
 LaTeX Font Info:    ... okay on input line ....
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line ....
@@ -158,6 +154,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 Package hyperref Info: Link coloring OFF on input line ....
 (dsekregdoc.out) (dsekregdoc.out)
 \@outlinefile=\write...
+Package hyperref Warning: Rerun to get /PageLabels entry.
 LaTeX Info: Redefining \rmfamily on input line ....
 LaTeX Info: Redefining \sffamily on input line ....
 LaTeX Info: Redefining \ttfamily on input line ....
@@ -167,7 +164,7 @@ LaTeX Font Info:    Font shape `TU/texgyreheros-regular.otf(0)/m/n' will be
 (Font)              scaled to size 14.80675pt on input line ....
 LaTeX Font Info:    Font shape `TU/texgyreheros-regular.otf(0)/b/n' will be
 (Font)              scaled to size 14.368pt on input line ....
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 []\TU/Domitian-Roman.otf(0)/m/n/10.95 En paragraf med en
 \hbox(7.9716+3.09883)x113.81102, glue set 4.36455
 .\hbox(0.0+0.0)x0.0
@@ -179,7 +176,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 .\glue 2.7375 plus 1.36874 minus 0.91249
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 en
 .\glue(\rightskip) 0.0
-Underfull \hbox (badness 3679) in paragraph at lines 41--41
+Underfull \hbox (badness 3679) in paragraph at lines 43--43
 \TU/Domitian-Roman.otf(0)/m/n/10.95 massa sm^^e5 ord i sitt
 \hbox(7.94969+0.21898)x113.81102, glue set 3.32741
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 massa
@@ -192,7 +189,7 @@ Underfull \hbox (badness 3679) in paragraph at lines 41--41
 .\glue 2.7375 plus 1.36874 minus 0.91249
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 sitt
 .\glue(\rightskip) 0.0
-Overfull \hbox (10.81021pt too wide) in paragraph at lines 43--43
+Overfull \hbox (10.81021pt too wide) in paragraph at lines 45--45
 \TU/Domitian-Roman.otf(0)/m/n/10.95 sellus adipiscing semper elit. Proin fermentum massa ac quam.
 \hbox(7.9716+3.09883)x286.68307, glue set - 1.0
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 sellus
@@ -221,6 +218,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line ....
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line ....
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line ....
 Completed box being shipped out [1]
 \vbox(744.16415+2.35423)x454.10599
 .\hbox(0.0+0.0)x0.0
@@ -296,15 +294,14 @@ Completed box being shipped out [1]
 .......\hbox(0.0+0.0)x0.0
 .......\glue(\parskip) 0.0
 .......\glue(\parskip) 0.0
-.......\glue(\baselineskip) 5.0
-.......\hbox(7.0+1.54999)x170.71652, glue set 109.29652fill
+.......\glue(\baselineskip) 7.07
+.......\hbox(4.93+1.54999)x170.71652, glue set 120.94652fill
 ........\hbox(0.0+0.0)x0.0
 ........\glue 0.0 plus 1.0fill
-........\TU/Domitian-Roman.otf(0)/m/n/10 HTM
-........\glue 2.5 plus 1.24875 minus 0.83415
-........\TU/Domitian-Roman.otf(0)/m/n/10 X,
-........\glue 2.5 plus 1.25 minus 0.83333
-........\TU/Domitian-Roman.otf(0)/m/n/10 20XX
+........\TU/Domitian-Roman.otf(0)/m/sc/10 htmx
+........\TU/Domitian-Roman.otf(0)/m/n/10 ,
+........\glue 2.5 plus 1.5625 minus 0.66666
+........\TU/Domitian-Roman.otf(0)/m/n/10 20xx
 ........\penalty 10000
 ........\glue 0.0 plus 1.0fil
 ........\penalty -10000
@@ -331,9 +328,6 @@ Completed box being shipped out [1]
 ....\write-{}
 ....\special{pdf:majorversion 1}
 ....\special{pdf:minorversion 5}
-....\special{pdf:outline [-] 1<</Title(\376\377\000K\000a\000p\000i\000t\000e\000l\ETC.}
-....\special{pdf:outline [-] 1<</Title(\376\377\000K\000a\000p\000i\000t\000e\000l\ETC.}
-....\special{pdf:outline [-] 1<</Title(\376\377\000K\000a\000p\000i\000t\000e\000l\ETC.}
 ....\special{pdf:docview<</OpenAction[@page1/Fit]/PageMode/UseOutlines>>}
 ....\special{pdf:dest (Doc-Start) [@thispage /XYZ @xpos @ypos null]}
 ....\write1{\protect \xpglanginauxtrue }
@@ -392,8 +386,8 @@ Completed box being shipped out [1]
 ........\vbox(7.9716+3.09883)x157.61101
 .........\hbox(7.9716+3.09883)x157.61101
 ..........\hbox(0.0+0.0)x0.0
-..........\hbox(7.76355+2.39804)x43.79999, glue set 24.6375fil
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a71.1
+..........\hbox(7.76355+3.07693)x43.79999, glue set 14.66205fil
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7p1q1
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09883)x113.81102
 ...........\hbox(7.9716+3.09883)x113.81102, glue set 27.98492fil
@@ -809,8 +803,8 @@ Completed box being shipped out [1]
 ........\vbox(7.9716+3.09883)x157.61101
 .........\hbox(7.9716+3.09883)x157.61101
 ..........\hbox(0.0+0.0)x0.0
-..........\hbox(7.76355+2.39804)x43.79999, glue set 24.6375fil
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a71.2
+..........\hbox(7.76355+3.07693)x43.79999, glue set 14.66205fil
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7p1q2
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09883)x113.81102
 ...........\hbox(7.9716+3.09883)x113.81102, glue set 26.68188fil
@@ -1135,8 +1129,8 @@ Completed box being shipped out [1]
 ........\vbox(7.9716+41.019)x157.61101
 .........\hbox(7.9716+41.019)x157.61101
 ..........\hbox(0.0+0.0)x0.0
-..........\hbox(7.76355+2.59514)x43.79999, glue set 24.6375fil
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a71.3
+..........\hbox(7.76355+3.07693)x43.79999, glue set 14.66205fil
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7p1q3
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+41.019)x113.81102
 ...........\hbox(7.9716+3.09883)x113.81102, glue set 4.36455
@@ -1382,7 +1376,7 @@ Completed box being shipped out [1]
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35423)x455.24408
-....\hbox(7.94969+2.35423)x455.24408, glue set 217.13194fil
+....\hbox(7.94969+2.35423)x455.24408, glue set 215.00764fil
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0
 ......\hbox(9.91995+0.0)x455.24408
@@ -1391,15 +1385,50 @@ Completed box being shipped out [1]
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 1
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
-.....\special{pdf:eann}
+.....\hbox(7.52264+0.13138)x9.7236
+......\TU/Domitian-Roman.otf(0)/b/n/10.95 ??
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 .\kern 0.0
+Underfull \hbox (badness 5147) in paragraph at lines 59--59
+[]\TU/Domitian-Roman.otf(0)/m/n/10.95 Paragraf med s^^e4rskilt
+\hbox(7.9716+3.09883)x113.81102, glue set 3.72282
+.\hbox(0.0+0.0)x0.0
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 Paragraf
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 med
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 s^^e4rskilt
+.\glue(\rightskip) 0.0
+Overfull \hbox (0.70703pt too wide) in paragraph at lines 61--61
+\TU/Domitian-Roman.otf(0)/m/n/10.95 Sed ac odio. Sed vehicula hendrerit sem. Duis non odio. Mor-
+\hbox(7.94969+0.21898)x286.68307, glue set - 1.0
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 Sed
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 ac
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 odio.
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 Sed
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 vehicula
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 hendrerit
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 sem.
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 Duis
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 non
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 odio.
+.\glue 2.7375 plus 1.36874 minus 0.91249
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 Mor-
+.\glue(\rightskip) 0.0
 File: images/D-guild-sigil-bw.pdf Graphic file (type pdf)
 <use images/D-guild-sigil-bw.pdf>
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line ....
 Completed box being shipped out [2]
 \vbox(744.16415+2.35423)x454.10599
 .\vbox(0.0+0.0)x0.0, glue set 43.68286fil
@@ -1473,15 +1502,14 @@ Completed box being shipped out [2]
 .......\hbox(0.0+0.0)x0.0
 .......\glue(\parskip) 0.0
 .......\glue(\parskip) 0.0
-.......\glue(\baselineskip) 5.0
-.......\hbox(7.0+1.54999)x170.71652, glue set 109.29652fill
+.......\glue(\baselineskip) 7.07
+.......\hbox(4.93+1.54999)x170.71652, glue set 120.94652fill
 ........\hbox(0.0+0.0)x0.0
 ........\glue 0.0 plus 1.0fill
-........\TU/Domitian-Roman.otf(0)/m/n/10 HTM
-........\glue 2.5 plus 1.24875 minus 0.83415
-........\TU/Domitian-Roman.otf(0)/m/n/10 X,
-........\glue 2.5 plus 1.25 minus 0.83333
-........\TU/Domitian-Roman.otf(0)/m/n/10 20XX
+........\TU/Domitian-Roman.otf(0)/m/sc/10 htmx
+........\TU/Domitian-Roman.otf(0)/m/n/10 ,
+........\glue 2.5 plus 1.5625 minus 0.66666
+........\TU/Domitian-Roman.otf(0)/m/n/10 20xx
 ........\penalty 10000
 ........\glue 0.0 plus 1.0fil
 ........\penalty -10000
@@ -1504,7 +1532,7 @@ Completed box being shipped out [2]
 ......\glue 0.0
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
-...\vbox(654.41338+0.0)x455.24408, glue set 13462.71428fil
+...\vbox(654.41338+0.0)x455.24408, glue set >20000.0fil
 ....\glue(\topskip) 3.05031
 ....\hbox(7.94969+3.07693)x286.68307, glue set 0.16809, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 in
@@ -1700,8 +1728,8 @@ Completed box being shipped out [2]
 ........\vbox(7.9716+3.09883)x157.61101
 .........\hbox(7.9716+3.09883)x157.61101
 ..........\hbox(0.0+0.0)x0.0
-..........\hbox(7.76355+2.39804)x43.79999, glue set 24.6375fil
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a72.1
+..........\hbox(7.76355+3.07693)x43.79999, glue set 14.66205fil
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7p2q1
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09883)x113.81102
 ...........\hbox(7.9716+3.09883)x113.81102, glue set 5.49362fil
@@ -2181,57 +2209,47 @@ Completed box being shipped out [2]
 .....\glue(\parfillskip) 0.0 plus 1.0fil
 .....\glue(\rightskip) 0.0
 ....\penalty -51
-....\glue 12.0 plus 4.0 minus 6.0
-....\glue -12.0 plus 4.0 minus 6.0
-....\marks1{\prg_do_nothing: }
-....\marks2{\ttl@enccode }
-....\marks3{\ttl@enccode }
-....\mark{{\protect \@namedef {sectiontitle}{Kapitel tre av dokumentet}\protect \ETC.}
-....\glue 12.0 plus 4.0 minus 6.0
-....\glue -15.09883 plus -4.0 minus -6.0
-....\penalty -300
-....\glue 3.09883
-....\glue 12.0 plus 4.0 minus 6.0
-....\special{pdf:dest (section.3) [@thispage /XYZ @xpos @ypos null]}
-....\penalty 10000
-....\glue -12.0 plus -4.0 minus -6.0
-....\glue 12.0 plus 4.0 minus 6.0
-....\glue(\parskip) 8.53581
+....\glue 4.5 plus 2.0 minus 1.0
+....\glue(\parskip) 4.5 plus 2.0 minus 1.0
 ....\glue(\parskip) 0.0
-....\glue(\baselineskip) 3.50124
-....\hbox(15.39993+6.60007)x455.24408, glue set 260.93129fil
-.....\rule(15.39993+6.60007)x0.0
-.....\hbox(15.39993+6.60007)x19.1669
-......\TU/texgyreheros-regular.otf(0)/b/n/17.28 3.
-......\rule(15.39993+6.60007)x0.0
-......\glue 7.18399
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 Kapitel
-.....\glue 3.99431 plus 1.99715 minus 1.33144
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 tre
-.....\glue 3.99431 plus 1.99715 minus 1.33144
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 av
-.....\glue 3.99431 plus 1.99715 minus 1.33144
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 dokumentet
-.....\kern 0.0
-.....\rule(15.39993+6.60007)x0.0
-.....\penalty 10000
-.....\glue(\parfillskip) 0.0 plus 1.0fil
-.....\glue(\rightskip) 0.0
-....\penalty 10000
-....\marks1{\prg_do_nothing: }
-....\marks2{\ttl@enccode }
-....\marks3{\ttl@enccode }
-....\mark{{\protect \@namedef {sectiontitle}{Kapitel tre av dokumentet}\protect \ETC.}
-....\write3{\protect \BOOKMARK [1][-]{section.3}{\376\377\000K\000a\000p\000i\000\ETC.}
-....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
-....\penalty 10000
-....\penalty 10000
-....\glue 7.11317
-....\glue 0.0
-....\glue(\parskip) 8.53581
-....\glue(\parskip) 0.0
-....\glue(\lineskip) 1.0
-....\hbox(7.94969+3.07693)x455.24408, glue set 0.05856
+....\glue(\baselineskip) 0.98122
+....\hbox(9.51996+4.08003)x286.68307, glue set 0.45432, shifted 168.561
+.....\hbox(9.51996+4.08003)x0.0
+......\glue 0.0
+......\glue -157.61101
+......\glue -10.95
+......\hbox(9.51996+4.08003)x157.61101
+.......\glue 0.0
+.......\penalty 10000
+.......\rule(9.51996+4.08003)x0.0
+.......\hbox(0.0+0.0)x157.61101
+........\vbox(7.9716+13.81898)x157.61101
+.........\hbox(7.9716+13.81898)x157.61101
+..........\hbox(0.0+0.0)x0.0
+..........\hbox(7.76355+3.07693)x43.79999, glue set 18.62595fil
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 Spec.
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\vbox(7.9716+13.81898)x113.81102
+...........\hbox(7.9716+3.09883)x113.81102, glue set 3.72282
+............\hbox(0.0+0.0)x0.0
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 Paragraf
+............\glue 2.7375 plus 1.36874 minus 0.91249
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 med
+............\glue 2.7375 plus 1.36874 minus 0.91249
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 s^^e4rskilt
+............\glue(\rightskip) 0.0
+...........\penalty 300
+...........\glue(\baselineskip) 2.73763
+...........\hbox(7.76355+0.21898)x113.81102, glue set 60.97728fil
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 “nummer”
+............\penalty 10000
+............\glue(\parfillskip) 0.0 plus 1.0fil
+............\glue(\rightskip) 0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+......\glue 10.95
+.....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Sed
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 commodo
@@ -2251,7 +2269,10 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 quis
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 purus.
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 1.57028
+....\hbox(7.94969+0.21898)x286.68307, glue set - 1.0, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Sed
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ac
@@ -2263,10 +2284,7 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 vehicula
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 hendrerit
-.....\glue(\rightskip) 0.0
-....\penalty 10000
-....\glue(\baselineskip) 2.57338
-....\hbox(7.94969+3.09883)x455.24408, glue set 0.0164
+.....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 sem.
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Duis
@@ -2275,7 +2293,12 @@ Completed box being shipped out [2]
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 odio.
 .....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Morbi
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Mor-
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 5.43134
+....\hbox(7.94969+3.09883)x286.68307, glue set - 0.61298, shifted 168.561
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 bi
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ut
 .....\glue 2.7375 plus 1.36874 minus 0.91249
@@ -2297,14 +2320,14 @@ Completed box being shipped out [2]
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 habitasse
 .....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 platea
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 dictu-
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pla-
 .....\glue(\rightskip) 0.0
 ....\penalty 100
-....\glue(\baselineskip) 2.52957
-....\hbox(7.9716+3.09883)x455.24408, glue set - 0.81703
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 mst.
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+3.09883)x286.68307, glue set 0.18587, shifted 168.561
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 tea
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 dictumst.
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Pellentesque
 .....\glue 2.7375 plus 1.36874 minus 0.91249
@@ -2321,7 +2344,9 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 eu
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 urna
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.52957
+....\hbox(7.9716+3.07693)x286.68307, glue set 0.02641, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 porta
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 tincidunt.
@@ -2333,13 +2358,13 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 odio,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 sollicitudin
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.55148
-....\hbox(7.94969+3.09883)x455.24408, glue set 0.41017
+.....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 sed,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 volutpat
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57338
+....\hbox(7.94969+3.07693)x286.68307, glue set - 0.5132, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ornare
@@ -2359,15 +2384,15 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 pellentesque,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 erat
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57338
+....\hbox(7.94969+3.09883)x286.68307, glue set - 0.22519, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ac
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 sagittis
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 semper,
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.55148
-....\hbox(7.94969+3.09883)x455.24408, glue set 0.18675
+.....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 nunc
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 dui
@@ -2380,7 +2405,12 @@ Completed box being shipped out [2]
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 congue
 .....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 purus
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pu-
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+3.07693)x286.68307, glue set 0.22499, shifted 168.561
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 rus
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 metus
 .....\glue 2.7375 plus 1.36874 minus 0.91249
@@ -2397,11 +2427,11 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Class
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 aptent
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.55148
-....\hbox(7.94969+3.09883)x455.24408, glue set 0.11188
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 taciti
 .....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 taciti
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57338
+....\hbox(7.94969+3.07693)x286.68307, glue set - 0.15134, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 sociosqu
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ad
@@ -2419,16 +2449,15 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 per
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 inceptos
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55147
+....\hbox(7.9716+3.09883)x286.68307, glue set - 0.49779, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 hymenaeos.
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Praesent
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 sapien
-.....\glue(\rightskip) 0.0
-....\penalty 150
-....\glue(\baselineskip) 2.52957
-....\hbox(7.9716+3.07693)x455.24408, glue set 166.89778fil
+.....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 turpis,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 fermentum
@@ -2436,7 +2465,10 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 vel,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 eleifend
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.52957
+....\hbox(7.9716+1.69724)x286.68307, glue set 151.45059fil, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 faucibus,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 vehicula
@@ -2447,10 +2479,10 @@ Completed box being shipped out [2]
 .....\penalty 10000
 .....\glue(\parfillskip) 0.0 plus 1.0fil
 .....\glue(\rightskip) 0.0
-....\glue(\parskip) 8.53581
+....\glue(\parskip) 4.5 plus 2.0 minus 1.0
 ....\glue(\parskip) 0.0
-....\glue(\baselineskip) 2.55147
-....\hbox(7.9716+3.09883)x455.24408, glue set 0.49188
+....\glue(\baselineskip) 3.95308
+....\hbox(7.94969+3.07693)x286.68307, glue set 1.1727, shifted 168.561
 .....\hbox(0.0+0.0)x0.0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Pellentesque
 .....\glue 2.7375 plus 1.36874 minus 0.91249
@@ -2467,7 +2499,10 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 netus
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 et
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.55147
+....\hbox(7.9716+3.09883)x286.68307, glue set 0.1351, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 malesuada
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 fames
@@ -2477,10 +2512,7 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 turpis
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 egestas.
-.....\glue(\rightskip) 0.0
-....\penalty 150
-....\glue(\baselineskip) 2.52957
-....\hbox(7.9716+3.09883)x455.24408, glue set 0.23703
+.....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Donec
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 odio
@@ -2488,34 +2520,12 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 elit,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 dictum
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 in,
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 hendrerit
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sit
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 amet,
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 egestas
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sed,
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 leo.
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Praesent
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 feugiat
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sapien
-.....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 aliquet
 .....\glue(\rightskip) 0.0
 ....\glue -3.09883
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35423)x455.24408
-....\hbox(7.94969+2.35423)x455.24408, glue set 217.13194fil
+....\hbox(7.94969+2.35423)x455.24408, glue set 215.00764fil
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0
 ......\hbox(9.91995+0.0)x455.24408
@@ -2524,14 +2534,14 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 2
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
-.....\special{pdf:eann}
+.....\hbox(7.52264+0.13138)x9.7236
+......\TU/Domitian-Roman.otf(0)/b/n/10.95 ??
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 File: images/D-guild-sigil-bw.pdf Graphic file (type pdf)
 <use images/D-guild-sigil-bw.pdf>
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line ....
 Completed box being shipped out [3]
 \vbox(744.16415+2.35423)x454.10599
 .\vbox(0.0+0.0)x0.0, glue set 43.68286fil
@@ -2605,15 +2615,14 @@ Completed box being shipped out [3]
 .......\hbox(0.0+0.0)x0.0
 .......\glue(\parskip) 0.0
 .......\glue(\parskip) 0.0
-.......\glue(\baselineskip) 5.0
-.......\hbox(7.0+1.54999)x170.71652, glue set 109.29652fill
+.......\glue(\baselineskip) 7.07
+.......\hbox(4.93+1.54999)x170.71652, glue set 120.94652fill
 ........\hbox(0.0+0.0)x0.0
 ........\glue 0.0 plus 1.0fill
-........\TU/Domitian-Roman.otf(0)/m/n/10 HTM
-........\glue 2.5 plus 1.24875 minus 0.83415
-........\TU/Domitian-Roman.otf(0)/m/n/10 X,
-........\glue 2.5 plus 1.25 minus 0.83333
-........\TU/Domitian-Roman.otf(0)/m/n/10 20XX
+........\TU/Domitian-Roman.otf(0)/m/sc/10 htmx
+........\TU/Domitian-Roman.otf(0)/m/n/10 ,
+........\glue 2.5 plus 1.5625 minus 0.66666
+........\TU/Domitian-Roman.otf(0)/m/n/10 20xx
 ........\penalty 10000
 ........\glue 0.0 plus 1.0fil
 ........\penalty -10000
@@ -2636,9 +2645,36 @@ Completed box being shipped out [3]
 ......\glue 0.0
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
-...\vbox(654.41338+0.0)x455.24408, glue set 585.85194fil
+...\vbox(654.41338+0.0)x455.24408, glue set 245.21782fil
 ....\glue(\topskip) 3.0284
-....\hbox(7.9716+3.09883)x455.24408, glue set 0.68423
+....\hbox(7.9716+3.09883)x286.68307, glue set 0.49342, shifted 168.561
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 in,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 hendrerit
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sit
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 amet,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 egestas
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sed,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 leo.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Praesent
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 feugiat
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sa-
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+3.09883)x286.68307, glue set 0.64241, shifted 168.561
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pien
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 aliquet
+.....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 odio.
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Integer
@@ -2650,7 +2686,9 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Aliquam
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 vestibulum
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.52957
+....\hbox(7.9716+3.09883)x286.68307, glue set 0.32013, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 fringilla
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 lorem.
@@ -2662,12 +2700,15 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 lectus,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 consectetuer
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.52957
-....\hbox(7.9716+3.09883)x455.24408, glue set 0.04295
+.....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 at,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 consectetuer
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 consecte-
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.52957
+....\hbox(7.9716+3.09883)x286.68307, glue set - 0.01483, shifted 168.561
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 tuer
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 sed,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
@@ -2684,7 +2725,9 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Pellentesque
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 eget
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+3.07693)x286.68307, glue set - 0.1292, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 lectus.
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Proin
@@ -2692,9 +2735,7 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 eu
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 metus.
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.55148
-....\hbox(7.94969+3.07693)x455.24408, glue set - 0.41536
+.....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Sed
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 porttitor.
@@ -2706,7 +2747,9 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 habitasse
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 platea
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57338
+....\hbox(7.94969+3.07693)x286.68307, glue set 0.31209, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 dictumst.
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Suspendisse
@@ -2728,7 +2771,7 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 amet,
 .....\glue(\rightskip) 0.0
 ....\glue(\baselineskip) 2.57338
-....\hbox(7.94969+3.07693)x455.24408, glue set 0.12097
+....\hbox(7.94969+3.07693)x286.68307, glue set 0.02728, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 placerat
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 et,
@@ -2749,7 +2792,12 @@ Completed box being shipped out [3]
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ut,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 iaculis
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ia-
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.55147
+....\hbox(7.9716+1.69724)x286.68307, glue set 0.73254, shifted 168.561
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 culis
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 eu,
 .....\glue 2.7375 plus 1.36874 minus 0.91249
@@ -2760,10 +2808,7 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 dui.
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Mauris
-.....\glue(\rightskip) 0.0
-....\penalty 150
-....\glue(\baselineskip) 2.55147
-....\hbox(7.9716+3.09883)x455.24408, glue set 200.10913fil
+.....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 nibh
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 leo,
@@ -2771,7 +2816,10 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 facilisis
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 non,
-.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 3.95308
+....\hbox(7.94969+3.09883)x286.68307, glue set 139.10995fil, shifted 168.561
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 adipiscing
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 quis,
@@ -2784,12 +2832,520 @@ Completed box being shipped out [3]
 .....\penalty 10000
 .....\glue(\parfillskip) 0.0 plus 1.0fil
 .....\glue(\rightskip) 0.0
+....\penalty -51
+....\glue 12.0 plus 4.0 minus 6.0
+....\glue -12.0 plus 4.0 minus 6.0
+....\marks1{\prg_do_nothing: }
+....\marks2{\ttl@enccode }
+....\marks3{\ttl@enccode }
+....\mark{{\protect \@namedef {sectiontitle}{Kapitel tre av dokumentet}\protect \ETC.}
+....\glue 12.0 plus 4.0 minus 6.0
+....\glue -15.09883 plus -4.0 minus -6.0
+....\penalty -300
+....\glue 3.09883
+....\glue 12.0 plus 4.0 minus 6.0
+....\special{pdf:dest (section.3) [@thispage /XYZ @xpos @ypos null]}
+....\penalty 10000
+....\glue -12.0 plus -4.0 minus -6.0
+....\glue 12.0 plus 4.0 minus 6.0
+....\glue(\parskip) 8.53581
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 3.50124
+....\hbox(15.39993+6.60007)x455.24408, glue set 260.93129fil
+.....\rule(15.39993+6.60007)x0.0
+.....\hbox(15.39993+6.60007)x19.1669
+......\TU/texgyreheros-regular.otf(0)/b/n/17.28 3.
+......\rule(15.39993+6.60007)x0.0
+......\glue 7.18399
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 Kapitel
+.....\glue 3.99431 plus 1.99715 minus 1.33144
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 tre
+.....\glue 3.99431 plus 1.99715 minus 1.33144
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 av
+.....\glue 3.99431 plus 1.99715 minus 1.33144
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 dokumentet
+.....\kern 0.0
+.....\rule(15.39993+6.60007)x0.0
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\penalty 10000
+....\marks1{\prg_do_nothing: }
+....\marks2{\ttl@enccode }
+....\marks3{\ttl@enccode }
+....\mark{{\protect \@namedef {sectiontitle}{Kapitel tre av dokumentet}\protect \ETC.}
+....\write3{\protect \BOOKMARK [1][-]{section.3}{\376\377\000K\000a\000p\000i\000\ETC.}
+....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+....\penalty 10000
+....\penalty 10000
+....\glue 7.11317
+....\glue 0.0
+....\glue(\parskip) 8.53581
+....\glue(\parskip) 0.0
+....\glue(\lineskip) 1.0
+....\hbox(7.9716+3.07693)x455.24408, glue set 0.61896
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Morbi
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 luctus,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 wisi
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 viverra
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 faucibus
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pretium,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 nibh
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 est
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 placerat
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 odio,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 nec
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 commodo
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 wisi
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 enim
+.....\glue(\rightskip) 0.0
+....\penalty 10000
+....\glue(\baselineskip) 2.55147
+....\hbox(7.9716+3.09883)x455.24408, glue set 0.12187
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eget
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 quam.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Quisque
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 libero
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 justo,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 consectetuer
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 feugiat
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 vitae,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 porttitor
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eu,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 libero.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Suspendisse
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+0.21898)x455.24408, glue set - 0.2651
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sed
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 mauris
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 vitae
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 elit
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sollicitudin
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 malesuada.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Maecenas
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ultricies
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eros
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sit
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 amet
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ante.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Ut
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 venenatis
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 5.43134
+....\hbox(7.94969+3.09883)x455.24408, glue set 0.53787
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 velit.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Maecenas
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sed
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 mi
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eget
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 dui
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 varius
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 euismod.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Phasellus
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 aliquet
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 volutpat
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 odio.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Vestibulum
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.52957
+....\hbox(7.9716+3.07693)x455.24408, glue set 1.02388
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ante
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ipsum
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 primis
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 in
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 faucibus
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 orci
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 luctus
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 et
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ultrices
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 posuere
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 cubilia
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Curae;
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Pellentesque
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sit
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55147
+....\hbox(7.9716+3.07693)x455.24408, glue set 0.6132
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 amet
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pede
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ac
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sem
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eleifend
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 consectetuer.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Nullam
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 elementum,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 urna
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 vel
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 imperdiet
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sodales,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 elit
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57338
+....\hbox(7.94969+3.09883)x455.24408, glue set 0.39133
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ipsum
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pharetra
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ligula,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ac
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pretium
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ante
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 justo
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 nulla.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Curabitur
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 tristique
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 arcu
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eu
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 metus.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Vesti-
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.52957
+....\hbox(7.9716+3.07693)x455.24408, glue set 0.48296
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 bulum
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 lectus.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Proin
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 mauris.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Proin
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eu
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 nunc
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eu
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 urna
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 hendrerit
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 faucibus.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Aliquam
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 auctor,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pede
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57338
+....\hbox(7.94969+3.07693)x455.24408, glue set 0.00641
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 consequat
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 laoreet
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 varius,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eros
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 tellus
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 scelerisque
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 quam,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pellentesque
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 hendrerit
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ipsum
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 dolor
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sed
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.57338
+....\hbox(7.94969+3.09883)x455.24408, glue set 342.74379fil
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 augue.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Nulla
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 nec
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 lacus.
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\glue(\parskip) 8.53581
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+3.07693)x455.24408, glue set 0.27654
+.....\hbox(0.0+0.0)x0.0
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Suspendisse
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 vitae
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 elit.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Aliquam
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 arcu
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 neque,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ornare
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 in,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ullamcorper
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 quis,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 commodo
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eu,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 libero.
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.57338
+....\hbox(7.94969+3.09883)x455.24408, glue set - 0.88132
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Fusce
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sagittis
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 erat
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 at
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 erat
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 tristique
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 mollis.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Maecenas
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sapien
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 libero,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 molestie
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 et,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 lobortis
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 in,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sodales
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+3.09883)x455.24408, glue set 0.08388
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eget,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 dui.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Morbi
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ultrices
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 rutrum
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 lorem.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Nam
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 elementum
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ullamcorper
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 leo.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Morbi
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 dui.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Aliquam
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+3.09883)x455.24408, glue set - 0.73767
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sagittis.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Nunc
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 placerat.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Pellentesque
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 tristique
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sodales
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 est.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Maecenas
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 imperdiet
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 lacinia
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 velit.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Cras
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+3.09883)x455.24408, glue set - 0.2076
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 non
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 urna.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Morbi
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eros
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pede,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 suscipit
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ac,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 varius
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 vel,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 egestas
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 non,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eros.
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Praesent
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 malesuada,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 diam
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.55148
+....\hbox(7.94969+3.07693)x455.24408, glue set 56.19328fil
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 id
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 pretium
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 elementum,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 eros
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sem
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 dictum
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 tortor,
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 vel
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 consectetuer
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 odio
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sem
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 sed
+.....\glue 2.7375 plus 1.36874 minus 0.91249
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 wisi.
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35423)x455.24408
-....\hbox(7.94969+2.35423)x455.24408, glue set 217.13194fil
+....\hbox(7.94969+2.35423)x455.24408, glue set 215.00764fil
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0
 ......\hbox(9.91995+0.0)x455.24408
@@ -2798,9 +3354,8 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
-.....\special{pdf:eann}
+.....\hbox(7.52264+0.13138)x9.7236
+......\TU/Domitian-Roman.otf(0)/b/n/10.95 ??
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
@@ -2899,5 +3454,12 @@ LaTeX Info: Redefining \rmfamily on input line ....
 LaTeX Info: Redefining \sffamily on input line ....
 LaTeX Info: Redefining \ttfamily on input line ....
 )
-Package rerunfilecheck Info: File `dsekregdoc.out' has not changed.
-(rerunfilecheck)             Checksum: 552B990E5FD4CEA27D65EB5EF8FAB3DF;534.
+LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `dsekregdoc.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+Package rerunfilecheck Info: Checksums for `dsekregdoc.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  552B990E5FD4CEA27D65EB5EF8FAB3DF;534.
+Package lastpage Warning: Rerun to get the references right on input line ....

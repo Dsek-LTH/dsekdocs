@@ -8,8 +8,10 @@
 \usepackage{lipsum}
 
 \setshorttitle{Styrdokumenttest}
-\setmeeting{HTM X, 20XX}
+\setmeeting{\textsc{htmx}, 20xx}
 \setdate{\today}
+
+\setregpnumprefix{p\thesection q}
 
 \title{\textsf{dsekregdoc}-test}
 \author{Trula Trulsson}
@@ -18,7 +20,7 @@
 
 \section{Kapitel ett av dokumentet}
 \begin{regsection}
-  \regitem{1.1}{Första paragrafen}
+  \regitem{Första paragrafen}
   \lipsum[1]
 
   Mötet beslutade
@@ -27,7 +29,7 @@
   \item \lipsum[4][2]
   \end{attlist}
 
-  \regitem{1.2}{Andra paragrafen}
+  \regitem{Andra paragrafen}
   \lipsum[2]
 
   Mötet beslutade
@@ -37,7 +39,7 @@
 
   \end{attlist}
 
-  \regitem{1.3}{En paragraf med en massa små ord i sitt namn så att vi måste få
+  \regitem{En paragraf med en massa små ord i sitt namn så att vi måste få
     line breaks}
   \lipsum[3]
 
@@ -52,12 +54,14 @@
 \end{regsection}
 \section{Kapitel två av dokumentet}
 \begin{regsection}
-  \regitem{2.1}{Paragraf 1 av kapitel 2}
+  \regitem{Paragraf 1 av kapitel 2}
   \lipsum[5-6]
+  \regitem[Spec.]{Paragraf med särskilt ``nummer''}
+  \lipsum[7-8]
 \end{regsection}
 
 \section{Kapitel tre av dokumentet}
-\lipsum[7-8]
+\lipsum[9-10]
 
 \vfil\break
 \end{document}

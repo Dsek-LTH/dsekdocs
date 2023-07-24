@@ -32,7 +32,20 @@
 \dim_set:Nn \g__dsek_regp_col_dim \g_dsek_regp_label_dim
 \dim_add:Nn \g__dsek_regp_col_dim \g_dsek_regp_num_dim
 
+% Number of the § paragraph
+\newcounter{DsekRegParagraph}
+
+% Prefix for the § number
+\tl_new:N \g_dsek_regp_num_prefix_tl
+\tl_set:Nn \g_dsek_regp_num_prefix_tl {\thesection .}
+
+\NewDocumentCommand{\setregpnumprefix}{ m }{
+  \tl_gset:Nn \g_dsek_regp_num_prefix_tl { #1 }
+}
+
 \NewDocumentEnvironment{regsection}{}{
+  \setcounter{DsekRegParagraph}{0}
+
   \begin{description}[
       align=parleft,
       labelindent=0mm,
@@ -47,16 +60,23 @@
 
 % This command creates a § label from a given number and label
 \cs_new_protected:Npn \__dsek_regp_label:nn #1#2 {
-  \makebox[\g_dsek_regp_num_dim][l]{§#1}
+  \makebox[\g_dsek_regp_num_dim][l]{#1}
   \parbox[t]{\g_dsek_regp_label_dim}{#2}
 }
 
 % This is a user facing command that takes the number and name of a § and
 % creates an entry in a surrounding `regsection` for it.
 
-% TODO: Make this count for it self, somehow.
-\NewDocumentCommand \regitem { m m } {
-  \item[\__dsek_regp_label:nn{#1}{#2}]
+\NewDocumentCommand \regitem { o m } {
+  \IfValueTF{#1} {
+    \item[\__dsek_regp_label:nn{#1}{#2}]
+  } {
+    \stepcounter{DsekRegParagraph}
+    \item[\__dsek_regp_label:nn {
+        §\tl_use:N \g_dsek_regp_num_prefix_tl
+        \arabic{DsekRegParagraph}
+      } {#2}]
+  }
 }
 
 % This sets the format for \sections.

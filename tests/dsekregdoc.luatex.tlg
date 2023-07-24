@@ -5,11 +5,7 @@ Package: lipsum ....-..-.. v... 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count...
 \l__lipsum_a_int=\count...
 \l__lipsum_b_int=\count...
-(../lipsum.ltd.tex)) (dsekregdoc.aux
-LaTeX Info: Redefining \rmfamily on input line ....
-LaTeX Info: Redefining \sffamily on input line ....
-LaTeX Info: Redefining \ttfamily on input line ....
-)
+(../lipsum.ltd.tex))No file dsekregdoc.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line ....
 LaTeX Font Info:    ... okay on input line ....
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line ....
@@ -192,7 +188,7 @@ Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                
 (lipsum)                With polyglossia, you have to explicitly load
 (lipsum)                languages with \setotherlanguage{latin} or similar.
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 []\TU/Domitian-Roman.otf(0)/m/n/10.95 En pa-ra-graf med en
 \hbox(7.9716+3.09885)x113.81102, glue set 4.36455, direction TLT
 .\localpar
@@ -224,7 +220,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 n
 .\glue(\rightskip) 0.0
-Underfull \hbox (badness 3679) in paragraph at lines 41--41
+Underfull \hbox (badness 3679) in paragraph at lines 43--43
 \TU/Domitian-Roman.otf(0)/m/n/10.95 mas-sa sm^^e5 ord i sitt
 \hbox(7.94969+0.219)x113.81102, glue set 3.32741, direction TLT
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 m
@@ -251,7 +247,7 @@ Underfull \hbox (badness 3679) in paragraph at lines 41--41
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .\glue(\rightskip) 0.0
-Overfull \hbox (10.81015pt too wide) in paragraph at lines 43--43
+Overfull \hbox (10.81015pt too wide) in paragraph at lines 45--45
 \TU/Domitian-Roman.otf(0)/m/n/10.95 sel-lus adi-piscing semper elit. Pro-in fer-
 men-tum mas-sa ac quam.
 \hbox(7.9716+3.09885)x286.68307, glue set - 1.0, direction TLT
@@ -341,6 +337,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line ....
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line ....
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line ....
 Completed box being shipped out [1]
 \vbox(744.16415+2.35425)x454.10599, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -468,8 +465,8 @@ Completed box being shipped out [1]
 .......\hbox(0.0+0.0)x0.0, direction TLT
 .......\glue(\parskip) 0.0
 .......\glue(\parskip) 0.0
-.......\glue(\baselineskip) 5.0
-.......\hbox(7.0+1.55)x170.71652, glue set 109.29651fill, direction TLT
+.......\glue(\baselineskip) 7.07
+.......\hbox(4.93+1.55)x170.71652, glue set 120.94652fill, direction TLT
 ........\localpar
 .........\localinterlinepenalty=0
 .........\localbrokenpenalty=0
@@ -477,17 +474,18 @@ Completed box being shipped out [1]
 .........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
 ........\glue 0.0 plus 1.0fill
-........\TU/Domitian-Roman.otf(0)/m/n/10 H
-........\TU/Domitian-Roman.otf(0)/m/n/10 T
-........\TU/Domitian-Roman.otf(0)/m/n/10 M
-........\glue(\spaceskip) 2.5 plus 1.24875 minus 0.83415
-........\TU/Domitian-Roman.otf(0)/m/n/10 X
+........\TU/Domitian-Roman.otf(0)/m/sc/10 h
+........\TU/Domitian-Roman.otf(0)/m/sc/10 t
+........\discretionary (penalty 50)
+.........< \TU/Domitian-Roman.otf(0)/m/sc/10 -
+........\TU/Domitian-Roman.otf(0)/m/sc/10 m
+........\TU/Domitian-Roman.otf(0)/m/sc/10 x
 ........\TU/Domitian-Roman.otf(0)/m/n/10 ,
-........\glue(\spaceskip) 2.5 plus 1.25 minus 0.83333
+........\glue(\spaceskip) 2.5 plus 1.5625 minus 0.66666
 ........\TU/Domitian-Roman.otf(0)/m/n/10 2
 ........\TU/Domitian-Roman.otf(0)/m/n/10 0
-........\TU/Domitian-Roman.otf(0)/m/n/10 X
-........\TU/Domitian-Roman.otf(0)/m/n/10 X
+........\TU/Domitian-Roman.otf(0)/m/n/10 x
+........\TU/Domitian-Roman.otf(0)/m/n/10 x
 ........\penalty 10000
 ........\glue 0.0 plus 1.0fil
 ........\penalty -10000
@@ -626,10 +624,11 @@ tion TLT
 ...........\localleftbox=null
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(7.76355+2.39806)x43.79999, glue set 24.63747fil, direction TLT
+..........\hbox(7.76355+3.07695)x43.79999, glue set 14.66202fil, direction TLT
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 q
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09885)x113.81102, direction TLT
@@ -2061,10 +2060,11 @@ tion TLT
 ...........\localleftbox=null
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(7.76355+2.39806)x43.79999, glue set 24.63747fil, direction TLT
+..........\hbox(7.76355+3.07695)x43.79999, glue set 14.66202fil, direction TLT
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 q
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 2
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09885)x113.81102, direction TLT
@@ -3132,10 +3132,11 @@ on TLT
 ...........\localleftbox=null
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(7.76355+2.59515)x43.79999, glue set 24.63747fil, direction TLT
+..........\hbox(7.76355+3.07695)x43.79999, glue set 14.66202fil, direction TLT
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 q
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 3
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+41.01901)x113.81102, direction TLT
@@ -4037,7 +4038,7 @@ n TLT
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
-....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
+....\hbox(7.94969+2.35425)x455.24408, glue set 215.00763fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
 ......\hbox(9.91995+0.0)x455.24408, direction TLT
@@ -4046,16 +4047,16 @@ n TLT
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 1
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.3}
-.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
-.....\pdfendlink
+.....\hbox(7.52264+0.1314)x9.7236, direction TLT
+......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
+......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 .\kern0.0
 .\kern0.0
 <./images/D-guild-sigil-bw.pdf>
-Overfull \hbox (0.48428pt too wide) in paragraph at lines 57--57
+Overfull \hbox (0.48428pt too wide) in paragraph at lines 59--59
 []\TU/Domitian-Roman.otf(0)/m/n/10.95 Sus-pen-dis-se vel felis. Ut lo-rem lo-rem
 , in-ter-dum eu, tin-cidunt
 \hbox(7.9716+3.07695)x286.68307, glue set - 1.0, direction TLT
@@ -4149,10 +4150,122 @@ Overfull \hbox (0.48428pt too wide) in paragraph at lines 57--57
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 n
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .\glue(\rightskip) 0.0
+Underfull \hbox (badness 5147) in paragraph at lines 59--59
+[]\TU/Domitian-Roman.otf(0)/m/n/10.95 Pa-ra-graf med s^^e4r-skilt
+\hbox(7.9716+3.09885)x113.81102, glue set 3.72281, direction TLT
+.\localpar
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 P
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.\discretionary (penalty 50)
+..< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.\discretionary (penalty 50)
+..< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 f
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^e4
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.\discretionary (penalty 50)
+..< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 k
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.\glue(\rightskip) 0.0
+Overfull \hbox (0.90402pt too wide) in paragraph at lines 61--61
+\TU/Domitian-Roman.otf(0)/m/n/10.95 Sed ac odio. Sed ve-hicu-la hendre-rit sem. Du-is non odio. Mor-
+\hbox(7.94969+0.219)x286.68307, glue set - 1.0, direction TLT
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 S
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 S
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.\discretionary (penalty 50)
+..< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 h
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.\discretionary (penalty 50)
+..< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 h
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.\kern-0.1971 (font)
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.\discretionary (penalty 50)
+..< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 D
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.\discretionary (penalty 50)
+..< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 M
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.\TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.\discretionary (penalty 50)
+.\glue(\rightskip) 0.0
 File: images/D-guild-sigil-bw.pdf Graphic file (type pdf)
 <use images/D-guild-sigil-bw.pdf>
 Package luatex.def Info: images/D-guild-sigil-bw.pdf  used on input line ....
 (luatex.def)             Requested size: 45.50804pt x 45.5244pt.
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line ....
 Completed box being shipped out [2]
 \vbox(744.16415+2.35425)x454.10599, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -4279,8 +4392,8 @@ Completed box being shipped out [2]
 .......\hbox(0.0+0.0)x0.0, direction TLT
 .......\glue(\parskip) 0.0
 .......\glue(\parskip) 0.0
-.......\glue(\baselineskip) 5.0
-.......\hbox(7.0+1.55)x170.71652, glue set 109.29651fill, direction TLT
+.......\glue(\baselineskip) 7.07
+.......\hbox(4.93+1.55)x170.71652, glue set 120.94652fill, direction TLT
 ........\localpar
 .........\localinterlinepenalty=0
 .........\localbrokenpenalty=0
@@ -4288,17 +4401,18 @@ Completed box being shipped out [2]
 .........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
 ........\glue 0.0 plus 1.0fill
-........\TU/Domitian-Roman.otf(0)/m/n/10 H
-........\TU/Domitian-Roman.otf(0)/m/n/10 T
-........\TU/Domitian-Roman.otf(0)/m/n/10 M
-........\glue(\spaceskip) 2.5 plus 1.24875 minus 0.83415
-........\TU/Domitian-Roman.otf(0)/m/n/10 X
+........\TU/Domitian-Roman.otf(0)/m/sc/10 h
+........\TU/Domitian-Roman.otf(0)/m/sc/10 t
+........\discretionary (penalty 50)
+.........< \TU/Domitian-Roman.otf(0)/m/sc/10 -
+........\TU/Domitian-Roman.otf(0)/m/sc/10 m
+........\TU/Domitian-Roman.otf(0)/m/sc/10 x
 ........\TU/Domitian-Roman.otf(0)/m/n/10 ,
-........\glue(\spaceskip) 2.5 plus 1.25 minus 0.83333
+........\glue(\spaceskip) 2.5 plus 1.5625 minus 0.66666
 ........\TU/Domitian-Roman.otf(0)/m/n/10 2
 ........\TU/Domitian-Roman.otf(0)/m/n/10 0
-........\TU/Domitian-Roman.otf(0)/m/n/10 X
-........\TU/Domitian-Roman.otf(0)/m/n/10 X
+........\TU/Domitian-Roman.otf(0)/m/n/10 x
+........\TU/Domitian-Roman.otf(0)/m/n/10 x
 ........\penalty 10000
 ........\glue 0.0 plus 1.0fil
 ........\penalty -10000
@@ -4327,7 +4441,7 @@ Completed box being shipped out [2]
 ......\glue 0.0
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
-...\vbox(654.41338+0.0)x455.24408, glue set 13462.71387fil, direction TLT
+...\vbox(654.41338+0.0)x455.24408, glue set >20000.0fil, direction TLT
 ....\glue(\topskip) 3.05031
 ....\hbox(7.94969+3.07695)x286.68307, glue set 0.16809, shifted 168.561, directi
 on TLT
@@ -4804,10 +4918,11 @@ n TLT
 ...........\localleftbox=null
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(7.76355+2.39806)x43.79999, glue set 24.63747fil, direction TLT
+..........\hbox(7.76355+3.07695)x43.79999, glue set 14.66202fil, direction TLT
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 2
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 q
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09885)x113.81102, direction TLT
@@ -6585,102 +6700,98 @@ rection TLT
 .....\glue(\parfillskip) 0.0 plus 1.0fil
 .....\glue(\rightskip) 0.0
 ....\penalty -51
-....\glue 12.0 plus 4.0 minus 6.0
-....\glue -12.0 plus 4.0 minus 6.0
-....\marks1{\prg_do_nothing: }
-....\marks2{\ttl@enccode }
-....\marks3{\ttl@enccode }
-....\mark{{\protect \@namedef {sectiontitle}{Kapitel tre av dokumentet}\protect \ETC.}
-....\glue 12.0 plus 4.0 minus 6.0
-....\glue -13.69725 plus -4.0 minus -6.0
-....\penalty -300
-....\glue 1.69725
-....\glue 12.0 plus 4.0 minus 6.0
-....\pdfdest name{section.3} xyz
-....\penalty 10000
-....\glue -12.0 plus -4.0 minus -6.0
-....\glue 12.0 plus 4.0 minus 6.0
-....\glue(\parskip) 8.53581
+....\glue 4.5 plus 2.0 minus 1.0
+....\glue(\parskip) 4.5 plus 2.0 minus 1.0
 ....\glue(\parskip) 0.0
-....\glue(\baselineskip) 4.90282
-....\hbox(15.39993+6.60007)x455.24408, glue set 260.93134fil, direction TLT
+....\glue(\baselineskip) 2.3828
+....\hbox(9.51996+4.08003)x286.68307, glue set 0.45432, shifted 168.561, directi
+on TLT
 .....\localpar
 ......\localinterlinepenalty=0
 ......\localbrokenpenalty=0
 ......\localleftbox=null
 ......\localrightbox=null
-.....\rule(15.39993+6.60007)x0.0
-.....\hbox(15.39993+6.60007)x19.1669, direction TLT
-......\TU/texgyreheros-regular.otf(0)/b/n/17.28 3
-......\TU/texgyreheros-regular.otf(0)/b/n/17.28 .
-......\rule(15.39993+6.60007)x0.0
-......\glue 7.18399
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 K
-.....\kern-0.07184 (font)
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 a
-.....\discretionary (penalty 50)
-......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 p
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 i
-.....\discretionary (penalty 50)
-......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 t
-.....\kern-0.07184 (font)
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 e
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 l
-.....\glue(\spaceskip) 3.99431 plus 1.99715 minus 1.33144
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 t
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 r
-.....\kern0.07184 (font)
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 e
-.....\glue(\spaceskip) 3.99431 plus 1.99715 minus 1.33144
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 a
-.....\kern-0.28735 (font)
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 v
-.....\glue(\spaceskip) 3.99431 plus 1.99715 minus 1.33144
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 d
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 o
-.....\discretionary (penalty 50)
-......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 k
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 u
-.....\discretionary (penalty 50)
-......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 m
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 e
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 n
-.....\discretionary (penalty 50)
-......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 t
-.....\kern-0.07184 (font)
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 e
-.....\kern-0.07184 (font)
-.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 t
-.....\kern0.0
-.....\rule(15.39993+6.60007)x0.0
-.....\penalty 10000
-.....\glue(\parfillskip) 0.0 plus 1.0fil
-.....\glue(\rightskip) 0.0
-....\penalty 10000
-....\marks1{\prg_do_nothing: }
-....\marks2{\ttl@enccode }
-....\marks3{\ttl@enccode }
-....\mark{{\protect \@namedef {sectiontitle}{Kapitel tre av dokumentet}\protect \ETC.}
-....\write3{\protect \BOOKMARK [1][-]{section.3}{\376\377\000K\000a\000p\000i\000\ETC.}
-....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
-....\penalty 10000
-....\penalty 10000
-....\glue 7.11317
-....\glue 0.0
-....\glue(\parskip) 8.53581
-....\glue(\parskip) 0.0
-....\glue(\lineskip) 1.0
-....\hbox(7.94969+3.07695)x455.24408, glue set 0.4207, direction TLT
-.....\localpar
-......\localinterlinepenalty=0
-......\localbrokenpenalty=0
-......\localleftbox=null
-......\localrightbox=null
+.....\hbox(9.51996+4.08003)x0.0, direction TLT
+......\glue 0.0
+......\glue -157.61101
+......\glue -10.95
+......\hbox(9.51996+4.08003)x157.61101, direction TLT
+.......\glue 0.0
+.......\penalty 10000
+.......\rule(9.51996+4.08003)x0.0
+.......\hbox(0.0+0.0)x157.61101, direction TLT
+........\vbox(7.9716+13.819)x157.61101, direction TLT
+.........\hbox(7.9716+13.819)x157.61101, direction TLT
+..........\localpar
+...........\localinterlinepenalty=0
+...........\localbrokenpenalty=0
+...........\localleftbox=null
+...........\localrightbox=null
+..........\hbox(0.0+0.0)x0.0, direction TLT
+..........\hbox(7.76355+3.07695)x43.79999, glue set 18.62593fil, direction TLT
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 S
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+..........\vbox(7.9716+13.819)x113.81102, direction TLT
+...........\hbox(7.9716+3.09885)x113.81102, glue set 3.72281, direction TLT
+............\localpar
+.............\localinterlinepenalty=0
+.............\localbrokenpenalty=0
+.............\localleftbox=null
+.............\localrightbox=null
+............\hbox(0.0+0.0)x0.0, direction TLT
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 P
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+............\discretionary (penalty 50)
+.............< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+............\discretionary (penalty 50)
+.............< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 f
+............\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+............\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^e4
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+............\discretionary (penalty 50)
+.............< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 k
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+............\glue(\rightskip) 0.0
+...........\penalty 300
+...........\glue(\baselineskip) 2.73761
+...........\hbox(7.76355+0.219)x113.81102, glue set 60.97725fil, direction TLT
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 “ (ligature ``)
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+............\discretionary (penalty 50)
+.............< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+............\TU/Domitian-Roman.otf(0)/m/n/10.95 ” (ligature '')
+............\penalty 10000
+............\glue(\parfillskip) 0.0 plus 1.0fil
+............\glue(\rightskip) 0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+......\glue 10.95
+.....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 S
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
@@ -6752,7 +6863,11 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 1.57028
+....\hbox(7.94969+0.219)x286.68307, glue set - 1.0, shifted 168.561, direction T
+LT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 S
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
@@ -6790,12 +6905,8 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
 .....\kern-0.1971 (font)
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\discretionary (penalty 50)
-.....\glue(\rightskip) 0.0
-....\penalty 10100
-....\glue(\baselineskip) 2.57336
-....\hbox(7.94969+3.09885)x455.24408, glue set 0.8144, direction TLT
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
@@ -6825,8 +6936,13 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 5.43132
+....\hbox(7.94969+3.09885)x286.68307, glue set - 0.61298, shifted 168.561, direc
+tion TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
@@ -6900,14 +7016,17 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+3.09885)x286.68307, glue set 0.85165, shifted 168.561, directi
+on TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.52956
-....\hbox(7.9716+3.09885)x455.24408, glue set 0.09647, direction TLT
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
@@ -6968,8 +7087,13 @@ rection TLT
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.52956
+....\hbox(7.9716+3.07695)x286.68307, glue set - 0.32234, shifted 168.561, direct
+ion TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
@@ -7018,12 +7142,8 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\discretionary (penalty 50)
-.....\glue(\rightskip) 0.0
-....\penalty 100
-....\glue(\baselineskip) 2.55147
-....\hbox(7.94969+3.09885)x455.24408, glue set 0.24274, direction TLT
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\discretionary (penalty 50)
@@ -7052,8 +7172,13 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.57336
+....\hbox(7.94969+3.07695)x286.68307, glue set - 0.1492, shifted 168.561, direct
+ion TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
@@ -7133,7 +7258,10 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57336
+....\hbox(7.94969+3.09885)x286.68307, glue set - 0.44252, shifted 168.561, direc
+tion TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
@@ -7154,9 +7282,7 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.55147
-....\hbox(7.94969+3.09885)x455.24408, glue set - 0.25388, direction TLT
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
@@ -7207,7 +7333,10 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+3.07695)x286.68307, glue set 0.06053, shifted 168.561, directi
+on TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
@@ -7272,9 +7401,7 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.55147
-....\hbox(7.94969+3.09885)x455.24408, glue set 0.15387, direction TLT
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 .....\discretionary (penalty 50)
@@ -7286,8 +7413,13 @@ rection TLT
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.57336
+....\hbox(7.94969+3.07695)x286.68307, glue set 0.69698, shifted 168.561, directi
+on TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\discretionary (penalty 50)
@@ -7367,8 +7499,13 @@ rection TLT
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.55145
+....\hbox(7.9716+3.09885)x286.68307, glue set 0.6348, shifted 168.561, direction
+ TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
@@ -7405,10 +7542,7 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
-.....\glue(\rightskip) 0.0
-....\penalty 150
-....\glue(\baselineskip) 2.52956
-....\hbox(7.9716+3.07695)x455.24408, glue set 132.65707fil, direction TLT
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\discretionary (penalty 50)
@@ -7448,7 +7582,11 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.52956
+....\hbox(7.9716+1.69725)x286.68307, glue set 109.89534fil, shifted 168.561, dir
+ection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
@@ -7500,10 +7638,11 @@ rection TLT
 .....\penalty 10000
 .....\glue(\parfillskip) 0.0 plus 1.0fil
 .....\glue(\rightskip) 0.0
-....\glue(\parskip) 8.53581
+....\glue(\parskip) 4.5 plus 2.0 minus 1.0
 ....\glue(\parskip) 0.0
-....\glue(\baselineskip) 2.55145
-....\hbox(7.9716+3.09885)x455.24408, glue set 0.49187, direction TLT
+....\glue(\baselineskip) 3.95306
+....\hbox(7.94969+3.07695)x286.68307, glue set 1.1727, shifted 168.561, directio
+n TLT
 .....\localpar
 ......\localinterlinepenalty=0
 ......\localbrokenpenalty=0
@@ -7586,7 +7725,11 @@ rection TLT
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.55145
+....\hbox(7.9716+3.09885)x286.68307, glue set 0.1351, shifted 168.561, direction
+ TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\discretionary (penalty 50)
@@ -7633,10 +7776,7 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
-.....\glue(\rightskip) 0.0
-....\penalty 150
-....\glue(\baselineskip) 2.52956
-....\hbox(7.9716+3.09885)x455.24408, glue set 0.23703, direction TLT
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 D
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
 .....\discretionary (penalty 50)
@@ -7662,101 +7802,12 @@ rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 h
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
-.....\kern-0.1971 (font)
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 P
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 f
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
-.....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
-.....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
-.....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
-.....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
-.....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
-.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\glue(\rightskip) 0.0
 ....\glue -3.09885
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
-....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
+....\hbox(7.94969+2.35425)x455.24408, glue set 215.00763fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
 ......\hbox(9.91995+0.0)x455.24408, direction TLT
@@ -7765,9 +7816,9 @@ rection TLT
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 2
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.3}
-.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
-.....\pdfendlink
+.....\hbox(7.52264+0.1314)x9.7236, direction TLT
+......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
+......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
@@ -7776,6 +7827,7 @@ File: images/D-guild-sigil-bw.pdf Graphic file (type pdf)
 <use images/D-guild-sigil-bw.pdf>
 Package luatex.def Info: images/D-guild-sigil-bw.pdf  used on input line ....
 (luatex.def)             Requested size: 45.50804pt x 45.5244pt.
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line ....
 Completed box being shipped out [3]
 \vbox(744.16415+2.35425)x454.10599, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -7902,8 +7954,8 @@ Completed box being shipped out [3]
 .......\hbox(0.0+0.0)x0.0, direction TLT
 .......\glue(\parskip) 0.0
 .......\glue(\parskip) 0.0
-.......\glue(\baselineskip) 5.0
-.......\hbox(7.0+1.55)x170.71652, glue set 109.29651fill, direction TLT
+.......\glue(\baselineskip) 7.07
+.......\hbox(4.93+1.55)x170.71652, glue set 120.94652fill, direction TLT
 ........\localpar
 .........\localinterlinepenalty=0
 .........\localbrokenpenalty=0
@@ -7911,17 +7963,18 @@ Completed box being shipped out [3]
 .........\localrightbox=null
 ........\hbox(0.0+0.0)x0.0, direction TLT
 ........\glue 0.0 plus 1.0fill
-........\TU/Domitian-Roman.otf(0)/m/n/10 H
-........\TU/Domitian-Roman.otf(0)/m/n/10 T
-........\TU/Domitian-Roman.otf(0)/m/n/10 M
-........\glue(\spaceskip) 2.5 plus 1.24875 minus 0.83415
-........\TU/Domitian-Roman.otf(0)/m/n/10 X
+........\TU/Domitian-Roman.otf(0)/m/sc/10 h
+........\TU/Domitian-Roman.otf(0)/m/sc/10 t
+........\discretionary (penalty 50)
+.........< \TU/Domitian-Roman.otf(0)/m/sc/10 -
+........\TU/Domitian-Roman.otf(0)/m/sc/10 m
+........\TU/Domitian-Roman.otf(0)/m/sc/10 x
 ........\TU/Domitian-Roman.otf(0)/m/n/10 ,
-........\glue(\spaceskip) 2.5 plus 1.25 minus 0.83333
+........\glue(\spaceskip) 2.5 plus 1.5625 minus 0.66666
 ........\TU/Domitian-Roman.otf(0)/m/n/10 2
 ........\TU/Domitian-Roman.otf(0)/m/n/10 0
-........\TU/Domitian-Roman.otf(0)/m/n/10 X
-........\TU/Domitian-Roman.otf(0)/m/n/10 X
+........\TU/Domitian-Roman.otf(0)/m/n/10 x
+........\TU/Domitian-Roman.otf(0)/m/n/10 x
 ........\penalty 10000
 ........\glue 0.0 plus 1.0fil
 ........\penalty -10000
@@ -7950,9 +8003,104 @@ Completed box being shipped out [3]
 ......\glue 0.0
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
-...\vbox(654.41338+0.0)x455.24408, glue set 585.85193fil, direction TLT
+...\vbox(654.41338+0.0)x455.24408, glue set 245.2178fil, direction TLT
 ....\glue(\topskip) 3.0284
-....\hbox(7.9716+3.09885)x455.24408, glue set 0.71114, direction TLT
+....\hbox(7.9716+3.09885)x286.68307, glue set 0.49342, shifted 168.561, directio
+n TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 h
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 P
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 f
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\discretionary (penalty 50)
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+3.09885)x286.68307, glue set 0.6847, shifted 168.561, directio
+n TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
@@ -8010,7 +8158,10 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.52956
+....\hbox(7.9716+3.09885)x286.68307, glue set 0.32011, shifted 168.561, directio
+n TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 f
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
@@ -8073,9 +8224,7 @@ Completed box being shipped out [3]
 ......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.52956
-....\hbox(7.9716+3.09885)x455.24408, glue set 0.04295, direction TLT
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
@@ -8092,8 +8241,13 @@ Completed box being shipped out [3]
 ......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
 .....\discretionary (penalty 50)
-......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.52956
+....\hbox(7.9716+3.09885)x286.68307, glue set - 0.01485, shifted 168.561, direct
+ion TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\discretionary (penalty 50)
@@ -8176,7 +8330,10 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+3.07695)x286.68307, glue set - 0.1292, shifted 168.561, direct
+ion TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
@@ -8205,9 +8362,7 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
-.....\glue(\rightskip) 0.0
-....\glue(\baselineskip) 2.55147
-....\hbox(7.94969+3.07695)x455.24408, glue set - 0.41536, direction TLT
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 S
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
@@ -8259,7 +8414,10 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57336
+....\hbox(7.94969+3.07695)x286.68307, glue set 0.31209, shifted 168.561, directi
+on TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
@@ -8332,7 +8490,8 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
 .....\glue(\rightskip) 0.0
 ....\glue(\baselineskip) 2.57336
-....\hbox(7.94969+3.07695)x455.24408, glue set 0.12096, direction TLT
+....\hbox(7.94969+3.07695)x286.68307, glue set 1.25165, shifted 168.561, directi
+on TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
@@ -8409,7 +8568,10 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55145
+....\hbox(7.9716+1.69725)x286.68307, glue set 0.02943, shifted 168.561, directio
+n TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
@@ -8459,10 +8621,7 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
-.....\glue(\rightskip) 0.0
-....\penalty 150
-....\glue(\baselineskip) 2.55145
-....\hbox(7.9716+3.09885)x455.24408, glue set 200.10915fil, direction TLT
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
@@ -8493,7 +8652,11 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
-.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 3.95306
+....\hbox(7.94969+3.09885)x286.68307, glue set 139.10995fil, shifted 168.561, di
+rection TLT
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
@@ -8536,12 +8699,2074 @@ Completed box being shipped out [3]
 .....\penalty 10000
 .....\glue(\parfillskip) 0.0 plus 1.0fil
 .....\glue(\rightskip) 0.0
+....\penalty -51
+....\glue 12.0 plus 4.0 minus 6.0
+....\glue -12.0 plus 4.0 minus 6.0
+....\marks1{\prg_do_nothing: }
+....\marks2{\ttl@enccode }
+....\marks3{\ttl@enccode }
+....\mark{{\protect \@namedef {sectiontitle}{Kapitel tre av dokumentet}\protect \ETC.}
+....\glue 12.0 plus 4.0 minus 6.0
+....\glue -15.09885 plus -4.0 minus -6.0
+....\penalty -300
+....\glue 3.09885
+....\glue 12.0 plus 4.0 minus 6.0
+....\pdfdest name{section.3} xyz
+....\penalty 10000
+....\glue -12.0 plus -4.0 minus -6.0
+....\glue 12.0 plus 4.0 minus 6.0
+....\glue(\parskip) 8.53581
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 3.50122
+....\hbox(15.39993+6.60007)x455.24408, glue set 260.93134fil, direction TLT
+.....\localpar
+......\localinterlinepenalty=0
+......\localbrokenpenalty=0
+......\localleftbox=null
+......\localrightbox=null
+.....\rule(15.39993+6.60007)x0.0
+.....\hbox(15.39993+6.60007)x19.1669, direction TLT
+......\TU/texgyreheros-regular.otf(0)/b/n/17.28 3
+......\TU/texgyreheros-regular.otf(0)/b/n/17.28 .
+......\rule(15.39993+6.60007)x0.0
+......\glue 7.18399
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 K
+.....\kern-0.07184 (font)
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 a
+.....\discretionary (penalty 50)
+......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 p
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 i
+.....\discretionary (penalty 50)
+......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 t
+.....\kern-0.07184 (font)
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 e
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 l
+.....\glue(\spaceskip) 3.99431 plus 1.99715 minus 1.33144
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 t
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 r
+.....\kern0.07184 (font)
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 e
+.....\glue(\spaceskip) 3.99431 plus 1.99715 minus 1.33144
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 a
+.....\kern-0.28735 (font)
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 v
+.....\glue(\spaceskip) 3.99431 plus 1.99715 minus 1.33144
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 d
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 o
+.....\discretionary (penalty 50)
+......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 k
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 u
+.....\discretionary (penalty 50)
+......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 m
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 e
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 n
+.....\discretionary (penalty 50)
+......< \TU/texgyreheros-regular.otf(0)/b/n/17.28 -
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 t
+.....\kern-0.07184 (font)
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 e
+.....\kern-0.07184 (font)
+.....\TU/texgyreheros-regular.otf(0)/b/n/17.28 t
+.....\kern0.0
+.....\rule(15.39993+6.60007)x0.0
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\penalty 10000
+....\marks1{\prg_do_nothing: }
+....\marks2{\ttl@enccode }
+....\marks3{\ttl@enccode }
+....\mark{{\protect \@namedef {sectiontitle}{Kapitel tre av dokumentet}\protect \ETC.}
+....\write3{\protect \BOOKMARK [1][-]{section.3}{\376\377\000K\000a\000p\000i\000\ETC.}
+....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
+....\penalty 10000
+....\penalty 10000
+....\glue 7.11317
+....\glue 0.0
+....\glue(\parskip) 8.53581
+....\glue(\parskip) 0.0
+....\glue(\lineskip) 1.0
+....\hbox(7.9716+3.07695)x455.24408, glue set 0.61896, direction TLT
+.....\localpar
+......\localinterlinepenalty=0
+......\localbrokenpenalty=0
+......\localleftbox=null
+......\localrightbox=null
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 w
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 f
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 h
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 w
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\rightskip) 0.0
+....\penalty 10000
+....\glue(\baselineskip) 2.55145
+....\hbox(7.9716+3.09885)x455.24408, glue set 0.12187, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 Q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 j
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 f
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 S
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+0.219)x455.24408, glue set - 0.2651, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 U
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 5.43132
+....\hbox(7.94969+3.09885)x455.24408, glue set 0.53787, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 P
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 h
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 V
+.....\kern-1.21545 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.52956
+....\hbox(7.9716+3.07695)x455.24408, glue set 1.02388, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 f
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......< \kern-0.1971 (font)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+......> \TU/Domitian-Roman.otf(0)/m/n/10.95 c
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......= \kern-0.1971 (font)
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 C
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ;
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 P
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55145
+....\hbox(7.9716+3.07695)x455.24408, glue set 0.6132, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 f
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.8103 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 N
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......< \kern-0.1971 (font)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+......> \TU/Domitian-Roman.otf(0)/m/n/10.95 d
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......= \kern-0.1971 (font)
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57336
+....\hbox(7.94969+3.09885)x455.24408, glue set 0.39131, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 h
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 j
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 C
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......< \kern-0.1971 (font)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+......> \TU/Domitian-Roman.otf(0)/m/n/10.95 c
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......= \kern-0.1971 (font)
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 V
+.....\kern-1.21545 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\discretionary (penalty 50)
+.....\glue(\rightskip) 0.0
+....\penalty 100
+....\glue(\baselineskip) 2.52956
+....\hbox(7.9716+3.07695)x455.24408, glue set 0.50572, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 P
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 P
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 h
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 f
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.33235 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 A
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.8103 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.57336
+....\hbox(7.94969+3.07695)x455.24408, glue set 0.0064, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 h
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.57336
+....\hbox(7.94969+3.09885)x455.24408, glue set 342.74377fil, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 N
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\glue(\parskip) 8.53581
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+3.07695)x455.24408, glue set 0.3012, direction TLT
+.....\localpar
+......\localinterlinepenalty=0
+......\localbrokenpenalty=0
+......\localleftbox=null
+......\localrightbox=null
+.....\hbox(0.0+0.0)x0.0, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 S
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.33235 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 A
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......< \kern-0.1971 (font)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+......> \TU/Domitian-Roman.otf(0)/m/n/10.95 c
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......= \kern-0.1971 (font)
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.57336
+....\hbox(7.94969+3.09885)x455.24408, glue set - 0.88132, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 F
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+3.09885)x455.24408, glue set 0.10854, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.0876 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.0876 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 N
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.33235 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 A
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+3.09885)x455.24408, glue set - 0.73767, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 N
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 P
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......< \kern-0.1971 (font)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+......> \TU/Domitian-Roman.otf(0)/m/n/10.95 d
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 r
+......= \kern-0.1971 (font)
+......= \TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 C
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\rightskip) 0.0
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+3.09885)x455.24408, glue set - 0.2076, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 b
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 g
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 P
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 a
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 2.55147
+....\hbox(7.94969+3.07695)x455.24408, glue set 56.19318fil, direction TLT
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 p
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.1971 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\kern-0.8103 (font)
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 ,
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 v
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 l
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 n
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 c
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 t
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 u
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 r
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 o
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 m
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 e
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 d
+.....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 w
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\discretionary (penalty 50)
+......< \TU/Domitian-Roman.otf(0)/m/n/10.95 -
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 s
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 i
+.....\TU/Domitian-Roman.otf(0)/m/n/10.95 .
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
 ....\glue 0.0 plus 1.0fil
 ....\glue 0.0
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
-....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
+....\hbox(7.94969+2.35425)x455.24408, glue set 215.00763fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
 ......\hbox(9.91995+0.0)x455.24408, direction TLT
@@ -8550,9 +10775,9 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.3}
-.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
-.....\pdfendlink
+.....\hbox(7.52264+0.1314)x9.7236, direction TLT
+......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
+......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
@@ -8652,5 +10877,8 @@ LaTeX Info: Redefining \rmfamily on input line ....
 LaTeX Info: Redefining \sffamily on input line ....
 LaTeX Info: Redefining \ttfamily on input line ....
 )
+LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package rerunfilecheck Info: File `dsekregdoc.out' has not changed.
 (rerunfilecheck)             Checksum: 552B990E5FD4CEA27D65EB5EF8FAB3DF;534.
+Package lastpage Warning: Rerun to get the references right on input line ....
