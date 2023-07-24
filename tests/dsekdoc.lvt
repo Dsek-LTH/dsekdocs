@@ -1,15 +1,21 @@
+\input{regression-test.tex}
 \documentclass{dsekdoc}
+
+\usepackage{expl3}
+
+\START
+\showoutput
 
 \usepackage{lipsum}
 
 \setshorttitle{Test}
-\setmeeting{\textsc{htm1}, 2022}
+\setmeeting{\textsc{htmX}, 20XX}
 \setdate{\today}
 
 \settitle{\textsf{dsekdoc}-test}
 \author{D-sektionen}
 
-\setcovptext{Senast reviderad \today.}
+\setcovptext{Senast reviderad 20XX-09-01.}
 
 \begin{document}
 
@@ -27,5 +33,7 @@ Vi beslöt
 
 \lipsum[5-7]
 
-\signature{Lund, dag som ovan}{Axel Svensson}{\LaTeX-freak}
+\signature{Lund, dag som ovan}{Trula Trulsson}{\LaTeX-freak}
+
+\vfil\break
 \end{document}

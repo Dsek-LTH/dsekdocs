@@ -5,8 +5,6 @@ version = "0.1.1"
 pkgdate = "2023/02/05"
 gittag  = "v"..version
 
-testfiledir = "./tests"
-
 uploadconfig = {
   version	= version,
   author	= "D-sektionen inom TLTH",
@@ -29,6 +27,13 @@ installfiles = {"*.sty", "*.cls", "images/"}
 tagfiles     = {"*.sty", "*.cls"}
 
 textfiles = {"ctan/*.md", "*.txt", "LICENSE"}
+
+-- Testing
+
+testfiledir = "./tests"
+
+checkengines = {"xetex", "luatex"}
+checkruns = 2					-- allow for an extra run when needed
 
 -- Typesetting documentation
 

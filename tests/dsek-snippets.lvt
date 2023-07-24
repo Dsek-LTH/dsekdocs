@@ -1,7 +1,12 @@
+\input{regression-test.tex}
 \documentclass{article}
 
+\usepackage{expl3}
+
+\START
+\showoutput
+
 \usepackage{dsek}
-\usepackage{siunitx}
 
 \title{\textsf{dsek}-test: Textstumpar}
 \author{Axel Svensson}
@@ -40,4 +45,5 @@ text-stumpar som finns i \textsf{dsek}-paketet.
   \end{tabular}
 \end{center}
 
-\end{document}
+\vfil\break
+\END

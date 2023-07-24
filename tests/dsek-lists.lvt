@@ -1,9 +1,14 @@
+\input{regression-test.tex}
 \documentclass{article}
+
+\usepackage{expl3}
+\START
+\showoutput
 
 \usepackage{dsek}
 
 \title{\textsf{dsek}-test: Textstumpar}
-\author{Axel Svensson}
+\author{Trula Trulsson}
 \date{26:e september 2022}
 
 \begin{document}
@@ -19,4 +24,5 @@ Vi beslutade
 \item det ska ersätta det gamla.
 \end{attlist}
 
-\end{document}
+\vfil\break
+\END

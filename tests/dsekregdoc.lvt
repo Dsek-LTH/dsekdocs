@@ -1,15 +1,21 @@
+\input{regression-test.tex}
 \documentclass{dsekregdoc}
+
+\usepackage{expl3}
+\START
+\showoutput
 
 \usepackage{lipsum}
 
 \setshorttitle{Styrdokumenttest}
-\setmeeting{HTM 1, 2022}
+\setmeeting{HTM X, 20XX}
 \setdate{\today}
 
 \title{\textsf{dsekregdoc}-test}
-\author{Axel Svensson}
+\author{Trula Trulsson}
 
 \begin{document}
+
 \section{Kapitel ett av dokumentet}
 \begin{regsection}
   \regitem{1.1}{Första paragrafen}
@@ -52,4 +58,6 @@
 
 \section{Kapitel tre av dokumentet}
 \lipsum[7-8]
+
+\vfil\break
 \end{document}
