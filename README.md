@@ -53,6 +53,21 @@ $ l3build ctan
 
 `dsekdocs` uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Read through it before determining what kind of version bump to create.
 
+### Tests
+
+`dsekdocs` makes use of the regression testing facilities of `l3build`. To run the tests, run
+```shell
+$ l3build check
+```
+
+If you change the code for any commands in the package, some tests will in all likelihood fail. As these tests only check for a change in the output, this doesn't mean that the new code is *wrong*, but check that it's the tests you expect that fail and no more. For more details, see the `l3build` documentation.
+
+If you introduce *new* functionality, please also introduce new tests. When you have a `.lvt` file that contains tests for this functionality, the corresponding `.tlg` files can be created with
+
+```shell
+$ l3build save <name of test>
+$ l3build save -e luatex <name of test>
+```
 
 ### LaTeX
 
