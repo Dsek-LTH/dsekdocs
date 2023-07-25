@@ -37,7 +37,13 @@
   headheight = 16mm
 ]{geometry}
 \RequirePackage[pagestyles]{titlesec}
-\RequirePackage{hyperref}
+\RequirePackage[
+  colorlinks=true,
+  bookmarks=true,
+  bookmarksnumbered=true,
+  bookmarksopen=true,
+  bookmarksopenlevel=3
+]{hyperref}
 \RequirePackage{lastpage}
 
 %% Font configuration
