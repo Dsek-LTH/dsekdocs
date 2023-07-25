@@ -35,12 +35,12 @@
 % Number of the § paragraph
 \newcounter{DsekRegParagraph}
 
-% Prefix for the § number
-\tl_new:N \g_dsek_regp_num_prefix_tl
-\tl_set:Nn \g_dsek_regp_num_prefix_tl {\thesection .}
+% Format for the § number
+\tl_new:N \g_dsek_regp_num_format_tl
+\tl_set:Nn \g_dsek_regp_num_format_tl {§\arabic{section} . \arabic{DsekRegParagraph}}
 
-\NewDocumentCommand{\setregpnumprefix}{ m }{
-  \tl_gset:Nn \g_dsek_regp_num_prefix_tl { #1 }
+\NewDocumentCommand{\setregpnumformat}{ m }{
+  \tl_gset:Nn \g_dsek_regp_num_format_tl { #1 }
 }
 
 \NewDocumentEnvironment{regsection}{}{
@@ -72,10 +72,7 @@
     \item[\__dsek_regp_label:nn{#1}{#2}]
   } {
     \stepcounter{DsekRegParagraph}
-    \item[\__dsek_regp_label:nn {
-        §\tl_use:N \g_dsek_regp_num_prefix_tl
-        \arabic{DsekRegParagraph}
-      } {#2}]
+    \item[\__dsek_regp_label:nn{\tl_use:N \g_dsek_regp_num_format_tl}{#2} ]
   }
 }
 

@@ -5,7 +5,11 @@ Package: lipsum ....-..-.. v... 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count...
 \l__lipsum_a_int=\count...
 \l__lipsum_b_int=\count...
-(../lipsum.ltd.tex))(dsekregdoc.aux)
+(../lipsum.ltd.tex))(dsekregdoc.aux
+LaTeX Info: Redefining \rmfamily on input line ....
+LaTeX Info: Redefining \sffamily on input line ....
+LaTeX Info: Redefining \ttfamily on input line ....
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line ....
 LaTeX Font Info:    ... okay on input line ....
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line ....
@@ -154,7 +158,6 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 Package hyperref Info: Link coloring OFF on input line ....
 (dsekregdoc.out) (dsekregdoc.out)
 \@outlinefile=\write...
-Package hyperref Warning: Rerun to get /PageLabels entry.
 LaTeX Info: Redefining \rmfamily on input line ....
 LaTeX Info: Redefining \sffamily on input line ....
 LaTeX Info: Redefining \ttfamily on input line ....
@@ -164,7 +167,7 @@ LaTeX Font Info:    Font shape `TU/texgyreheros-regular.otf(0)/m/n' will be
 (Font)              scaled to size 14.80675pt on input line ....
 LaTeX Font Info:    Font shape `TU/texgyreheros-regular.otf(0)/b/n' will be
 (Font)              scaled to size 14.368pt on input line ....
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []\TU/Domitian-Roman.otf(0)/m/n/10.95 En paragraf med en
 \hbox(7.9716+3.09883)x113.81102, glue set 4.36455
 .\hbox(0.0+0.0)x0.0
@@ -176,7 +179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
 .\glue 2.7375 plus 1.36874 minus 0.91249
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 en
 .\glue(\rightskip) 0.0
-Underfull \hbox (badness 3679) in paragraph at lines 43--43
+Underfull \hbox (badness 3679) in paragraph at lines 42--42
 \TU/Domitian-Roman.otf(0)/m/n/10.95 massa sm^^e5 ord i sitt
 \hbox(7.94969+0.21898)x113.81102, glue set 3.32741
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 massa
@@ -189,7 +192,7 @@ Underfull \hbox (badness 3679) in paragraph at lines 43--43
 .\glue 2.7375 plus 1.36874 minus 0.91249
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 sitt
 .\glue(\rightskip) 0.0
-Overfull \hbox (10.81021pt too wide) in paragraph at lines 45--45
+Overfull \hbox (10.81021pt too wide) in paragraph at lines 44--44
 \TU/Domitian-Roman.otf(0)/m/n/10.95 sellus adipiscing semper elit. Proin fermentum massa ac quam.
 \hbox(7.9716+3.09883)x286.68307, glue set - 1.0
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 sellus
@@ -218,7 +221,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line ....
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line ....
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line ....
 Completed box being shipped out [1]
 \vbox(744.16415+2.35423)x454.10599
 .\hbox(0.0+0.0)x0.0
@@ -328,6 +330,9 @@ Completed box being shipped out [1]
 ....\write-{}
 ....\special{pdf:majorversion 1}
 ....\special{pdf:minorversion 5}
+....\special{pdf:outline [-] 1<</Title(\376\377\000K\000a\000p\000i\000t\000e\000l\ETC.}
+....\special{pdf:outline [-] 1<</Title(\376\377\000K\000a\000p\000i\000t\000e\000l\ETC.}
+....\special{pdf:outline [-] 1<</Title(\376\377\000K\000a\000p\000i\000t\000e\000l\ETC.}
 ....\special{pdf:docview<</OpenAction[@page1/Fit]/PageMode/UseOutlines>>}
 ....\special{pdf:dest (Doc-Start) [@thispage /XYZ @xpos @ypos null]}
 ....\write1{\protect \xpglanginauxtrue }
@@ -386,8 +391,8 @@ Completed box being shipped out [1]
 ........\vbox(7.9716+3.09883)x157.61101
 .........\hbox(7.9716+3.09883)x157.61101
 ..........\hbox(0.0+0.0)x0.0
-..........\hbox(7.76355+3.07693)x43.79999, glue set 14.66205fil
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7p1q1
+..........\hbox(7.76355+2.39804)x43.79999, glue set 24.6375fil
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a71.1
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09883)x113.81102
 ...........\hbox(7.9716+3.09883)x113.81102, glue set 27.98492fil
@@ -803,8 +808,8 @@ Completed box being shipped out [1]
 ........\vbox(7.9716+3.09883)x157.61101
 .........\hbox(7.9716+3.09883)x157.61101
 ..........\hbox(0.0+0.0)x0.0
-..........\hbox(7.76355+3.07693)x43.79999, glue set 14.66205fil
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7p1q2
+..........\hbox(7.76355+2.39804)x43.79999, glue set 24.6375fil
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a71.2
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09883)x113.81102
 ...........\hbox(7.9716+3.09883)x113.81102, glue set 26.68188fil
@@ -1129,8 +1134,8 @@ Completed box being shipped out [1]
 ........\vbox(7.9716+41.019)x157.61101
 .........\hbox(7.9716+41.019)x157.61101
 ..........\hbox(0.0+0.0)x0.0
-..........\hbox(7.76355+3.07693)x43.79999, glue set 14.66205fil
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7p1q3
+..........\hbox(7.76355+2.59514)x43.79999, glue set 24.6375fil
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a71.3
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+41.019)x113.81102
 ...........\hbox(7.9716+3.09883)x113.81102, glue set 4.36455
@@ -1376,7 +1381,7 @@ Completed box being shipped out [1]
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35423)x455.24408
-....\hbox(7.94969+2.35423)x455.24408, glue set 215.00764fil
+....\hbox(7.94969+2.35423)x455.24408, glue set 217.13194fil
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0
 ......\hbox(9.91995+0.0)x455.24408
@@ -1385,13 +1390,14 @@ Completed box being shipped out [1]
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 1
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\hbox(7.52264+0.13138)x9.7236
-......\TU/Domitian-Roman.otf(0)/b/n/10.95 ??
+.....\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
+.....\special{pdf:eann}
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 .\kern 0.0
-Underfull \hbox (badness 5147) in paragraph at lines 59--59
+Underfull \hbox (badness 5147) in paragraph at lines 61--61
 []\TU/Domitian-Roman.otf(0)/m/n/10.95 Paragraf med s^^e4rskilt
 \hbox(7.9716+3.09883)x113.81102, glue set 3.72282
 .\hbox(0.0+0.0)x0.0
@@ -1401,7 +1407,7 @@ Underfull \hbox (badness 5147) in paragraph at lines 59--59
 .\glue 2.7375 plus 1.36874 minus 0.91249
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 s^^e4rskilt
 .\glue(\rightskip) 0.0
-Overfull \hbox (0.70703pt too wide) in paragraph at lines 61--61
+Overfull \hbox (0.70703pt too wide) in paragraph at lines 63--63
 \TU/Domitian-Roman.otf(0)/m/n/10.95 Sed ac odio. Sed vehicula hendrerit sem. Duis non odio. Mor-
 \hbox(7.94969+0.21898)x286.68307, glue set - 1.0
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 Sed
@@ -1428,7 +1434,6 @@ Overfull \hbox (0.70703pt too wide) in paragraph at lines 61--61
 .\glue(\rightskip) 0.0
 File: images/D-guild-sigil-bw.pdf Graphic file (type pdf)
 <use images/D-guild-sigil-bw.pdf>
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line ....
 Completed box being shipped out [2]
 \vbox(744.16415+2.35423)x454.10599
 .\vbox(0.0+0.0)x0.0, glue set 43.68286fil
@@ -1728,8 +1733,8 @@ Completed box being shipped out [2]
 ........\vbox(7.9716+3.09883)x157.61101
 .........\hbox(7.9716+3.09883)x157.61101
 ..........\hbox(0.0+0.0)x0.0
-..........\hbox(7.76355+3.07693)x43.79999, glue set 14.66205fil
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7p2q1
+..........\hbox(7.76355+2.39804)x43.79999, glue set 21.9fil
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a72.1.
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09883)x113.81102
 ...........\hbox(7.9716+3.09883)x113.81102, glue set 5.49362fil
@@ -2525,7 +2530,7 @@ Completed box being shipped out [2]
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35423)x455.24408
-....\hbox(7.94969+2.35423)x455.24408, glue set 215.00764fil
+....\hbox(7.94969+2.35423)x455.24408, glue set 217.13194fil
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0
 ......\hbox(9.91995+0.0)x455.24408
@@ -2534,14 +2539,14 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 2
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\hbox(7.52264+0.13138)x9.7236
-......\TU/Domitian-Roman.otf(0)/b/n/10.95 ??
+.....\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
+.....\special{pdf:eann}
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 File: images/D-guild-sigil-bw.pdf Graphic file (type pdf)
 <use images/D-guild-sigil-bw.pdf>
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line ....
 Completed box being shipped out [3]
 \vbox(744.16415+2.35423)x454.10599
 .\vbox(0.0+0.0)x0.0, glue set 43.68286fil
@@ -3345,7 +3350,7 @@ Completed box being shipped out [3]
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35423)x455.24408
-....\hbox(7.94969+2.35423)x455.24408, glue set 215.00764fil
+....\hbox(7.94969+2.35423)x455.24408, glue set 217.13194fil
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0
 ......\hbox(9.91995+0.0)x455.24408
@@ -3354,8 +3359,9 @@ Completed box being shipped out [3]
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
 .....\glue 2.7375 plus 1.36874 minus 0.91249
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\hbox(7.52264+0.13138)x9.7236
-......\TU/Domitian-Roman.otf(0)/b/n/10.95 ??
+.....\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
+.....\special{pdf:eann}
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
@@ -3454,12 +3460,5 @@ LaTeX Info: Redefining \rmfamily on input line ....
 LaTeX Info: Redefining \sffamily on input line ....
 LaTeX Info: Redefining \ttfamily on input line ....
 )
-LaTeX Warning: There were undefined references.
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-Package rerunfilecheck Warning: File `dsekregdoc.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-Package rerunfilecheck Info: Checksums for `dsekregdoc.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  552B990E5FD4CEA27D65EB5EF8FAB3DF;534.
-Package lastpage Warning: Rerun to get the references right on input line ....
+Package rerunfilecheck Info: File `dsekregdoc.out' has not changed.
+(rerunfilecheck)             Checksum: 552B990E5FD4CEA27D65EB5EF8FAB3DF;534.

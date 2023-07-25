@@ -5,7 +5,11 @@ Package: lipsum ....-..-.. v... 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count...
 \l__lipsum_a_int=\count...
 \l__lipsum_b_int=\count...
-(../lipsum.ltd.tex))No file dsekregdoc.aux.
+(../lipsum.ltd.tex)) (dsekregdoc.aux
+LaTeX Info: Redefining \rmfamily on input line ....
+LaTeX Info: Redefining \sffamily on input line ....
+LaTeX Info: Redefining \ttfamily on input line ....
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line ....
 LaTeX Font Info:    ... okay on input line ....
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line ....
@@ -188,7 +192,7 @@ Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                
 (lipsum)                With polyglossia, you have to explicitly load
 (lipsum)                languages with \setotherlanguage{latin} or similar.
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []\TU/Domitian-Roman.otf(0)/m/n/10.95 En pa-ra-graf med en
 \hbox(7.9716+3.09885)x113.81102, glue set 4.36455, direction TLT
 .\localpar
@@ -220,7 +224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 e
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 n
 .\glue(\rightskip) 0.0
-Underfull \hbox (badness 3679) in paragraph at lines 43--43
+Underfull \hbox (badness 3679) in paragraph at lines 42--42
 \TU/Domitian-Roman.otf(0)/m/n/10.95 mas-sa sm^^e5 ord i sitt
 \hbox(7.94969+0.219)x113.81102, glue set 3.32741, direction TLT
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 m
@@ -247,7 +251,7 @@ Underfull \hbox (badness 3679) in paragraph at lines 43--43
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .\glue(\rightskip) 0.0
-Overfull \hbox (10.81015pt too wide) in paragraph at lines 45--45
+Overfull \hbox (10.81015pt too wide) in paragraph at lines 44--44
 \TU/Domitian-Roman.otf(0)/m/n/10.95 sel-lus adi-piscing semper elit. Pro-in fer-
 men-tum mas-sa ac quam.
 \hbox(7.9716+3.09885)x286.68307, glue set - 1.0, direction TLT
@@ -337,7 +341,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line ....
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line ....
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line ....
 Completed box being shipped out [1]
 \vbox(744.16415+2.35425)x454.10599, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -624,11 +627,10 @@ tion TLT
 ...........\localleftbox=null
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(7.76355+3.07695)x43.79999, glue set 14.66202fil, direction TLT
+..........\hbox(7.76355+2.39806)x43.79999, glue set 24.63747fil, direction TLT
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09885)x113.81102, direction TLT
@@ -2060,11 +2062,10 @@ tion TLT
 ...........\localleftbox=null
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(7.76355+3.07695)x43.79999, glue set 14.66202fil, direction TLT
+..........\hbox(7.76355+2.39806)x43.79999, glue set 24.63747fil, direction TLT
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 2
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09885)x113.81102, direction TLT
@@ -3132,11 +3133,10 @@ on TLT
 ...........\localleftbox=null
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(7.76355+3.07695)x43.79999, glue set 14.66202fil, direction TLT
+..........\hbox(7.76355+2.59515)x43.79999, glue set 24.63747fil, direction TLT
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 3
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+41.01901)x113.81102, direction TLT
@@ -4038,7 +4038,7 @@ n TLT
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
-....\hbox(7.94969+2.35425)x455.24408, glue set 215.00763fil, direction TLT
+....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
 ......\hbox(9.91995+0.0)x455.24408, direction TLT
@@ -4047,16 +4047,16 @@ n TLT
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 1
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\hbox(7.52264+0.1314)x9.7236, direction TLT
-......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
-......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
+.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.3}
+.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
+.....\pdfendlink
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
 .\kern0.0
 .\kern0.0
 <./images/D-guild-sigil-bw.pdf>
-Overfull \hbox (0.48428pt too wide) in paragraph at lines 59--59
+Overfull \hbox (0.48428pt too wide) in paragraph at lines 61--61
 []\TU/Domitian-Roman.otf(0)/m/n/10.95 Sus-pen-dis-se vel felis. Ut lo-rem lo-rem
 , in-ter-dum eu, tin-cidunt
 \hbox(7.9716+3.07695)x286.68307, glue set - 1.0, direction TLT
@@ -4150,7 +4150,7 @@ Overfull \hbox (0.48428pt too wide) in paragraph at lines 59--59
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 n
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .\glue(\rightskip) 0.0
-Underfull \hbox (badness 5147) in paragraph at lines 59--59
+Underfull \hbox (badness 5147) in paragraph at lines 61--61
 []\TU/Domitian-Roman.otf(0)/m/n/10.95 Pa-ra-graf med s^^e4r-skilt
 \hbox(7.9716+3.09885)x113.81102, glue set 3.72281, direction TLT
 .\localpar
@@ -4187,7 +4187,7 @@ Underfull \hbox (badness 5147) in paragraph at lines 59--59
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 l
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 t
 .\glue(\rightskip) 0.0
-Overfull \hbox (0.90402pt too wide) in paragraph at lines 61--61
+Overfull \hbox (0.90402pt too wide) in paragraph at lines 63--63
 \TU/Domitian-Roman.otf(0)/m/n/10.95 Sed ac odio. Sed ve-hicu-la hendre-rit sem. Du-is non odio. Mor-
 \hbox(7.94969+0.219)x286.68307, glue set - 1.0, direction TLT
 .\TU/Domitian-Roman.otf(0)/m/n/10.95 S
@@ -4265,7 +4265,6 @@ File: images/D-guild-sigil-bw.pdf Graphic file (type pdf)
 <use images/D-guild-sigil-bw.pdf>
 Package luatex.def Info: images/D-guild-sigil-bw.pdf  used on input line ....
 (luatex.def)             Requested size: 45.50804pt x 45.5244pt.
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line ....
 Completed box being shipped out [2]
 \vbox(744.16415+2.35425)x454.10599, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -4918,12 +4917,12 @@ n TLT
 ...........\localleftbox=null
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
-..........\hbox(7.76355+3.07695)x43.79999, glue set 14.66202fil, direction TLT
+..........\hbox(7.76355+2.39806)x43.79999, glue set 21.89996fil, direction TLT
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 2
-...........\TU/Domitian-Roman.otf(0)/m/n/10.95 q
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
+...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09885)x113.81102, direction TLT
 ...........\hbox(7.9716+3.09885)x113.81102, glue set 5.49356fil, direction TLT
@@ -7807,7 +7806,7 @@ n TLT
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
-....\hbox(7.94969+2.35425)x455.24408, glue set 215.00763fil, direction TLT
+....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
 ......\hbox(9.91995+0.0)x455.24408, direction TLT
@@ -7816,9 +7815,9 @@ n TLT
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 2
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\hbox(7.52264+0.1314)x9.7236, direction TLT
-......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
-......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
+.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.3}
+.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
+.....\pdfendlink
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
@@ -7827,7 +7826,6 @@ File: images/D-guild-sigil-bw.pdf Graphic file (type pdf)
 <use images/D-guild-sigil-bw.pdf>
 Package luatex.def Info: images/D-guild-sigil-bw.pdf  used on input line ....
 (luatex.def)             Requested size: 45.50804pt x 45.5244pt.
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line ....
 Completed box being shipped out [3]
 \vbox(744.16415+2.35425)x454.10599, direction TLT
 .\hbox(0.0+0.0)x0.0, direction TLT
@@ -10766,7 +10764,7 @@ rection TLT
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
-....\hbox(7.94969+2.35425)x455.24408, glue set 215.00763fil, direction TLT
+....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
 ......\hbox(9.91995+0.0)x455.24408, direction TLT
@@ -10775,9 +10773,9 @@ rection TLT
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\hbox(7.52264+0.1314)x9.7236, direction TLT
-......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
-......\TU/Domitian-Roman.otf(0)/b/n/10.95 ?
+.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.3}
+.....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
+.....\pdfendlink
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
@@ -10877,8 +10875,5 @@ LaTeX Info: Redefining \rmfamily on input line ....
 LaTeX Info: Redefining \sffamily on input line ....
 LaTeX Info: Redefining \ttfamily on input line ....
 )
-LaTeX Warning: There were undefined references.
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package rerunfilecheck Info: File `dsekregdoc.out' has not changed.
 (rerunfilecheck)             Checksum: 552B990E5FD4CEA27D65EB5EF8FAB3DF;534.
-Package lastpage Warning: Rerun to get the references right on input line ....
