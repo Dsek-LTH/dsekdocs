@@ -116,6 +116,19 @@
   \tl_use:N \g_dsek_date_tl
 }
 
+% Author
+
+\tl_new:N \g_dsek_author_tl
+
+\NewDocumentCommand \setauthor { m } {
+  \tl_set:Nn \g_dsek_author_tl { #1 }
+  \author{ #1 }
+}
+
+\NewDocumentCommand \useauthor {} {
+  \tl_use:N \g_dsek_author_tl
+}
+
 % Meeting
 
 \tl_new:N \g_dsek_meeting_tl

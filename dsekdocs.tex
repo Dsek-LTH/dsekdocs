@@ -189,11 +189,15 @@ main language for the document is english instead of swedish.  All other
 arguments are passed along to the \textsf{article} document class.
 
 \subsection{Commands}
-Because of how the \cs{title} and \cs{date} commands work, we can't easily use
-what is given to them for our own purposes, so as a replacemen we have
+Because of how the \cs{title}, \cs{author} and \cs{date} commands work, we can't
+easily use what is given to them for our own purposes, so as a replacement we
+have
 \begin{center}
-  \cs{settitle}\marg{title} and \cs{setdate}\marg{date}
+  \cs{settitle}\marg{title}, \cs{setauthor}\marg{author} and \cs{setdate}\marg{date}
 \end{center}
+
+These commands wrap around the usual \cs{title} commands etc., so there's no
+need to use both.
 
 \subsubsection{Headers}
 In addition to the name of the guild and the date, the headers of the document

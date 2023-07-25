@@ -11,6 +11,7 @@
 \setshorttitle{Test}
 \setmeeting{\textsc{htmX}, 20XX}
 \setdate{\today}
+\setauthor{Trula Trulsson}
 
 \settitle{\textsf{dsekdoc}-test}
 \author{D-sektionen}
@@ -33,7 +34,7 @@ Vi beslöt
 
 \lipsum[5-7]
 
-\signature{Lund, dag som ovan}{Trula Trulsson}{\LaTeX-freak}
+\signature{Lund, dag som ovan}{\useauthor}{\LaTeX-freak}
 
 \vfil\break
 \end{document}
