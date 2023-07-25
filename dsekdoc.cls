@@ -90,6 +90,7 @@
 
 \NewDocumentCommand \settitle { m } {
   \tl_set:Nn \g_dsek_title_tl { #1 }
+  \hypersetup{pdftitle = { #1 }}
   \title{ #1 }
 }
 
@@ -128,6 +129,7 @@
 
 \NewDocumentCommand \setauthor { m } {
   \tl_set:Nn \g_dsek_author_tl { #1 }
+  \hypersetup{pdfauthor = { #1 }}
   \author{ #1 }
 }
 
