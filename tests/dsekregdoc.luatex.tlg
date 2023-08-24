@@ -175,7 +175,14 @@ File: epstopdf-sys.cfg ....-..-.. v... Configuration of (r)epstopdf for TeX Live
 * \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
-Package hyperref Info: Link coloring OFF on input line ....
+(../color.sty
+Package: color ....-..-.. v... Standard LaTeX Color (DPC)
+(../color.cfg
+File: color.cfg ....-..-.. v... sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line ....
+(../mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line ....
 (dsekregdoc.out) (dsekregdoc.out)
 \@outlinefile=\write...
 LaTeX Info: Redefining \rmfamily on input line ....
@@ -370,6 +377,7 @@ Completed box being shipped out [1]
 ...\vbox(45.5244+0.0)x455.24408, glue set 20.0247fil, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\hbox(25.4997+20.0247)x455.24408, direction TLT
+.....\pdfcolorstack 0 push {0 g 0 G}
 .....\hbox(25.4997+20.0247)x455.24408, glue set 5.69057fil, direction TLT
 ......\glue 0.0
 ......\mathon
@@ -515,6 +523,7 @@ Completed box being shipped out [1]
 ........\glue(\rightskip) 0.0
 ......\mathoff
 ......\glue 0.0
+.....\pdfcolorstack 0 pop
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
 ...\vbox(654.41338+0.0)x455.24408, glue set - 0.31113, direction TLT
@@ -538,10 +547,12 @@ Completed box being shipped out [1]
 ......\localrightbox=null
 .....\rule(15.39993+6.60007)x0.0
 .....\hbox(15.39993+6.60007)x19.1669, direction TLT
+......\pdfcolorstack 0 push {0 g 0 G}
 ......\TU/texgyreheros-regular.otf(0)/b/n/17.28 1
 ......\TU/texgyreheros-regular.otf(0)/b/n/17.28 .
 ......\rule(15.39993+6.60007)x0.0
 ......\glue 7.18399
+......\pdfcolorstack 0 pop
 .....\TU/texgyreheros-regular.otf(0)/b/n/17.28 K
 .....\kern-0.07184 (font)
 .....\TU/texgyreheros-regular.otf(0)/b/n/17.28 a
@@ -593,7 +604,7 @@ Completed box being shipped out [1]
 ....\marks2{\ttl@enccode }
 ....\marks3{\ttl@enccode }
 ....\mark{{\protect \@namedef {sectiontitle}{Kapitel ett av dokumentet}\protect \ETC.}
-....\write3{\protect \BOOKMARK [1][-]{section.1}{\376\377\000K\000a\000p\000i\000\ETC.}
+....\write3{\protect \BOOKMARK [1][]{section.1}{\376\377\0001\000\040\000K\000a\0\ETC.}
 ....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
 ....\penalty 10000
 ....\penalty 10000
@@ -615,6 +626,7 @@ tion TLT
 ......\glue -157.61101
 ......\glue -10.95
 ......\hbox(9.51996+4.08003)x157.61101, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\glue 0.0
 .......\penalty 10000
 .......\rule(9.51996+4.08003)x0.0
@@ -672,6 +684,7 @@ tion TLT
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
+.......\pdfcolorstack 0 pop
 ......\glue 10.95
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 L
@@ -1929,6 +1942,7 @@ rection TLT
 ......\glue -13.13995
 ......\glue -5.47499
 ......\hbox(6.9204+0.18616)x13.13995, glue set 13.13995fil, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\penalty 10000
 .......\glue 0.0 plus 1.0fil minus 1.0fil
 .......\hbox(6.9204+0.18616)x0.0, glue set - 12.7677fil, direction TLT
@@ -1937,6 +1951,7 @@ rection TLT
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\kern0.0 (italic)
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Q
@@ -2006,6 +2021,7 @@ rection TLT
 ......\glue -13.13995
 ......\glue -5.47499
 ......\hbox(6.9204+0.18616)x13.13995, glue set 13.13995fil, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\penalty 10000
 .......\glue 0.0 plus 1.0fil minus 1.0fil
 .......\hbox(6.9204+0.18616)x0.0, glue set - 12.7677fil, direction TLT
@@ -2014,6 +2030,7 @@ rection TLT
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\kern0.0 (italic)
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 C
@@ -2050,6 +2067,7 @@ tion TLT
 ......\glue -157.61101
 ......\glue -10.95
 ......\hbox(9.51996+4.08003)x157.61101, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\glue 0.0
 .......\penalty 10000
 .......\rule(9.51996+4.08003)x0.0
@@ -2105,6 +2123,7 @@ tion TLT
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
+.......\pdfcolorstack 0 pop
 ......\glue 10.95
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 N
@@ -2922,6 +2941,7 @@ irection TLT
 ......\glue -13.13995
 ......\glue -5.47499
 ......\hbox(6.9204+0.18616)x13.13995, glue set 13.13995fil, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\penalty 10000
 .......\glue 0.0 plus 1.0fil minus 1.0fil
 .......\hbox(6.9204+0.18616)x0.0, glue set - 12.7677fil, direction TLT
@@ -2930,6 +2950,7 @@ irection TLT
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\kern0.0 (italic)
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 M
@@ -3009,6 +3030,7 @@ tion TLT
 ......\glue -13.13995
 ......\glue -5.47499
 ......\hbox(6.9204+0.18616)x13.13995, glue set 13.13995fil, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\penalty 10000
 .......\glue 0.0 plus 1.0fil minus 1.0fil
 .......\hbox(6.9204+0.18616)x0.0, glue set - 12.7677fil, direction TLT
@@ -3017,6 +3039,7 @@ tion TLT
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\kern0.0 (italic)
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 L
@@ -3121,6 +3144,7 @@ on TLT
 ......\glue -157.61101
 ......\glue -10.95
 ......\hbox(9.51996+4.08003)x157.61101, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\glue 0.0
 .......\penalty 10000
 .......\rule(9.51996+4.08003)x0.0
@@ -3250,6 +3274,7 @@ on TLT
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
+.......\pdfcolorstack 0 pop
 ......\glue 10.95
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 N
@@ -4038,6 +4063,7 @@ n TLT
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
+....\pdfcolorstack 0 push {0 g 0 G}
 ....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
@@ -4047,12 +4073,15 @@ n TLT
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 1
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.3}
+.....\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/I/C[1 0 0]} action goto name{page.3}
+.....\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
+.....\pdfcolorstack 0 pop
 .....\pdfendlink
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
+....\pdfcolorstack 0 pop
 .\kern0.0
 .\kern0.0
 <./images/D-guild-sigil-bw.pdf>
@@ -4293,6 +4322,7 @@ Completed box being shipped out [2]
 ...\vbox(45.5244+0.0)x455.24408, glue set 20.0247fil, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\hbox(25.4997+20.0247)x455.24408, direction TLT
+.....\pdfcolorstack 0 push {0 g 0 G}
 .....\hbox(25.4997+20.0247)x455.24408, glue set 5.69057fil, direction TLT
 ......\glue 0.0
 ......\mathon
@@ -4438,6 +4468,7 @@ Completed box being shipped out [2]
 ........\glue(\rightskip) 0.0
 ......\mathoff
 ......\glue 0.0
+.....\pdfcolorstack 0 pop
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
 ...\vbox(654.41338+0.0)x455.24408, glue set >20000.0fil, direction TLT
@@ -4668,6 +4699,7 @@ direction TLT
 ......\glue -13.13995
 ......\glue -5.47499
 ......\hbox(6.9204+0.18616)x13.13995, glue set 13.13995fil, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\penalty 10000
 .......\glue 0.0 plus 1.0fil minus 1.0fil
 .......\hbox(6.9204+0.18616)x0.0, glue set - 12.7677fil, direction TLT
@@ -4676,6 +4708,7 @@ direction TLT
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\kern0.0 (italic)
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 I
@@ -4739,6 +4772,7 @@ direction TLT
 ......\glue -13.13995
 ......\glue -5.47499
 ......\hbox(6.9204+0.18616)x13.13995, glue set 13.13995fil, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\penalty 10000
 .......\glue 0.0 plus 1.0fil minus 1.0fil
 .......\hbox(6.9204+0.18616)x0.0, glue set - 12.7677fil, direction TLT
@@ -4747,6 +4781,7 @@ direction TLT
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\kern0.0 (italic)
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 I
@@ -4828,10 +4863,12 @@ direction TLT
 ......\localrightbox=null
 .....\rule(15.39993+6.60007)x0.0
 .....\hbox(15.39993+6.60007)x19.1669, direction TLT
+......\pdfcolorstack 0 push {0 g 0 G}
 ......\TU/texgyreheros-regular.otf(0)/b/n/17.28 2
 ......\TU/texgyreheros-regular.otf(0)/b/n/17.28 .
 ......\rule(15.39993+6.60007)x0.0
 ......\glue 7.18399
+......\pdfcolorstack 0 pop
 .....\TU/texgyreheros-regular.otf(0)/b/n/17.28 K
 .....\kern-0.07184 (font)
 .....\TU/texgyreheros-regular.otf(0)/b/n/17.28 a
@@ -4883,7 +4920,7 @@ direction TLT
 ....\marks2{\ttl@enccode }
 ....\marks3{\ttl@enccode }
 ....\mark{{\protect \@namedef {sectiontitle}{Kapitel tv^^e5 av dokumentet}\protect \ETC.}
-....\write3{\protect \BOOKMARK [1][-]{section.2}{\376\377\000K\000a\000p\000i\000\ETC.}
+....\write3{\protect \BOOKMARK [1][]{section.2}{\376\377\0002\000\040\000K\000a\0\ETC.}
 ....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
 ....\penalty 10000
 ....\penalty 10000
@@ -4905,6 +4942,7 @@ n TLT
 ......\glue -157.61101
 ......\glue -10.95
 ......\hbox(9.51996+4.08003)x157.61101, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\glue 0.0
 .......\penalty 10000
 .......\rule(9.51996+4.08003)x0.0
@@ -4969,6 +5007,7 @@ n TLT
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
+.......\pdfcolorstack 0 pop
 ......\glue 10.95
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 F
@@ -6715,6 +6754,7 @@ on TLT
 ......\glue -157.61101
 ......\glue -10.95
 ......\hbox(9.51996+4.08003)x157.61101, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\glue 0.0
 .......\penalty 10000
 .......\rule(9.51996+4.08003)x0.0
@@ -6789,6 +6829,7 @@ on TLT
 ..........\penalty 10000
 ..........\glue(\parfillskip) 0.0 plus 1.0fil
 ..........\glue(\rightskip) 0.0 plus 1.0fil
+.......\pdfcolorstack 0 pop
 ......\glue 10.95
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 S
@@ -7806,6 +7847,7 @@ n TLT
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
+....\pdfcolorstack 0 push {0 g 0 G}
 ....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
@@ -7815,12 +7857,15 @@ n TLT
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 2
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.3}
+.....\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/I/C[1 0 0]} action goto name{page.3}
+.....\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
+.....\pdfcolorstack 0 pop
 .....\pdfendlink
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
+....\pdfcolorstack 0 pop
 .\kern0.0
 File: images/D-guild-sigil-bw.pdf Graphic file (type pdf)
 <use images/D-guild-sigil-bw.pdf>
@@ -7854,6 +7899,7 @@ Completed box being shipped out [3]
 ...\vbox(45.5244+0.0)x455.24408, glue set 20.0247fil, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\hbox(25.4997+20.0247)x455.24408, direction TLT
+.....\pdfcolorstack 0 push {0 g 0 G}
 .....\hbox(25.4997+20.0247)x455.24408, glue set 5.69057fil, direction TLT
 ......\glue 0.0
 ......\mathon
@@ -7999,6 +8045,7 @@ Completed box being shipped out [3]
 ........\glue(\rightskip) 0.0
 ......\mathoff
 ......\glue 0.0
+.....\pdfcolorstack 0 pop
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
 ...\vbox(654.41338+0.0)x455.24408, glue set 245.2178fil, direction TLT
@@ -8724,10 +8771,12 @@ rection TLT
 ......\localrightbox=null
 .....\rule(15.39993+6.60007)x0.0
 .....\hbox(15.39993+6.60007)x19.1669, direction TLT
+......\pdfcolorstack 0 push {0 g 0 G}
 ......\TU/texgyreheros-regular.otf(0)/b/n/17.28 3
 ......\TU/texgyreheros-regular.otf(0)/b/n/17.28 .
 ......\rule(15.39993+6.60007)x0.0
 ......\glue 7.18399
+......\pdfcolorstack 0 pop
 .....\TU/texgyreheros-regular.otf(0)/b/n/17.28 K
 .....\kern-0.07184 (font)
 .....\TU/texgyreheros-regular.otf(0)/b/n/17.28 a
@@ -8779,7 +8828,7 @@ rection TLT
 ....\marks2{\ttl@enccode }
 ....\marks3{\ttl@enccode }
 ....\mark{{\protect \@namedef {sectiontitle}{Kapitel tre av dokumentet}\protect \ETC.}
-....\write3{\protect \BOOKMARK [1][-]{section.3}{\376\377\000K\000a\000p\000i\000\ETC.}
+....\write3{\protect \BOOKMARK [1][]{section.3}{\376\377\0003\000\040\000K\000a\0\ETC.}
 ....\write1{\@writefile{toc}{\protect \contentsline {section}{\protect \numberline \ETC.}
 ....\penalty 10000
 ....\penalty 10000
@@ -10764,6 +10813,7 @@ rection TLT
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
+....\pdfcolorstack 0 push {0 g 0 G}
 ....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
@@ -10773,12 +10823,15 @@ rection TLT
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.3}
+.....\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/I/C[1 0 0]} action goto name{page.3}
+.....\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 3
+.....\pdfcolorstack 0 pop
 .....\pdfendlink
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
+....\pdfcolorstack 0 pop
 .\kern0.0
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -10876,4 +10929,4 @@ LaTeX Info: Redefining \sffamily on input line ....
 LaTeX Info: Redefining \ttfamily on input line ....
 )
 Package rerunfilecheck Info: File `dsekregdoc.out' has not changed.
-(rerunfilecheck)             Checksum: 552B990E5FD4CEA27D65EB5EF8FAB3DF;534.
+(rerunfilecheck)             Checksum: 0987DBC8951AB9E1C3B9F2E74767EE04;570.

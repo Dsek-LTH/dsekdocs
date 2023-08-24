@@ -175,7 +175,14 @@ File: epstopdf-sys.cfg ....-..-.. v... Configuration of (r)epstopdf for TeX Live
 * \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
-Package hyperref Info: Link coloring OFF on input line ....
+(../color.sty
+Package: color ....-..-.. v... Standard LaTeX Color (DPC)
+(../color.cfg
+File: color.cfg ....-..-.. v... sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line ....
+(../mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line ....
 (dsekdoc.out) (dsekdoc.out)
 \@outlinefile=\write...
 LaTeX Info: Redefining \rmfamily on input line ....
@@ -217,7 +224,9 @@ Completed box being shipped out [1]
 ...\vbox(45.5244+0.0)x455.24408, glue set 45.5244fil, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\hbox(0.0+0.0)x455.24408, direction TLT
+.....\pdfcolorstack 0 push {0 g 0 G}
 .....\hbox(0.0+0.0)x455.24408, direction TLT
+.....\pdfcolorstack 0 pop
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
 ...\vbox(654.41338+0.0)x455.24408, glue set 233.36528fil, direction TLT
@@ -240,6 +249,8 @@ Completed box being shipped out [1]
 ......\glue 0.0
 ......\glue -5.47499
 ......\hbox(0.0+0.0)x0.0, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/sc/24.88 D
@@ -434,7 +445,9 @@ Completed box being shipped out [1]
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 30.0
 ...\hbox(0.0+0.0)x455.24408, direction TLT
+....\pdfcolorstack 0 push {0 g 0 G}
 ....\hbox(0.0+0.0)x455.24408, direction TLT
+....\pdfcolorstack 0 pop
 .\kern0.0
 .\kern0.0
 <./images/D-guild-sigil-color.pdf>
@@ -486,6 +499,7 @@ Completed box being shipped out [1]
 ...\vbox(45.5244+0.0)x455.24408, glue set 20.0247fil, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\hbox(25.4997+20.0247)x455.24408, direction TLT
+.....\pdfcolorstack 0 push {0 g 0 G}
 .....\hbox(25.4997+20.0247)x455.24408, glue set 5.69057fil, direction TLT
 ......\glue 0.0
 ......\mathon
@@ -620,6 +634,7 @@ Completed box being shipped out [1]
 ........\glue(\rightskip) 0.0
 ......\mathoff
 ......\glue 0.0
+.....\pdfcolorstack 0 pop
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
 ...\vbox(654.41338+0.0)x455.24408, glue set >20000.0fil, direction TLT
@@ -2628,6 +2643,7 @@ ion TLT
 ......\glue -21.9
 ......\glue -5.47499
 ......\hbox(6.9204+0.18616)x21.9, glue set 21.9fil, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\penalty 10000
 .......\glue 0.0 plus 1.0fil minus 1.0fil
 .......\hbox(6.9204+0.18616)x0.0, glue set - 12.7677fil, direction TLT
@@ -2636,6 +2652,7 @@ ion TLT
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\kern0.0 (italic)
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 L
@@ -2680,6 +2697,7 @@ ion TLT
 ......\glue -21.9
 ......\glue -5.47499
 ......\hbox(6.9204+0.18616)x21.9, glue set 21.9fil, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\penalty 10000
 .......\glue 0.0 plus 1.0fil minus 1.0fil
 .......\hbox(6.9204+0.18616)x0.0, glue set - 12.7677fil, direction TLT
@@ -2688,6 +2706,7 @@ ion TLT
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\kern0.0 (italic)
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 Q
@@ -3355,6 +3374,7 @@ ction TLT
 ......\glue -21.9
 ......\glue -5.47499
 ......\hbox(6.9204+0.18616)x21.9, glue set 21.9fil, direction TLT
+.......\pdfcolorstack 0 push {0 g 0 G}
 .......\penalty 10000
 .......\glue 0.0 plus 1.0fil minus 1.0fil
 .......\hbox(6.9204+0.18616)x0.0, glue set - 12.7677fil, direction TLT
@@ -3363,6 +3383,7 @@ ction TLT
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\TU/Domitian-Roman.otf(0)/b/n/10.95 t
 ........\kern0.0 (italic)
+.......\pdfcolorstack 0 pop
 ......\glue 5.47499
 .....\penalty 0
 .....\TU/Domitian-Roman.otf(0)/m/n/10.95 D
@@ -5088,6 +5109,7 @@ ction TLT
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
+....\pdfcolorstack 0 push {0 g 0 G}
 ....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
@@ -5097,12 +5119,15 @@ ction TLT
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 1
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.2}
+.....\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/I/C[1 0 0]} action goto name{page.2}
+.....\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 2
+.....\pdfcolorstack 0 pop
 .....\pdfendlink
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
+....\pdfcolorstack 0 pop
 .\kern0.0
 <./images/D-guild-sigil-bw.pdf>
 \l__dsek_sign_space_height=\dimen...
@@ -5138,6 +5163,7 @@ Completed box being shipped out [2]
 ...\vbox(45.5244+0.0)x455.24408, glue set 20.0247fil, direction TLT
 ....\glue 0.0 plus 1.0fil
 ....\hbox(25.4997+20.0247)x455.24408, direction TLT
+.....\pdfcolorstack 0 push {0 g 0 G}
 .....\hbox(25.4997+20.0247)x455.24408, glue set 5.69057fil, direction TLT
 ......\glue 0.0
 ......\mathon
@@ -5272,6 +5298,7 @@ Completed box being shipped out [2]
 ........\glue(\rightskip) 0.0
 ......\mathoff
 ......\glue 0.0
+.....\pdfcolorstack 0 pop
 ...\glue 56.9055
 ...\glue(\lineskip) 0.0
 ...\vbox(654.41338+0.0)x455.24408, glue set 467.25735fil, direction TLT
@@ -6223,6 +6250,7 @@ Completed box being shipped out [2]
 ....\glue 0.0 plus 0.0001fil
 ...\glue(\baselineskip) 22.05031
 ...\hbox(7.94969+2.35425)x455.24408, direction TLT
+....\pdfcolorstack 0 push {0 g 0 G}
 ....\hbox(7.94969+2.35425)x455.24408, glue set 217.13193fil, direction TLT
 .....\glue 0.0
 .....\hbox(0.0+0.0)x0.0, direction TLT
@@ -6232,12 +6260,15 @@ Completed box being shipped out [2]
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 2
 .....\glue(\spaceskip) 2.7375 plus 1.36874 minus 0.9125
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 (
-.....\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{page.2}
+.....\pdfstartlink(*+*)x* attr{/Border[0 0 0]/H/I/C[1 0 0]} action goto name{page.2}
+.....\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 2
+.....\pdfcolorstack 0 pop
 .....\pdfendlink
 .....\TU/Domitian-Roman.otf(1)/m/n/10.95 )
 .....\glue 0.0 plus 1.0fil
 .....\glue 0.0
+....\pdfcolorstack 0 pop
 .\kern0.0
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
