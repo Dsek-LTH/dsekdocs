@@ -48,6 +48,9 @@ $ l3build ctan
 
 ## Development
 
+### Contributing
+
+If there are bugs, features missing or something else about the development you want to discuss, please create an issue. Pull requests are also welcome, but a corresponding issue is nice to have, should multiple pull requests for the same functionality arise.
 
 ### Semantic versioning
 
