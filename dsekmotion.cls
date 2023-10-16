@@ -29,15 +29,6 @@
     }
 }
 
-\NewDocumentCommand \setdemand { m } {
-    \tl_set:Nn \g_demand_tl { #1 }
-}
-
-\NewDocumentCommand \usedemand {} {
-    \vspace{0.5cm}
-    \tl_use:N \g_demand_tl
-}
-
 %% Handy commands to be used in att-lists
 \NewDocumentCommand \att { m } {
   \item #1
