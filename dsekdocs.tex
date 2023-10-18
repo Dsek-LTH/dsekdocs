@@ -269,6 +269,14 @@ number at all), you can do so like this:
 
 This won't step the paragraph counter.
 
+All paragraphs can be linked to using the \cs{hyperlink} command to create
+clickable links in the document.  So, to link to the paragraph §1.2, you would
+write
+
+\begin{center}
+  \cs{hyperlink}\texttt{\{par:§1.2\}\{See §1.2\} for further examples.}
+\end{center}
+
 \section{Technical notes}
 
 \subsection{Compatability}
