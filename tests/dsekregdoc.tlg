@@ -404,6 +404,8 @@ Completed box being shipped out [1]
 .........\hbox(7.9716+3.09883)x157.61101
 ..........\hbox(0.0+0.0)x0.0
 ..........\hbox(7.76355+2.39804)x43.79999, glue set 24.6375fil
+...........\special{pdf:dest (par:^^a71.1) [@thispage /XYZ @xpos @ypos null]}
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a71.1
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09883)x113.81102
@@ -833,6 +835,8 @@ Completed box being shipped out [1]
 .........\hbox(7.9716+3.09883)x157.61101
 ..........\hbox(0.0+0.0)x0.0
 ..........\hbox(7.76355+2.39804)x43.79999, glue set 24.6375fil
+...........\special{pdf:dest (par:^^a71.2) [@thispage /XYZ @xpos @ypos null]}
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a71.2
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09883)x113.81102
@@ -1171,6 +1175,8 @@ Completed box being shipped out [1]
 .........\hbox(7.9716+41.019)x157.61101
 ..........\hbox(0.0+0.0)x0.0
 ..........\hbox(7.76355+2.59514)x43.79999, glue set 24.6375fil
+...........\special{pdf:dest (par:^^a71.3) [@thispage /XYZ @xpos @ypos null]}
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a71.3
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+41.019)x113.81102
@@ -1790,6 +1796,8 @@ Completed box being shipped out [2]
 .........\hbox(7.9716+3.09883)x157.61101
 ..........\hbox(0.0+0.0)x0.0
 ..........\hbox(7.76355+2.39804)x43.79999, glue set 21.9fil
+...........\special{pdf:dest (par:^^a72.1.) [@thispage /XYZ @xpos @ypos null]}
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a72.1.
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+3.09883)x113.81102
@@ -2290,6 +2298,8 @@ Completed box being shipped out [2]
 .........\hbox(7.9716+13.81898)x157.61101
 ..........\hbox(0.0+0.0)x0.0
 ..........\hbox(7.76355+3.07693)x43.79999, glue set 18.62595fil
+...........\special{pdf:dest (par:Spec.) [@thispage /XYZ @xpos @ypos null]}
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 Spec.
 ...........\glue 0.0 plus 1.0fil minus 1.0fil
 ..........\vbox(7.9716+13.81898)x113.81102

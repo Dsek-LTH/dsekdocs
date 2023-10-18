@@ -640,6 +640,8 @@ tion TLT
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\hbox(7.76355+2.39806)x43.79999, glue set 24.63747fil, direction TLT
+...........\pdfdest name{par:\302\2471.1} xyz
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
@@ -2091,6 +2093,8 @@ tion TLT
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\hbox(7.76355+2.39806)x43.79999, glue set 24.63747fil, direction TLT
+...........\pdfdest name{par:\302\2471.2} xyz
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
@@ -3178,6 +3182,8 @@ on TLT
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\hbox(7.76355+2.59515)x43.79999, glue set 24.63747fil, direction TLT
+...........\pdfdest name{par:\302\2471.3} xyz
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 1
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
@@ -4986,6 +4992,8 @@ n TLT
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\hbox(7.76355+2.39806)x43.79999, glue set 21.89996fil, direction TLT
+...........\pdfdest name{par:\302\2472.1.} xyz
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 ^^a7
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 2
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 .
@@ -6798,6 +6806,8 @@ on TLT
 ...........\localrightbox=null
 ..........\hbox(0.0+0.0)x0.0, direction TLT
 ..........\hbox(7.76355+3.07695)x43.79999, glue set 18.62593fil, direction TLT
+...........\pdfdest name{par:Spec.} xyz
+...........\penalty 10000
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 S
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 p
 ...........\TU/Domitian-Roman.otf(0)/m/n/10.95 e
