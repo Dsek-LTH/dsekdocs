@@ -28,6 +28,4 @@ jobs:
         run: |
           cd ${{ github.workspace }}
           l3build check
-
-      - name: Show eventual diffs
-        run: cat build/test/*.diff
+          cat build/test/*.diff
