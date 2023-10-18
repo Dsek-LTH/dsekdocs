@@ -1,0 +1,7 @@
+# The build system we use
+l3build
+
+# Packages in the latexextra collection that we need
+enumitem
+lastpage
+titlesec
