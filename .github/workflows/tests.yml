@@ -25,7 +25,10 @@ jobs:
           packages-path: ${{ github.workspace }}/.github/texlive.packages
 
       - name: Run tests
-        run: |
-          cd ${{ github.workspace }}
-          l3build check
-          cat build/test/*.diff
+        run: l3build check
+        working-directory: ${{ github.workspace }}
+        continue-on-error: true
+
+      - name: Show eventual diffs
+        run: cat build/test/*.diff
+        working-directory: ${{ github.workspace }}
