@@ -234,16 +234,17 @@ To use any of the properties we have described in this section, change the
 \cs{settitle} command in your document, you write \cs{usetitle} and it will be
 inserted.
 
-\section{The \textsf{dsekregdoc} document class}
-The \textsf{dsekregdoc} document class is meant to be used for the creation of
-the guild's regulatory documents.  The only thing that it provides is the
-\textsf{regsection} list environment.  It is intended to be the body of each
+\section{The \textsf{dsekparagraphed} document class}
+The \textsf{dsekparagraphed} document class is meant to be used for the creation
+of guild documents that use a paragraphed structure, e.g. regulatory documents
+and minutes.  The only user facing thing that it provides is the
+\textsf{parasection} list environment.  It is intended to be the body of each
 section of a regulatory document; it begins right after the \cs{section} call
 and ends right before the next one.  Inside it, each paragraph is declared like
 so:
 
 \begin{center}
-  \cs{regitem}\marg{title}.
+  \cs{paraitem}\marg{title}.
 \end{center}
 
 By default, all paragraphs follow the numbering format §\(X.Y\), where \(X\) is
@@ -251,20 +252,20 @@ the section number and \(Y\) is the paragraph number.  This format can be
 altered with the following command:
 
 \begin{center}
-  \cs{setregpnumformat}\marg{format}
+  \cs{setparanumformat}\marg{format}
 \end{center}
 
 The default format can be achieved like this:
 
 \begin{center}
-  \cs{setregpnumformat}\texttt{\{§\cs{arabic}\{section\}.\cs{arabic}\{DsekRegParagraph\}\}}
+  \cs{setparanumformat}\texttt{\{§\cs{arabic}\{section\}.\cs{arabic}\{DsekParagraph\}\}}
 \end{center}
 
-If you want a single \texttt{regitem} to have a special numbering (maybe not a
+If you want a single \texttt{paraitem} to have a special numbering (maybe not a
 number at all), you can do so like this:
 
 \begin{center}
-  \cs{regitem}\oarg{numbering}\marg{title}
+  \cs{paraitem}\oarg{numbering}\marg{title}
 \end{center}
 
 This won't step the paragraph counter.
@@ -281,8 +282,8 @@ write
 
 \subsection{Compatability}
 
-The \textsf{dsekdoc} and \textsf{dsekregdoc} document classes make use of the
-\href{https://ctan.org/pkg/fontspec}{\textsf{fontspec}} and
+The \textsf{dsekdoc} and \textsf{dsekparagraphed} document classes make use of
+the \href{https://ctan.org/pkg/fontspec}{\textsf{fontspec}} and
 \href{https://ctan.org/pkg/polyglossia}{\textsf{polyglossia}} packages, both of
 which are incompatible with \textsf{pdflatex}.  So, to use them, use
 \textsf{xelatex} or \textsf{lualatex} instead.
