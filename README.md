@@ -1,6 +1,6 @@
 # dsekdocs
 
-`dsekdocs` is a package for the typesetting of [the D-guild](https://dsek.se/)'s LaTeX documents. It is meant to replace the now 20 year old package [dsek-latex](https://github.com/Dsek-LTH/dsek-latex). `dsekdocs` consists of a regular LaTeX package, [`dsek.sty`](dsek.sty), and two document classes: [`dsekdoc.cls`](dsekdoc.cls) and [`dsekregdoc.cls`](dsekregdoc.cls).
+`dsekdocs` is a package for the typesetting of [the D-guild](https://dsek.se/)'s LaTeX documents. It is meant to replace the now 20 year old package [dsek-latex](https://github.com/Dsek-LTH/dsek-latex). `dsekdocs` consists of a regular LaTeX package, [`dsek.sty`](dsek.sty), and two document classes: [`dsekdoc.cls`](dsekdoc.cls) and [`dsekparagraphed.cls`](dsekparagraphed.cls).
 
 
 ## Dependencies
@@ -22,11 +22,11 @@
 -   hyperref
 -   lastpage
 
-`dsekregdoc` depends on
+`dsekparagraphed` depends on
 
 -   dsekdoc
 
-† - these packages are incompatible with `pdflatex`. This means that **`dsekdoc` and `dsekregdoc` do not work with `pdflatex`.** Use `xelatex` or `lualatex` instead!
+† - these packages are incompatible with `pdflatex`. This means that **`dsekdoc` and `dsekparagraphed` do not work with `pdflatex`.** Use `xelatex` or `lualatex` instead!
 
 
 ## Building
