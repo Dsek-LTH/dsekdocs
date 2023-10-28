@@ -2,6 +2,7 @@
 *.log
 *.pdf
 *.aux
+*.out
 
 # Testing stuff
 results/
