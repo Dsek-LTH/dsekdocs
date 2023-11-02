@@ -255,5 +255,14 @@
 \NewDocumentCommand \hilbert { } {
   \lthsymbol{h}
 }
+\NewDocumentCommand \lant { } {
+  \lthsymbol{l}
+}
+\NewDocumentCommand \brand { } {
+  \lthsymbol{b}
+}
+\NewDocumentCommand \td { } {
+  \lthsymbol{t}
+}
 
 \ExplSyntaxOff
