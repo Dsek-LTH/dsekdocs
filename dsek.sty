@@ -142,7 +142,15 @@
   \dim_gset:Nn \g_dsek_sign_space_height { #1 }
 }
 
+\dim_new:N \g_dsek_sign_space_min_width
+\dim_gset:Nn \g_dsek_sign_space_min_width {40mm}
+
+\NewDocumentCommand{\setsignspaceminwidth}{ m }{
+  \dim_gset:Nn \g_dsek_sign_space_min_width { #1 }
+}
+
 \dim_new:N \l__dsek_sign_width
+\str_new:N \l__dsek_sign_filename
 
 \NewDocumentCommand{\signature}{ o m m m } {
   \group_begin:
@@ -160,21 +168,35 @@
   \dim_set:Nn \l__dsek_sign_width {
     \dim_max:nn {\l_tmpa_dim} {\l__dsek_sign_width}}
 
-  \dim_add:Nn \l__dsek_sign_width {2em}
+  \dim_set:Nn \l__dsek_sign_width {
+    \dim_max:nn {\g_dsek_sign_space_min_width} {\l__dsek_sign_width}}
 
   \keys_define:nn { dsek / signatures } {
-    hspace .dim_set:N = \l__dsek_sign_space_height,
-    width  .dim_set:N = \l__dsek_sign_width
+    hspace   .dim_set:N = \l__dsek_sign_space_height,
+    width    .dim_set:N = \l__dsek_sign_width,
+    signfile .str_set:N = \l__dsek_sign_filename
   }
 
   \IfValueT{#1} {\keys_set:nn { dsek / signatures } { #1 }}
 
-  \parbox[t]{ \dim_use:N \l__dsek_sign_width }{
-    \raggedright #2
-    \vspace{ \dim_use:N \l__dsek_sign_space_height } \\
+  \begin{tabular}{l}
+    #2 \\
+    \parbox[c][\l__dsek_sign_space_height]{\l__dsek_sign_width}{
+      \str_if_empty:NF \l__dsek_sign_filename {
+        \includegraphics[
+          keepaspectratio=true,
+          width=\l__dsek_sign_width,
+          height=\g_dsek_sign_space_height
+        ] {
+          \tl_use:N \l__dsek_sign_filename
+        }
+      }
+    } \\
     #3 \\
-    #4
-  }
+    #4 \\
+    \phantom{}
+  \end{tabular}
+  \hspace{2em}
   \group_end:
 }
 
