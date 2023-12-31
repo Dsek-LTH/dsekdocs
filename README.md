@@ -1,3 +1,10 @@
+<!-- Logo -->
+<div align="center">
+  <a href="https://github.com/Dsek-LTH/dsekdocs">
+    <img src="logo.png" alt="Logo" height="150">
+  </a>
+</div>
+
 # dsekdocs
 
 `dsekdocs` is a package for the typesetting of [the D-guild](https://dsek.se/)'s LaTeX documents. It is meant to replace the now 20 year old package [dsek-latex](https://github.com/Dsek-LTH/dsek-latex). `dsekdocs` consists of a regular LaTeX package, [`dsek.sty`](dsek.sty), and a number of document classes shown below in a hierarchy of dependencies:
