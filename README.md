@@ -1,33 +1,48 @@
 # dsekdocs
 
-`dsekdocs` is a package for the typesetting of [the D-guild](https://dsek.se/)'s LaTeX documents. It is meant to replace the now 20 year old package [dsek-latex](https://github.com/Dsek-LTH/dsek-latex). `dsekdocs` consists of a regular LaTeX package, [`dsek.sty`](dsek.sty), and two document classes: [`dsekdoc.cls`](dsekdoc.cls) and [`dsekparagraphed.cls`](dsekparagraphed.cls).
+`dsekdocs` is a package for the typesetting of [the D-guild](https://dsek.se/)'s LaTeX documents. It is meant to replace the now 20 year old package [dsek-latex](https://github.com/Dsek-LTH/dsek-latex). `dsekdocs` consists of a regular LaTeX package, [`dsek.sty`](dsek.sty), and a number of document classes shown below in a hierarchy of dependencies:
 
+- [`dsekdoc.cls`](dsekdoc.cls) is the root document class.
+  - [`dsekmotion.cls`](dsekmotion.cls). Used for motions and propositions. (Motioner och propositioner)
+  - [`dseknotice.cls`](dseknotice.cls). Used for notices. (Kallelser)
+  - [`dsekelectionproposal.cls`](dsekelectionproposal.cls). Used for election proposals. (Valberedningens förslag)
+  - [`dsekparagraphed.cls`](dsekparagraphed.cls). Used for documents with enumerated paragraphs.
+    - [`dsekregdoc.cls`](dsekregdoc.cls). Used for regulatory documents. (Styrdokument)
+      - [`dsekstatutes.cls`](dsekstatutes.cls). Used for statutes. (Stadgar)
+      - [`dsekregulations.cls`](dsekregulations.cls). Used for regulations. (Reglemente)
+      - [`dsekpolicy.cls`](dsekpolicy.cls). Used for policies. (Policyer)
+      - [`dsekguideline.cls`](dsekguideline.cls). Used for guidelines. (Riktlinjer)
 
 ## Dependencies
 
-`dsek` depends on
+The package `dsek` depends on
 
--   xparse
--   graphicx
--   enumitem
+- xparse
+- graphicx
+- enumitem
 
-`dsekdoc` depends on
+The document class `dsekdoc` depends on
 
--   dsek
--   fontspec†
--   polyglossia†
--   calc
--   geometry
--   titlesec
--   hyperref
--   lastpage
+- dsek
+- fontspec†
+- polyglossia†
+- calc
+- geometry
+- titlesec
+- hyperref
+- lastpage
 
-`dsekparagraphed` depends on
+All document classes depend on `dsekdoc`, but some have additional dependencies:
 
--   dsekdoc
+`dseknotice` depends on
 
-† - these packages are incompatible with `pdflatex`. This means that **`dsekdoc` and `dsekparagraphed` do not work with `pdflatex`.** Use `xelatex` or `lualatex` instead!
+- longtable
 
+`dsekelectionproposal` depends on
+
+- multicol
+
+† - these packages are incompatible with `pdflatex`. This means that **document classes with these dependencies cannot be compiled with `pdflatex`.** Use `xelatex` or `lualatex` instead!
 
 ## Building
 
@@ -45,7 +60,6 @@ and to build the CTAN package, you can run
 $ l3build ctan
 ```
 
-
 ## Development
 
 ### Contributing
@@ -59,6 +73,7 @@ If there are bugs, features missing or something else about the development you 
 ### Tests
 
 `dsekdocs` makes use of the regression testing facilities of `l3build`. To run the tests, run
+
 ```shell
 $ l3build check
 ```
@@ -76,7 +91,7 @@ $ l3build save -e luatex <name of test>
 
 Documentation for the development of LaTeX packages is kind of scarce; especially so since we are using the relatively modern Expl syntax introduced in LaTeX3. Regardless, some good resources are:
 
--   [The expl3 docuementation](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/expl3.pdf) is a good base for understanding the syntax.
--   [The xparse docuementation](http://mirrors.ctan.org/macros/latex/contrib/l3packages/xparse.pdf) is good for understanding the `xparse` package, which is featured heavily for the introduction of user-facing commands and environments.
--   [The LaTeX3 interfaces](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/interface3.pdf) is a reference for most things LaTeX3. It describes all the different datatypes and how to use them.
--   The LaTeX Companion is a reference for all kinds of LaTeX concepts, not just LaTeX3.
+- [The expl3 docuementation](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/expl3.pdf) is a good base for understanding the syntax.
+- [The xparse docuementation](http://mirrors.ctan.org/macros/latex/contrib/l3packages/xparse.pdf) is good for understanding the `xparse` package, which is featured heavily for the introduction of user-facing commands and environments.
+- [The LaTeX3 interfaces](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/interface3.pdf) is a reference for most things LaTeX3. It describes all the different datatypes and how to use them.
+- The LaTeX Companion is a reference for all kinds of LaTeX concepts, not just LaTeX3.
