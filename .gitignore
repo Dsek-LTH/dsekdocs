@@ -3,6 +3,12 @@
 *.pdf
 *.aux
 *.out
+*.dvi
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.hd
 
 # Testing stuff
 results/
