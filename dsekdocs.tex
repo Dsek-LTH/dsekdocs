@@ -22,8 +22,8 @@
 
 \section{Overview}
 This is the manual for version 0.1.1 of the \textsf{dsekdocs} packages for the
-typesetting of documents for the D-guild at the technical faculty of Lund
-university.
+typesetting of documents for the D-guild within Teknologkåren at the Faculty of Engineering
+LTH, Lund University.
 
 \section{The \textsf{dsek} package}
 This package contains macros for the inclusion of D-guild related stuff in any
@@ -66,22 +66,22 @@ accept these options as the optional arguments (comma separated if multiple):
 
 \begin{description}
   \item[\texttt{bw}] Forces the usage of the black and white version of the
-    graphic.
+        graphic.
   \item[\texttt{color}] Forces the usage of the colored version of the graphic
-    (if it exists).
+        (if it exists).
   \item[\texttt{height=}\textit{dim}] Sets the height of the graphic.
 \end{description}
 
 \begin{center}
   \begin{tabular}{r | c c}
-    Command & Colored & Black and white \\ \hline
-    \cs{Dsymbol} & N/A & \Dsymbol[bw, height=10mm] \\
-    \cs{Dseksigil} & \Dseksigil[color, height=20mm] & \Dseksigil[bw,
-      height=20mm] \\
+    Command         & Colored                         & Black and white           \\ \hline
+    \cs{Dsymbol}    & N/A                             & \Dsymbol[bw, height=10mm] \\
+    \cs{Dseksigil}  & \Dseksigil[color, height=20mm]  & \Dseksigil[bw,
+    height=20mm]                                                                  \\
     \cs{Cprogsigil} & \Cprogsigil[color, height=20mm] & \Cprogsigil[bw,
-      height=20mm] \\
+    height=20mm]                                                                  \\
     \cs{Dprogsigil} & \Dprogsigil[color, height=20mm] & \Dprogsigil[bw,
-      height=20mm] \\
+    height=20mm]                                                                  \\
   \end{tabular}
 \end{center}
 
@@ -91,8 +91,8 @@ taken or the proposed actions in motions, facilities to create them are provided
 
 \begin{center}
   \begin{tabular}{l}
-    \cs{begin\{attlist\}}\\
-    ... \\
+    \cs{begin\{attlist\}} \\
+    \ldots                \\
     \cs{end\{attlist\}}
   \end{tabular}
 \end{center}
@@ -108,14 +108,23 @@ For example:
       \cs{item} \texttt{D-sektionen är bäst!} \\
       \cs{end\{attlist\}}
     \end{minipage}
-    &
+     &
     \begin{minipage}{0.5\linewidth}
       Mötet beslutade
       \begin{attlist}
-      \item steka pannkakor,
-      \item D-sektionen är bäst!
+        \item steka pannkakor,
+        \item D-sektionen är bäst!
       \end{attlist}
     \end{minipage}
+  \end{tabular}
+\end{center}
+To be somewhat coherent with \LaTeX's naming scheme, an ``att-lista''
+can be created without enumeration by instead using the \texttt{attlist*} environment.
+\begin{center}
+  \begin{tabular}{l}
+    \cs{begin\{attlist*\}} \\
+    \ldots                 \\
+    \cs{end\{attlist*\}}
   \end{tabular}
 \end{center}
 
@@ -124,8 +133,8 @@ place of \textit{att}, use the \texttt{boldlist} environment:
 
 \begin{center}
   \begin{tabular}{l}
-    \cs{begin\{boldlist\}}\marg{bullet word}\\
-    ... \\
+    \cs{begin\{boldlist\}}\marg{bullet word} \\
+    \ldots                                   \\
     \cs{end\{boldlist\}}
   \end{tabular}
 \end{center}
@@ -154,10 +163,12 @@ results in
 The signature command accepts the following options:
 \begin{description}
   \item[\texttt{width=}\textlangle\textit{dim}\textrangle] Sets the width of the
-    signature.  By default, it is set to the maximum of the widths of the
-    entered texts.
+        signature.  By default, it is set to the maximum of the widths of the
+        entered texts.
   \item[\texttt{hspace=}\textlangle\textit{dim}\textrangle] Sets the height of
-    the signature space.  By default it is set to 15mm.
+        the signature space.  By default it is set to 15mm.
+  \item[\texttt{signfile=}\textlangle\textit{filename.extension}\textrangle] Sets the file
+        from which an image of a signature is loaded. By default it is unset.
 \end{description}
 
 \noindent
@@ -185,10 +196,10 @@ and footers amongst a few other things.
 \subsection{Options}
 The \textsf{dsekdoc} document declares two special options:
 \begin{description}
-\item[\texttt{maketitle}] makes \textsf{dsekdoc} not redefine the \cs{maketitle}
-  command (use the \cs{coverpage} command instead).
-\item[\texttt{english}] tells the language package \textsf{polyglossia} that
-  the main language for the document is English instead of Swedish.
+  \item[\texttt{maketitle}] makes \textsf{dsekdoc} not redefine the \cs{maketitle}
+        command (use the \cs{coverpage} command instead).
+  \item[\texttt{english}] tells the language package \textsf{polyglossia} that
+        the main language for the document is English instead of Swedish.
 \end{description}
 All other arguments are passed through to the \textsf{article} document class.
 
@@ -277,6 +288,68 @@ write
 \begin{center}
   \cs{hyperlink}\texttt{\{par:§1.2\}\{See §1.2\} for further examples.}
 \end{center}
+
+\section{The \textsf{dsekmotion} document class}
+The \textsf{dsekmotion} document class is meant to be used for creating
+motions and propositions.
+
+\subsection{Options}
+Since motions and propositions are very similar, the \textsf{dsekmotion}
+document class has two options to switch between them:
+\begin{description}
+  \item[\texttt{motion}] makes the document a motion. This is the default and can be omitted.
+  \item[\texttt{proposition}] makes the document a proposition.
+\end{description}
+
+\subsection{Commands}
+Because users of the \textsf{dsekmotion} document class are expected to use the
+\textsf{attlist} environment, the document class provides an alternative way of
+writing items in the list. \cs{att} is a shorthand for \cs{item}, and \cs{attdesc}
+includes a description of the item. The commands can be used like this:
+\begin{center}
+  \begin{tabular}{l}
+    \cs{begin\{attlist\}}                            \\
+    \cs{att}\marg{clause text}                       \\
+    \cs{attdesc}\marg{clause text}\marg{description} \\
+    \cs{end\{attlist\}}
+  \end{tabular}
+\end{center}
+
+\section{The \textsf{dseknotice} document class}
+The \textsf{dseknotice} document class is meant to be used for creating notices.
+These notices may or may not include an agenda for the meeting.
+
+\subsection{Commands}
+The \textsf{dseknotice} document class provides a command to create an agenda environment
+and populate it with issuses. The agenda is essentialy a list of issues in a table format,
+containing four columns, where the first one is used for enumerating. The \textsf{issue}
+requires a title of the issue as the first argument, and provides two optional arguments
+for the type of action for the issue and attachments. The argument included for attachments
+could be a link to the attachments.
+
+\begin{center}
+  \begin{tabular}{l}
+    \cs{begin\{agenda\}}                                \\
+    \cs{issue}\marg{title}                              \\
+    \cs{issue}\marg{title}\oarg{type}                   \\
+    \cs{issue}\marg{title}\oarg{type}\oarg{attachments} \\
+    \cs{issue}\marg{title}[~]\oarg{attachments}         \\
+    \cs{end\{agenda\}}
+  \end{tabular}
+\end{center}
+
+The default headers for the agenda table are ``Ärende'', ``Åtgärd'' and ``Bilaga''. If users want to customize
+this, the \textsf{agenda} environment takes three optional arguments for the table headers and can be used like this:
+
+\begin{center}
+  \begin{tabular}{l}
+    \cs{begin\{agenda\}\oarg{header 1}\oarg{header 2}\oarg{header 3}} \\
+    \ldots                                                            \\
+    \cs{end\{agenda\}}
+  \end{tabular}
+\end{center}
+
+
 
 \section{Technical notes}
 
