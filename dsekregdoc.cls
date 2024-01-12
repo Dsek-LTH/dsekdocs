@@ -1,4 +1,4 @@
-%%% Document clas for regulatory documents for the D-guild
+%%% Document class for regulatory documents for the D-guild
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{dsekregdoc}[2022/10/06]

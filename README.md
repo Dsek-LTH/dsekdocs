@@ -91,7 +91,7 @@ $ l3build save -e luatex <name of test>
 
 Documentation for the development of LaTeX packages is kind of scarce; especially so since we are using the relatively modern Expl syntax introduced in LaTeX3. Regardless, some good resources are:
 
-- [The expl3 docuementation](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/expl3.pdf) is a good base for understanding the syntax.
-- [The xparse docuementation](http://mirrors.ctan.org/macros/latex/contrib/l3packages/xparse.pdf) is good for understanding the `xparse` package, which is featured heavily for the introduction of user-facing commands and environments.
+- [The expl3 documentation](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/expl3.pdf) is a good base for understanding the syntax.
+- [The xparse documentation](http://mirrors.ctan.org/macros/latex/contrib/l3packages/xparse.pdf) is good for understanding the `xparse` package, which is featured heavily for the introduction of user-facing commands and environments.
 - [The LaTeX3 interfaces](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/interface3.pdf) is a reference for most things LaTeX3. It describes all the different datatypes and how to use them.
 - The LaTeX Companion is a reference for all kinds of LaTeX concepts, not just LaTeX3.

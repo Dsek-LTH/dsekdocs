@@ -1,4 +1,4 @@
-%% D-sek regulatory documentclass
+%% D-sek regulatory document class
 
 %% Class identification
 \NeedsTeXFormat{LaTeX2e}

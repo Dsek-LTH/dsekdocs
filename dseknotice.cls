@@ -38,8 +38,8 @@
 }
 
 \NewDocumentCommand \issue { m o o } {
-    \stepcounter{issuecounter}
-    §\theissuecounter & #1 & \IfValueTF{#2}{#2}{} & \IfValueTF{#3}{#3}{} \\
+  \stepcounter{issuecounter}
+  §\theissuecounter & #1 & \IfValueTF{#2}{#2}{} & \IfValueTF{#3}{#3}{} \\
 }
 
 \ExplSyntaxOff

@@ -178,7 +178,7 @@
       \rule{\linewidth}{1pt} \\
       \vspace{5mm}
       \tl_if_empty:NF \g_dsek_covp_text_tl
-      {\Large \tl_use:N \g_dsek_covp_text_tl \\[20mm]}
+         {\Large \tl_use:N \g_dsek_covp_text_tl \\[20mm]}
       \Dseksigil[color, height=70mm]
     \end{center}
   \end{titlepage}
