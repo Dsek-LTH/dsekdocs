@@ -101,4 +101,5 @@ Documentation for the development of LaTeX packages is kind of scarce; especiall
 - [The expl3 documentation](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/expl3.pdf) is a good base for understanding the syntax.
 - [The xparse documentation](http://mirrors.ctan.org/macros/latex/contrib/l3packages/xparse.pdf) is good for understanding the `xparse` package, which is featured heavily for the introduction of user-facing commands and environments.
 - [The LaTeX3 interfaces](http://mirrors.ctan.org/macros/latex/contrib/l3kernel/interface3.pdf) is a reference for most things LaTeX3. It describes all the different datatypes and how to use them.
-- The LaTeX Companion is a reference for all kinds of LaTeX concepts, not just LaTeX3.
+- The LaTeX Companion is a useful reference for all kinds of LaTeX concepts, not just LaTeX3.
+- The [lua-visual-debug](https://ctan.org/pkg/lua-visual-debug) package is excellent for debugging layout issues.
