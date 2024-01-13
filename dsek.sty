@@ -134,6 +134,15 @@
   \end{boldlist}
 }
 
+%% Handy commands to be used in att-lists
+\NewDocumentCommand \att { m } {
+  \item #1
+}
+
+\NewDocumentCommand \attdesc { m m } {
+  \item #1 \begin{description} \item #2 \end{description}
+}
+
 %% Signatures
 
 \dim_new:N \g_dsek_sign_space_height

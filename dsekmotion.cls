@@ -27,12 +27,4 @@
   }
 }
 
-%% Handy commands to be used in att-lists
-\NewDocumentCommand \att { m } {
-  \item #1
-}
-\NewDocumentCommand \attdesc { m m } {
-  \item #1 \begin{description} \item #2 \end{description}
-}
-
 \ExplSyntaxOff
