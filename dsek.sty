@@ -10,6 +10,7 @@
 \RequirePackage{xparse}
 \RequirePackage{graphicx}
 \RequirePackage{enumitem}
+\RequirePackage{xcolor}
 
 \str_new:N \g_dsek_image_dir_str
 \str_gset:Nn \g_dsek_image_dir_str { images/ }
@@ -116,7 +117,7 @@
 \tl_new:N \g_dsek_att_list_format_tl
 \tl_set:Nn \g_dsek_att_list_format_tl
    {\stepcounter{DsekAttListItem}
-    {\footnotesize (\arabic{DsekAttListItem})}~\textbf{att}}
+    {\footnotesize {\color{gray}\arabic{DsekAttListItem}}}~\textbf{att}}
 
 \NewDocumentEnvironment{attlist}{} {
   \setcounter{DsekAttListItem}{0}
