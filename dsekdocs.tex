@@ -194,10 +194,11 @@ documents for which the standard style is desired.  It is based of the
 and footers amongst a few other things.
 
 \subsection{Options}
-The \textsf{dsekdoc} document declares two special options:
+The \textsf{dsekdoc} document class takes two special options:
 \begin{description}
-  \item[\texttt{maketitle}] makes \textsf{dsekdoc} not redefine the \cs{maketitle}
-        command (use the \cs{coverpage} command instead).
+  \item[\texttt{titlecoverpage}] makes \textsf{dsekdoc} redefine the
+        \cs{maketitle} command to insert the cover page (like \cs{coverpage}
+        always does).
   \item[\texttt{english}] tells the language package \textsf{polyglossia} that
         the main language for the document is English instead of Swedish.
 \end{description}
@@ -228,8 +229,11 @@ For longer, more important documents it is nice to have a cover page for the
 document.  By default, the cover page is inserted with
 
 \begin{center}
-  \cs{maketitle} or \cs{coverpage}
+  \cs{coverpage}
 \end{center}
+
+By giving the \texttt{titlecoverpage} to the document class, it can also be
+inserted with \cs{maketitle}.
 
 In addition to the guild's name, the guild's sigil and the title of the
 document, the cover page also features a small text that might be used as a
