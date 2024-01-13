@@ -17,9 +17,9 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 
 \bool_new:N \g_dsekdoc_shadow_maketitle_bool
-\bool_set_true:N \g_dsek_shadow_maketitle_bool
+\bool_set_false:N \g_dsek_shadow_maketitle_bool
 
-\DeclareOption{maketitle}{\bool_set_false:N \g_dsek_in_color_bool}
+\DeclareOption{titlecoverpage}{\bool_set_true:N \g_dsek_shadow_maketitle_bool}
 
 \ExplSyntaxOff
 
@@ -79,7 +79,6 @@
 \titleformat*{\section}{\Large\sffamily\bfseries}
 \titleformat*{\subsection}{\large\sffamily\bfseries}
 \titleformat*{\subsubsection}{\sffamily\bfseries}
-
 
 %% Paragraph styling
 \titleformat*{\paragraph}{\sffamily\bfseries}
@@ -164,6 +163,13 @@
 
 \NewDocumentCommand \usecovptext {} {
   \tl_use:N \g_dsek_covp_text_tl
+}
+
+%% Title formatting
+
+\RenewDocumentCommand \maketitle {} {
+  {\LARGE\sffamily\bfseries \usetitle{}}
+  \vspace{0.75em}
 }
 
 %% Cover page

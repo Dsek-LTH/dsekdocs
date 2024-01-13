@@ -18,14 +18,12 @@
 \bool_if:NTF \g_dsek_motion_bool {
   \setshorttitle{Motion}
   \RenewDocumentCommand \settitle { m } {
-    \tl_gset:Nn \g_dsek_title_tl {Motion #1 }
-    \section*{Motion:~ #1}
+    \tl_gset:Nn \g_dsek_title_tl {Motion:~#1 }
   }
 }{
   \setshorttitle{Proposition}
   \RenewDocumentCommand \settitle { m } {
-    \tl_gset:Nn \g_dsek_title_tl {Proposition #1 }
-    \section*{Proposition:~ #1}
+    \tl_gset:Nn \g_dsek_title_tl {Proposition:~#1 }
   }
 }
 
