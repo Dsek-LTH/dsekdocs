@@ -54,6 +54,19 @@
 
 \LoadClass{dsekparagraphed}
 
+%%% Short title
+\str_if_eq:NNT \g_dsek_minutes_type_str
+    \c_dsek_minutes_guild_type_str
+    {\setshorttitle{Sektionsmötesprotokoll}}
+
+\str_if_eq:NNT { \g_dsek_minutes_type_str }
+    { \c_dsek_minutes_board_type_str }
+    {\setshorttitle{Styrelsmöteseprotokoll}}
+
+\str_if_eq:NNT { \g_dsek_minutes_type_str }
+    { \c_dsek_minutes_study_council_type_str }
+    {\setshorttitle{SRD-mötesprotokoll}}
+
 %%% Attendance
 
 \NewDocumentEnvironment{attendance}{ } {
