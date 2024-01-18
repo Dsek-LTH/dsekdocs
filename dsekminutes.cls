@@ -66,4 +66,32 @@
   #1 & \IfValueT{#2}{#2} \\
 }
 
+%%% Text snippets
+
+%%%% Yrkade
+
+\NewDocumentCommand \yrkade { } {
+  \textbf{yrkade~}
+}
+
+%%%% Ändringsyrkade
+
+\NewDocumentCommand \andringsyrkade { } {
+  \textbf{ändringsyrkade~}
+}
+
+\NewDocumentCommand \ändringsyrkade { } {
+  \andringsyrkade
+}
+
+%%%% Beslöt
+
+\NewDocumentCommand \beslot { } {
+  \textbf{beslöt~}
+}
+
+\NewDocumentCommand \beslöt { } {
+  \beslot
+}
+
 \ExplSyntaxOff
