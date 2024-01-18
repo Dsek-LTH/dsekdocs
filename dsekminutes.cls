@@ -54,4 +54,16 @@
 
 \LoadClass{dsekparagraphed}
 
+%%% Attendance
+
+\NewDocumentEnvironment{attendance}{ } {
+  \begin{tabular}{ll}
+} {
+  \end{tabular}
+}
+
+\NewDocumentCommand \person { m o } {
+  #1 & \IfValueT{#2}{#2} \\
+}
+
 \ExplSyntaxOff
