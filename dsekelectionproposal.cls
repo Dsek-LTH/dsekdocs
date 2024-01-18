@@ -13,13 +13,11 @@
 
 \ExplSyntaxOn
 
-\setshorttitle{Valberedningens~förslag}
+\setshorttitle{Valförslag}
 
 \NewDocumentEnvironment{vemsection}{ } {
-  \section*{Valberedningens~förslag~inför~\usemeeting}
-  Valberedningens~förslag~inför~\usemeeting{}~är~följande:
   \begin{multicols}{2}
-} {
+    } {
   \end{multicols}
   \vspace{\baselineskip}
 }
@@ -29,7 +27,7 @@
 \NewDocumentEnvironment{vemlist}{ m } {
   \begin{minipage}{\columnwidth}
     \ifnum\getenumcount{#1}>3 {
-      \textbf{#1}~(\,\getenumcount{#1}~st\,)
+    \textbf{#1}~(\,\getenumcount{#1}~st\,)
     } \else {
       \textbf{#1}
     }
@@ -37,7 +35,7 @@
     \vspace{-0.5em}
     \begin{enumerate}[label=\textbullet]
       \setlength\itemsep{-0.25em}
-} {
+      } {
       \edef\@currentlabel{\arabic{\@enumctr}}\label{#1}
     \end{enumerate}
   \end{minipage}
@@ -50,7 +48,7 @@
   storlek~fem.
   \vspace{\baselineskip}
   \begin{multicols}{2}
-} {
+    } {
   \end{multicols}
 }
 
