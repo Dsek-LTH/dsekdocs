@@ -54,6 +54,12 @@
 
 \LoadClass{dsekparagraphed}
 
+%%% Paragraphing
+
+\setparanumformat{§\arabic{DsekParagraph}} % Set paragraphing style
+
+\dim_set:Nn \g_dsek_para_num_dim {2.5em} % Reduce space for paragraph numbers
+
 %%% Short title
 \str_if_eq:NNT \g_dsek_minutes_type_str
     \c_dsek_minutes_guild_type_str
