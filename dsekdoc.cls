@@ -89,6 +89,19 @@
 \setlength{\parindent}{0mm}
 \setlength{\parskip}{3mm}
 
+%% Dates
+
+% This is done here to account for the langauge set in the last section
+\RequirePackage[useregional]{datetime2}
+
+%% Inserting dates
+
+\NewDocumentCommand \datum { s o m m } {
+  \IfValueF {#2} {\DTMlangsetup*{showyear=false}}
+  \IfValueTF {#2} {\DTMdate{#2-#3-#4}} {\DTMdate{1970-#3-#4}}
+  \IfValueF {#2} {\DTMlangsetup*{showyear=true}}
+}
+
 %% Document properties
 
 % Title
