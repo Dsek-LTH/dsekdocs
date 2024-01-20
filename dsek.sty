@@ -112,26 +112,48 @@
   \end{itemize}
 }
 
+%%% Att lists
+
 \newcounter{DsekAttListItem}
 
-\tl_new:N \g_dsek_att_list_format_tl
-\tl_set:Nn \g_dsek_att_list_format_tl
+\tl_const:Nn \c_dsek_att_list_enumerated_format_tl
    {\stepcounter{DsekAttListItem}
-    {\footnotesize {\color{gray}\arabic{DsekAttListItem}}}~\textbf{att}}
+     {\footnotesize {\color{gray}\arabic{DsekAttListItem}}}~\textbf{att}}
 
-\NewDocumentEnvironment{attlist}{} {
+\tl_const:Nn \c_dsek_att_list_plain_format_tl {\textbf{att}}
+
+\bool_new:N \l__dsek_enumerate_bool
+\tl_new:N \l__dsek_att_list_format_tl
+
+\NewDocumentEnvironment{attlist}{ o } {
   \setcounter{DsekAttListItem}{0}
 
-  \begin{itemize}[label={\tl_use:N \g_dsek_att_list_format_tl},
+  \group_begin:
+  \bool_set_true:N \l__dsek_enumerate_bool
+
+  \keys_define:nn { dsek / attlist } { % Declare option keys
+    num .bool_set:N = \l__dsek_enumerate_bool,
+    num .default:n = {true},
+
+    nonum .bool_set_inverse:N = \l__dsek_enumerate_bool,
+    nonum .default:n = {true},
+  }
+
+  \IfValueT{#1} {\keys_set:nn { dsek / attlist } { #1 }} % Process them
+
+  \bool_if:NTF \l__dsek_enumerate_bool {
+    \tl_gset_eq:NN \l__dsek_att_list_format_tl
+                   \c_dsek_att_list_enumerated_format_tl
+  } {
+    \tl_gset_eq:NN \l__dsek_att_list_format_tl
+                   \c_dsek_att_list_plain_format_tl
+  }
+
+  \begin{itemize}[label={\tl_use:N \l__dsek_att_list_format_tl},
                   labelsep=.5em]
 } {
   \end{itemize}
-}
-
-\NewDocumentEnvironment{attlist*}{} { % Simpler version without numbering
-  \begin{boldlist}{att}
-} {
-  \end{boldlist}
+  \group_end:
 }
 
 %% Handy commands to be used in att-lists
