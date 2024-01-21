@@ -58,6 +58,46 @@
   \end{description}
 }
 
+\bool_new:N \g__dsek_para_begun_bool % Whether the current parasection has begun
+
+\cs_new:Nn \__dsek_para_begin_possible_section: {
+  \bool_gset_false:N \g__dsek_para_begun_bool
+}
+\cs_new:Nn \__dsek_para_end_possible_section: {
+  \bool_if:NT \g__dsek_para_begun_bool {
+    \end{parasection}
+  }
+}
+
+\hook_gput_code:nnn {begindocument/end} {parasection} { % Start of document
+  \__dsek_para_begin_possible_section:
+}
+
+\hook_gput_code:nnn {enddocument} {parasection} { % End of document
+  \__dsek_para_end_possible_section:
+}
+
+\cs_set_eq:NN \__dsek_oldsection:n \section % Sections
+\RenewDocumentCommand \section { m } {
+  \__dsek_para_end_possible_section:
+  \__dsek_oldsection:n{#1}
+  \__dsek_para_begin_possible_section:
+}
+
+\cs_set_eq:NN \__dsek_oldsubsection:n \subsection % Subsections
+\RenewDocumentCommand \subsection { m } {
+  \__dsek_para_end_possible_section:
+  \__dsek_oldsubsection:n{#1}
+  \__dsek_para_begin_possible_section:
+}
+
+\cs_set_eq:NN \__dsek_oldsubsubsection:n \subsubsection % Subsubsections
+\NewDocumentCommand \subbsubsection { m } {
+  \__dsek_para_end_possible_section:
+  \__dsek_oldsubsubsection:n{#1}
+  \__dsek_para_begin_possible_section:
+}
+
 % This command creates a § label from a given number and label
 \cs_new_protected:Npn \__dsek_para_label:nn #1#2 {
   \makebox[\g_dsek_para_num_dim][l]{\hypertarget{par:#1}{#1}}
@@ -68,6 +108,12 @@
 % creates an entry in a surrounding `regsection` for it.
 
 \NewDocumentCommand \paraitem { o m } {
+  %% If the parasection hasn't begun yet, do so.
+  \bool_if:NF \g__dsek_para_begun_bool {
+    \begin{parasection}
+    \bool_gset_true:N \g__dsek_para_begun_bool
+  }
+
   \IfValueTF{#1} {
     \item[\__dsek_para_label:nn{#1}{#2}]
   }{
