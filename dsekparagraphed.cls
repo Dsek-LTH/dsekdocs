@@ -37,7 +37,26 @@
 
 % Format for the § number
 \tl_new:N \g_dsek_para_num_format_tl
-\tl_set:Nn \g_dsek_para_num_format_tl {§\arabic{section} . \arabic{DsekParagraph}}
+
+\tl_const:Nn \c_dsek_para_top_level_format_tl
+   {§ \arabic{DsekParagraph}}
+
+\tl_const:Nn \c_dsek_para_section_format_tl
+   {§ \arabic{section}
+    . \arabic{DsekParagraph}}
+
+\tl_const:Nn \c_dsek_para_subsection_format_tl
+   {§ \arabic{section}
+    . \arabic{subsection}
+    . \arabic{DsekParagraph}}
+
+\tl_const:Nn \c_dsek_para_subsubsection_format_tl
+   {§ \arabic{section}
+    . \arabic{subsection}
+    . \arabic{subsubsection}
+    . \arabic{DsekParagraph}}
+
+\tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_top_level_format_tl
 
 \NewDocumentCommand{\setparanumformat}{ m }{
   \tl_gset:Nn \g_dsek_para_num_format_tl { #1 }
@@ -81,6 +100,7 @@
 \RenewDocumentCommand \section { m } {
   \__dsek_para_end_possible_section:
   \__dsek_oldsection:n{#1}
+  \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_section_format_tl
   \__dsek_para_begin_possible_section:
 }
 
@@ -88,6 +108,7 @@
 \RenewDocumentCommand \subsection { m } {
   \__dsek_para_end_possible_section:
   \__dsek_oldsubsection:n{#1}
+  \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_subsection_format_tl
   \__dsek_para_begin_possible_section:
 }
 
@@ -95,6 +116,7 @@
 \NewDocumentCommand \subbsubsection { m } {
   \__dsek_para_end_possible_section:
   \__dsek_oldsubsubsection:n{#1}
+  \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_subsubsection_format_tl
   \__dsek_para_begin_possible_section:
 }
 
