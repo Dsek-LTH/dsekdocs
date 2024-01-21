@@ -56,8 +56,6 @@
 
 %%% Paragraphing
 
-\setparanumformat{§\arabic{DsekParagraph}} % Set paragraphing style
-
 \dim_set:Nn \g_dsek_para_num_dim {2.5em} % Reduce space for paragraph numbers
 
 %%% Short title
