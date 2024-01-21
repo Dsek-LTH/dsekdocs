@@ -114,6 +114,9 @@
 
 %%% Att lists
 
+\newcounter{DsekAttList} % Number of att-lists
+\setcounter{DsekAttList}{0}
+
 \newcounter{DsekAttListItem}
 
 \tl_const:Nn \c_dsek_att_list_enumerated_format_tl
@@ -125,11 +128,24 @@
 \bool_new:N \l__dsek_enumerate_bool
 \tl_new:N \l__dsek_att_list_format_tl
 
+\NewDocumentCommand \attlistformat { } {
+  \tl_use:N \l__dsek_att_list_format_tl
+}
+
 \NewDocumentEnvironment{attlist}{ o } {
   \setcounter{DsekAttListItem}{0}
+  \stepcounter{DsekAttList}
 
   \group_begin:
-  \bool_set_true:N \l__dsek_enumerate_bool
+
+  % We use attlist:<num> labels to know the item count of attlists so that we
+  % can number them dynamically.  If there are more than 3 items we want to
+  % enumerate them.
+  \int_compare:nNnTF {\getrefnumber{attlist:\arabic{DsekAttList}}} > {3}{
+    \bool_set_true:N \l__dsek_enumerate_bool
+  } {
+    \bool_set_false:N \l__dsek_enumerate_bool
+  }
 
   \keys_define:nn { dsek / attlist } { % Declare option keys
     num .bool_set:N = \l__dsek_enumerate_bool,
@@ -139,7 +155,7 @@
     nonum .default:n = {true},
   }
 
-  \IfValueT{#1} {\keys_set:nn { dsek / attlist } { #1 }} % Process them
+  \IfValueT{#1} {\keys_set:nn { dsek / attlist } { #1 }} % Process keys
 
   \bool_if:NTF \l__dsek_enumerate_bool {
     \tl_gset_eq:NN \l__dsek_att_list_format_tl
@@ -149,10 +165,13 @@
                    \c_dsek_att_list_plain_format_tl
   }
 
-  \begin{itemize}[label={\tl_use:N \l__dsek_att_list_format_tl},
-                  labelsep=.5em]
+  \begin{enumerate}[label=\attlistformat,
+                    labelsep=.5em,]
+
 } {
-  \end{itemize}
+  \tl_set:Nx \@currentlabel { \arabic{\@enumctr} }
+  \label{attlist:\arabic{DsekAttList}}
+  \end{enumerate}
   \group_end:
 }
 
