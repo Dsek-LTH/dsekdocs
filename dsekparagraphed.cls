@@ -58,10 +58,6 @@
 
 \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_top_level_format_tl
 
-\NewDocumentCommand{\setparanumformat}{ m }{
-  \tl_gset:Nn \g_dsek_para_num_format_tl { #1 }
-}
-
 \NewDocumentEnvironment{parasection}{}{
   \setcounter{DsekParagraph}{0}
 
