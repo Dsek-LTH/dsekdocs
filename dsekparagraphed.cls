@@ -138,8 +138,9 @@
   }
 }
 
-% This sets the format for \sections.
-\titleformat{\section}{\sffamily\LARGE\bfseries}{\thesection.}{0.5em}{\LARGE}
+%% Adjust format of sections
+\titleformat{\section}{\tl_use:N \c_dsek_section_format_tl}
+            {\thesection.}{0.5em}{\Large}
 \titlespacing*{\section}{0mm}{0mm}{2.5mm}
 
 \ExplSyntaxOff

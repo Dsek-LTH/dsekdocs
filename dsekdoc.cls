@@ -76,7 +76,10 @@
 }
 
 %% Section styling
-\titleformat*{\section}{\Large\sffamily\bfseries}
+
+\tl_const:Nn \c_dsek_section_format_tl {\Large\sffamily\bfseries}
+
+\titleformat*{\section}{\tl_use:N \c_dsek_section_format_tl}
 \titleformat*{\subsection}{\large\sffamily\bfseries}
 \titleformat*{\subsubsection}{\sffamily\bfseries}
 
