@@ -24,14 +24,15 @@ The package `dsek` depends on
 
 The document class `dsekdoc` depends on
 
-- dsek
-- fontspec†
-- polyglossia†
 - calc
+- dsek
+- datetime2
+- fontspec†
 - geometry
-- titlesec
 - hyperref
 - lastpage
+- polyglossia†
+- titlesec
 
 All document classes depend on `dsekdoc`, but some have additional dependencies:
 
