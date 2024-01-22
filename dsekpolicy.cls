@@ -27,8 +27,6 @@
 % alternative command
 \NewDocumentCommand \policyför { m } { \settitle{ #1 } }
 
-\RenewDocumentCommand \maketitle {} {\section*{ \usetitle }}
-
 \setshorttitle{Policy}
 
 \ExplSyntaxOff

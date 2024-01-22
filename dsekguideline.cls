@@ -27,8 +27,6 @@
 % intuitive, alternative command
 \NewDocumentCommand \riktlinjeför { m } {\settitle{ #1 }}
 
-\RenewDocumentCommand \maketitle {} {\section*{ \usetitle }}
-
 \setshorttitle{Riktlinje}
 
 \ExplSyntaxOff
