@@ -122,10 +122,8 @@
   \parbox[t]{\g_dsek_para_label_dim}{#2}
 }
 
-% This is a user facing command that takes the number and name of a § and
-% creates an entry in a surrounding `regsection` for it.
-
-\NewDocumentCommand \paraitem { o m } {
+% Shadow the paragraph command so that it matches semantically for the user.
+\RenewDocumentCommand \paragraph { o m } {
   %% If the parasection hasn't begun yet, do so.
   \bool_if:NF \g__dsek_para_begun_bool {
     \begin{parasection}
