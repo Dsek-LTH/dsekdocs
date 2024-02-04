@@ -254,9 +254,33 @@
   \renewcommand{\arraystretch}{1}
 }
 
+%% Make an alias in swedish for easier discoverability.
+%% TODO: Make this less atrocious
+\NewDocumentEnvironment{dagordning} { o o o } {
+  \IfValueTF{#3}{
+    \begin{agenda}[#1][#2][#3]
+  } {
+    \IfValueTF{#2}{
+      \begin{agenda}[#1][#2]
+    } {
+      \IfValueTF{#1}{
+        \begin{agenda}[#1]
+      } {
+        \begin{agenda}
+      }
+    }
+  }
+} {
+  \end{agenda}
+}
+
 \NewDocumentCommand \issue { m o o } {
   \stepcounter{issuecounter}
   §\theissuecounter & #1 & \IfValueTF{#2}{#2}{} & \IfValueTF{#3}{#3}{} \\
+}
+
+\NewDocumentCommand \punkt { m o o } {
+  \issue{#1}[\IfValueTF{#2}{#2}{}][\IfValueTF{#3}{#3}{}]
 }
 
 %% LTH symbols
