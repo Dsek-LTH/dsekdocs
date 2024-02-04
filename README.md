@@ -5,6 +5,7 @@
 - [`dsekdoc.cls`](dsekdoc.cls) is the root document class.
   - [`dsekmotion.cls`](dsekmotion.cls). Used for motions and propositions. (Motioner och propositioner)
   - [`dseknotice.cls`](dseknotice.cls). Used for notices. (Kallelser)
+  - [`dsekdocket.cls`](dsekdocket.cls). Used for dockets. (Föredragningslistor)
   - [`dsekelectionproposal.cls`](dsekelectionproposal.cls). Used for election proposals. (Valberedningens förslag)
   - [`dsekparagraphed.cls`](dsekparagraphed.cls). Used for documents with enumerated paragraphs.
     - [`dsekminutes.cls`](dsekminutes.cls). Used for meeting minutes. (Protokoll)
