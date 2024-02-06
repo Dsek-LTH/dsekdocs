@@ -84,6 +84,11 @@
   }
 }
 
+\NewDocumentCommand \endParagraphed {} {
+  \__dsek_para_end_possible_section:
+  \bool_gset_false:N \g__dsek_para_begun_bool
+}
+
 \hook_gput_code:nnn {begindocument/end} {parasection} { % Start of document
   \__dsek_para_begin_possible_section:
 }
