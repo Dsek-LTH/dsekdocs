@@ -97,27 +97,39 @@
   \__dsek_para_end_possible_section:
 }
 
-\cs_set_eq:NN \__dsek_oldsection:n \section % Sections
-\RenewDocumentCommand \section { m } {
+\cs_set_eq:Nc \__dsek_oldsection:n {section} % Sections
+\RenewDocumentCommand \section { s m } {
   \__dsek_para_end_possible_section:
-  \__dsek_oldsection:n{#1}
-  \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_section_format_tl
+  \bool_if:NTF {#1} {
+    \__dsek_oldsection:n*{#2}
+  } {
+    \__dsek_oldsection:n{#2}
+    \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_section_format_tl
+  }
   \__dsek_para_begin_possible_section:
 }
 
-\cs_set_eq:NN \__dsek_oldsubsection:n \subsection % Subsections
-\RenewDocumentCommand \subsection { m } {
+\cs_set_eq:Nc \__dsek_oldsubsection:n {subsection} % Subsections
+\RenewDocumentCommand \subsection { s m } {
   \__dsek_para_end_possible_section:
-  \__dsek_oldsubsection:n{#1}
-  \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_subsection_format_tl
+  \IfBooleanTF{#1} {
+    \__dsek_oldsubsection:n*{#2}
+  } {
+    \__dsek_oldsubsection:n{#2}
+    \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_subsection_format_tl
+  }
   \__dsek_para_begin_possible_section:
 }
 
-\cs_set_eq:NN \__dsek_oldsubsubsection:n \subsubsection % Subsubsections
-\NewDocumentCommand \subbsubsection { m } {
+\cs_set_eq:Nc \__dsek_oldsubsubsection:n {subsubsection} % Subsubsections
+\NewDocumentCommand \subbsubsection { s m } {
   \__dsek_para_end_possible_section:
-  \__dsek_oldsubsubsection:n{#1}
-  \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_subsubsection_format_tl
+  \IfBooleanTF{#1} {
+    \__dsek_oldsubsubsection:n*{#2}
+  } {
+    \__dsek_oldsubsubsection:n{#2}
+    \tl_gset_eq:NN \g_dsek_para_num_format_tl \c_dsek_para_subsubsection_format_tl
+  }
   \__dsek_para_begin_possible_section:
 }
 
