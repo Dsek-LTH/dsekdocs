@@ -7,6 +7,7 @@
   - [`dseknotice.cls`](dseknotice.cls). Used for notices. (Kallelser)
   - [`dsekdocket.cls`](dsekdocket.cls). Used for dockets. (Föredragningslistor)
   - [`dsekelectionproposal.cls`](dsekelectionproposal.cls). Used for election proposals. (Valberedningens förslag)
+  - [`dsekrequirementsprofile.cls`](dsekrequirementsprofile.cls). Used for requirements profiles. (Kravprofiler)
   - [`dsekparagraphed.cls`](dsekparagraphed.cls). Used for documents with enumerated paragraphs.
     - [`dsekminutes.cls`](dsekminutes.cls). Used for meeting minutes. (Protokoll)
     - [`dsekregdoc.cls`](dsekregdoc.cls). Used for regulatory documents. (Styrdokument)
