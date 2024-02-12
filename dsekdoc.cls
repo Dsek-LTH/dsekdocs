@@ -288,14 +288,16 @@
 \newcounter{attachmentcounter}
 \setcounter{attachmentcounter}{0}
 
-\NewDocumentCommand \attachment { m } {
-  \stepcounter{attachmentcounter}
-  \href{ #1 }{ \arabic{attachmentcounter} }
+\NewDocumentCommand \attachment { o m } {
+  \IfValueTF{#1} {
+    \href{ #2 }{ #1 }
+  } {
+    \stepcounter{attachmentcounter}
+    \href{ #2 }{\arabic{attachmentcounter}}
+  }
 }
 
-\NewDocumentCommand \bilaga { m } {
-  \attachment{ #1 }
-}
+\cs_set_eq:NN \bilaga \attachment
 
 %% LTH symbols
 
