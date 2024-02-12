@@ -283,6 +283,20 @@
   \issue{#1}[\IfValueTF{#2}{#2}{}][\IfValueTF{#3}{#3}{}]
 }
 
+% Attachments
+
+\newcounter{attachmentcounter}
+\setcounter{attachmentcounter}{0}
+
+\NewDocumentCommand \attachment { m } {
+  \stepcounter{attachmentcounter}
+  \href{ #1 }{ \arabic{attachmentcounter} }
+}
+
+\NewDocumentCommand \bilaga { m } {
+  \attachment{ #1 }
+}
+
 %% LTH symbols
 
 \newfontfamily{\lthsymbols}{lthsymbols}[Extension = .otf]
