@@ -84,7 +84,7 @@
   }
 }
 
-\NewDocumentCommand \endParagraphed {} {
+\NewDocumentCommand \endparagraphed {} {
   \__dsek_para_end_possible_section:
   \bool_gset_false:N \g__dsek_para_begun_bool
 }
