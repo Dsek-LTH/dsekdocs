@@ -279,9 +279,7 @@
   §\theissuecounter & #1 & \IfValueTF{#2}{#2}{} & \IfValueTF{#3}{#3}{} \\
 }
 
-\NewDocumentCommand \punkt { m o o } {
-  \issue{#1}[\IfValueTF{#2}{#2}{}][\IfValueTF{#3}{#3}{}]
-}
+\cs_gset_eq:NN \punkt \issue
 
 %% LTH symbols
 

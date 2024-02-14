@@ -23,9 +23,10 @@
   \title{ \tl_use:N \l_tmpa_tl }
 }
 
-% Since the redefined \settitle adds "Policy för", introduce a more intuitive,
-% alternative command
-\NewDocumentCommand \policyför { m } { \settitle{ #1 } }
+% Since the redefined \settitle adds "Policy för", introduce alternative, more
+% intuitive, commands
+\cs_gset_eq:NN \policyfor \settitle
+\cs_gset_eq:NN \policyför \settitle
 
 \setshorttitle{Policy}
 

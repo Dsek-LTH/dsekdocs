@@ -25,7 +25,7 @@
 
 % Since the redefined \settitle adds "Riktlinje för", introduce a more
 % intuitive, alternative command
-\NewDocumentCommand \riktlinjeför { m } {\settitle{ #1 }}
+\cs_gset_eq:NN \riktlinjeför \settitle
 
 \setshorttitle{Riktlinje}
 

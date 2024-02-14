@@ -97,9 +97,7 @@
   \textbf{ändringsyrkade~}
 }
 
-\NewDocumentCommand \ändringsyrkade { } {
-  \andringsyrkade
-}
+\cs_gset_eq:NN \ändringsyrkade \andringsyrkade
 
 %%%% Beslöt
 
@@ -107,8 +105,6 @@
   \textbf{beslöt~}
 }
 
-\NewDocumentCommand \beslöt { } {
-  \beslot
-}
+\cs_gset_eq:NN \beslöt \beslot
 
 \ExplSyntaxOff
