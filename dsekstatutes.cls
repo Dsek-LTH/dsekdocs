@@ -1,4 +1,4 @@
-%%% Document clas for the statutes of the D-guild
+%%% Document class for the statutes of the D-guild
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{dsekstatutes}[2023/10/28]

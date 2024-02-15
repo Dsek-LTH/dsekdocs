@@ -117,13 +117,16 @@
 \newcounter{DsekAttList} % Number of att-lists
 \setcounter{DsekAttList}{0}
 
-\newcounter{DsekAttListItem}
+\newcounter{DsekAttListItem} % Item in the att-list
 
-\tl_const:Nn \c_dsek_att_list_enumerated_format_tl
-   {\stepcounter{DsekAttListItem}
-     {\footnotesize {\color{gray}\arabic{DsekAttListItem}}}~\textbf{att}}
+\tl_const:Nn \c_dsek_att_list_enumerated_format_tl {
+  \stepcounter{DsekAttListItem}
+  {\footnotesize {\color{gray}\arabic{DsekAttListItem}}}~\textbf{att}
+}
 
-\tl_const:Nn \c_dsek_att_list_plain_format_tl {\textbf{att}}
+\tl_const:Nn \c_dsek_att_list_plain_format_tl {
+  \textbf{att}
+}
 
 \bool_new:N \l__dsek_enumerate_bool
 \tl_new:N \l__dsek_att_list_format_tl
@@ -212,20 +215,23 @@
   \settowidth{\l_tmpa_dim}{#3}
 
   \dim_set:Nn \l__dsek_sign_width {
-    \dim_max:nn {\l_tmpa_dim} {\l__dsek_sign_width}}
+    \dim_max:nn {\l_tmpa_dim} {\l__dsek_sign_width}
+  }
 
   \settowidth{\l_tmpa_dim}{#4}
 
   \dim_set:Nn \l__dsek_sign_width {
-    \dim_max:nn {\l_tmpa_dim} {\l__dsek_sign_width}}
+    \dim_max:nn {\l_tmpa_dim} {\l__dsek_sign_width}
+  }
 
   \dim_set:Nn \l__dsek_sign_width {
-    \dim_max:nn {\g_dsek_sign_space_min_width} {\l__dsek_sign_width}}
+    \dim_max:nn {\g_dsek_sign_space_min_width} {\l__dsek_sign_width}
+  }
 
   \keys_define:nn { dsek / signatures } {
     hspace   .dim_set:N = \l__dsek_sign_space_height,
     width    .dim_set:N = \l__dsek_sign_width,
-    signfile .str_set:N = \l__dsek_sign_filename
+    signfile .str_set:N = \l__dsek_sign_filename_tl
   }
 
   \IfValueT{#1} {\keys_set:nn { dsek / signatures } { #1 }}
@@ -233,16 +239,16 @@
   \begin{tabular}{l}
     #2 \\
     \parbox[c][\l__dsek_sign_space_height]{\l__dsek_sign_width}{
-      \str_if_empty:NF \l__dsek_sign_filename {
+      \str_if_empty:NF \l__dsek_sign_filename_tl {
         \includegraphics[
           keepaspectratio=true,
           width=\l__dsek_sign_width,
           height=\g_dsek_sign_space_height
         ] {
-          \tl_use:N \l__dsek_sign_filename
+          \tl_use:N \l__dsek_sign_filename_tl
         }
       }
-    } \\
+    }  \\
     #3 \\
     #4 \\
     \phantom{}

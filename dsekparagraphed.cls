@@ -98,6 +98,7 @@
 }
 
 \cs_set_eq:Nc \__dsek_oldsection:n {section} % Sections
+
 \RenewDocumentCommand \section { s m } {
   \__dsek_para_end_possible_section:
   \bool_if:NTF {#1} {
@@ -110,6 +111,7 @@
 }
 
 \cs_set_eq:Nc \__dsek_oldsubsection:n {subsection} % Subsections
+
 \RenewDocumentCommand \subsection { s m } {
   \__dsek_para_end_possible_section:
   \IfBooleanTF{#1} {
@@ -122,6 +124,7 @@
 }
 
 \cs_set_eq:Nc \__dsek_oldsubsubsection:n {subsubsection} % Subsubsections
+
 \NewDocumentCommand \subbsubsection { s m } {
   \__dsek_para_end_possible_section:
   \IfBooleanTF{#1} {

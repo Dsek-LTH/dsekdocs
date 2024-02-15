@@ -27,20 +27,20 @@
    {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_study_council_type_str}
 
 %% Alternative options for easier access
+\DeclareOption{styr}
+   {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_board_type_str}
 \DeclareOption{styrelsen}
    {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_board_type_str}
 \DeclareOption{styrelsemöte}
    {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_board_type_str}
-\DeclareOption{styr}
-   {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_board_type_str}
 
+\DeclareOption{sekt}
+   {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_guild_type_str}
 \DeclareOption{sektion}
    {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_guild_type_str}
 \DeclareOption{sektionen}
    {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_guild_type_str}
 \DeclareOption{sektionsmöte}
-   {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_guild_type_str}
-\DeclareOption{sekt}
    {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_guild_type_str}
 
 \DeclareOption{srd}
