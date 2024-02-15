@@ -9,7 +9,7 @@
   pdftitle={dsekdocs manual},
   pdfsubject={Manual for the dsekdocs LaTeX package},
 ]{hyperref}
-\usepackage{dsek}
+\usepackage[color]{dsek}
 \usepackage{array}
 \setlength{\parindent}{0mm}
 \setlength{\parskip}{3mm}
@@ -91,7 +91,7 @@ taken or the proposed actions in motions, facilities to create them are provided
 
 \begin{center}
   \begin{tabular}{l}
-    \cs{begin\{attlist\}} \\
+    \cs{begin\{attlist\}}\oarg{options} \\
     \ldots                \\
     \cs{end\{attlist\}}
   \end{tabular}
@@ -118,18 +118,67 @@ For example:
     \end{minipage}
   \end{tabular}
 \end{center}
-To be somewhat coherent with \LaTeX's naming scheme, an ``att-lista''
-can be created without enumeration by instead using the \texttt{attlist*} environment.
+
+If the number of items in the list exceeds three, they are automatically
+enumerated:
+
 \begin{center}
-  \begin{tabular}{l}
-    \cs{begin\{attlist*\}} \\
-    \ldots                 \\
-    \cs{end\{attlist*\}}
+  \begin{tabular}{l | l}
+    \begin{minipage}{0.5\linewidth}
+      \texttt{Mötet beslutade} \\
+      \cs{begin\{attlist\}}\\
+      \cs{item} \texttt{alla bananer ska vara raka,} \\
+      \cs{item} \texttt{öka kaffebudgeten,} \\
+      \cs{item} \texttt{vara, eller} \\
+      \cs{item} \texttt{inte vara.} \\
+      \cs{end\{attlist\}}
+    \end{minipage}
+     &
+    \begin{minipage}{0.5\linewidth}
+      Mötet beslutade
+      \begin{attlist}
+      \item alla bananer ska vara raka,
+      \item öka kaffebudgeten,
+      \item vara, eller
+      \item inte vara.
+      \end{attlist}
+    \end{minipage}
   \end{tabular}
 \end{center}
 
-If you would like to create a list in the same style but with another word in
-place of \textit{att}, use the \texttt{boldlist} environment:
+The \texttt{attlist} environement also accepts optional arguments:
+
+\begin{description}
+  \item[\texttt{num}] Forces the list to be enumerated.
+  \item[\texttt{nonum}] Forces the list to \emph{not} be enumerated.
+\end{description}
+
+For the users convenience, provided are also a couple of commands for
+items. \cs{att} is a shorthand for \cs{item}, and \cs{attdesc} includes a
+description of the item. The commands can be used like this:
+
+\begin{center}
+  \begin{tabular}{l | l}
+    \begin{minipage}{0.5\linewidth}
+      \cs{begin\{attlist\}}                            \\
+      \cs{att} \texttt{sänka ribban,}\\
+      \cs{attdesc}\texttt{\{höja ribban vid nästa fullmåne.\}\{Nästa fullmåne är 24
+          februari.\}} \\
+      \cs{end\{attlist\}}
+      \end{minipage}
+     &
+    \begin{minipage}{0.5\linewidth}
+      Mötet beslutade
+      \begin{attlist}
+        \att sänka ribban
+        \attdesc{höja ribban vid nästa fullmåne}{Nästa fullmåne är 24 februari.}
+      \end{attlist}
+    \end{minipage}
+  \end{tabular}
+\end{center}
+
+If you would like to create a list in the same style as the att-lists but with
+another word in place of \textit{att}, use the \texttt{boldlist} environment:
 
 \begin{center}
   \begin{tabular}{l}
@@ -304,20 +353,6 @@ document class has two options to switch between them:
   \item[\texttt{motion}] makes the document a motion. This is the default and can be omitted.
   \item[\texttt{proposition}] makes the document a proposition.
 \end{description}
-
-\subsection{Commands}
-Because users of the \textsf{dsekmotion} document class are expected to use the
-\textsf{attlist} environment, the document class provides an alternative way of
-writing items in the list. \cs{att} is a shorthand for \cs{item}, and \cs{attdesc}
-includes a description of the item. The commands can be used like this:
-\begin{center}
-  \begin{tabular}{l}
-    \cs{begin\{attlist\}}                            \\
-    \cs{att}\marg{clause text}                       \\
-    \cs{attdesc}\marg{clause text}\marg{description} \\
-    \cs{end\{attlist\}}
-  \end{tabular}
-\end{center}
 
 \section{The \textsf{dseknotice} document class}
 The \textsf{dseknotice} document class is meant to be used for creating notices.
