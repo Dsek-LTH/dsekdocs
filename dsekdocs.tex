@@ -20,10 +20,42 @@
 \begin{document}
 \maketitle
 
+\tableofcontents
+
 \section{Overview}
 This is the manual for version 0.1.1 of the \textsf{dsekdocs} packages for the
 typesetting of documents for the D-guild within Teknologkåren at the Faculty of
 Engineering LTH, Lund University.
+
+\textsf{dsekdocs} consists of one package and 13 document classes.  All 13
+document classes depend on the package, \textsf{dsek}.  The document classes are
+based on each other like this:
+
+\begin{itemize}
+\item \textsf{dsekdoc}
+  \begin{itemize}
+  \item \textsf{dsekmotion}
+  \item \textsf{dseknotice}
+  \item \textsf{dsekdocket}
+  \item \textsf{dsekelectionproposal}
+  \item \textsf{dsekrequirementprofile}
+  \item \textsf{dsekparagraphed}
+    \begin{itemize}
+    \item \textsf{dsekminutes}
+    \item \textsf{dsekregdoc}
+      \begin{itemize}
+      \item \textsf{dsekstatutes}
+      \item \textsf{dsekregulations}
+      \item \textsf{dsekpolicy}
+      \item \textsf{dsekguideline}
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\textsf{dsekdoc}, \textsf{dsekparagraphed} and \textsf{dsekregdoc} are the most
+important classes with the others mostly acting as thin wrappers around these
+three.
 
 \section{The \textsf{dsek} package}
 This package contains macros for the inclusion of D-guild related stuff in any
