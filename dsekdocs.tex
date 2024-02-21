@@ -225,14 +225,15 @@ multiple):
 \end{description}
 
 \section{The \textsf{dsekdoc} document class}
-The \textsf{dsekdoc} document class is meant to be used for any guild related
-documents for which the standard style is desired.  It is based of the
+The \textsf{dsekdoc} document class is meant as a base to create more specific
+document classes upon, but can also be used for any guild related documents for
+which there doesn't exist a specific document class.  It is based of the
 \textsf{article} document class, but changes fonts, paragraph styles, headers
 and footers amongst a few other things.
 
 \subsection{Fonts}
-The \textsf{dsek} package uses the free Domitian and \TeX Gyre Heros as stand
-ins for non-free Palatino and Helvetica fonts.
+The \textsf{dsekdoc} document class uses the free Domitian and \TeX Gyre Heros
+as stand ins for non-free Palatino and Helvetica fonts.
 
 It is worth noting that it by default uses old style figures, i.e. ``lower case
 numbers'', by default.  If you want to turn that off somewhere, like maybe in a
@@ -298,6 +299,59 @@ To use any of the properties we have described in this section, change the
 \cs{settitle} command in your document, you write \cs{usetitle} and it will be
 inserted.
 
+\subsection{The agenda environment}
+The \textsf{dseknotice} document class provides a document environemtn for
+creating agendas for meetings and to populate them with issues.  The agenda is
+essentially a list of issues in a table format, containing four columns, where
+the first one is used for enumerating. The \textsf{issue} requires a title of
+the issue as the first argument, and provides two optional arguments for the
+type of action for the issue and attachments. The argument included for
+attachments could be a link to the attachments.
+
+\begin{center}
+  \begin{tabular}{l}
+    \cs{begin\{agenda\}}                                  \\
+    \cs{issue}\marg{title}                                \\
+    \cs{issue}\marg{title}\oarg{action}                   \\
+    \cs{issue}\marg{title}\oarg{action}\oarg{attachments} \\
+    \cs{end\{agenda\}}
+  \end{tabular}
+\end{center}
+
+The default headers for the agenda table are ``Ärende'', ``Åtgärd'' and
+``Bilaga''. If users want to customize this, the \textsf{agenda} environment
+takes three optional arguments for the table headers and can be used like this:
+
+\begin{center}
+  \begin{tabular}{l}
+    \cs{begin\{agenda\}\oarg{header 1}\oarg{header 2}\oarg{header 3}} \\
+    \ldots                                                            \\
+    \cs{end\{agenda\}}
+  \end{tabular}
+\end{center}
+
+The \texttt{dagordning} environment is an alias to the \texttt{agenda} one, so
+they are equivalent.  Likewise, the \cs{punkt} command is an alias to
+\cs{issue}.
+
+\subsection{Attachments}
+
+One thing that often goes hand in hand with agendas are attachments
+(sv. bilagor) to them.  As they can be tedious to manage manually, the
+\texttt{dsekdoc} class provides a command:
+
+\begin{center}
+  \cs{attachment}\oarg{alternative name}\marg{URL}
+\end{center}
+
+Attachments usually render just as a number and are automatically counted for
+you.  Should you want an attachment with another name, you can pass it as an
+optional argument.  This excludes it from the automatic numbering.
+
+The \cs{bilaga} command is an alias for the \cs{attachment} command.
+
+\subsection{Symbols}
+
 \section{The \textsf{dsekparagraphed} document class}
 The \textsf{dsekparagraphed} document class is meant to be used for the creation
 of guild documents that use a paragraphed structure, e.g. regulatory documents
@@ -357,38 +411,6 @@ document class has two options to switch between them:
 \section{The \textsf{dseknotice} document class}
 The \textsf{dseknotice} document class is meant to be used for creating notices.
 These notices may or may not include an agenda for the meeting.
-
-\subsection{Commands}
-The \textsf{dseknotice} document class provides a command to create an agenda environment
-and populate it with issues. The agenda is essentially a list of issues in a table format,
-containing four columns, where the first one is used for enumerating. The \textsf{issue}
-requires a title of the issue as the first argument, and provides two optional arguments
-for the type of action for the issue and attachments. The argument included for attachments
-could be a link to the attachments.
-
-\begin{center}
-  \begin{tabular}{l}
-    \cs{begin\{agenda\}}                                \\
-    \cs{issue}\marg{title}                              \\
-    \cs{issue}\marg{title}\oarg{type}                   \\
-    \cs{issue}\marg{title}\oarg{type}\oarg{attachments} \\
-    \cs{issue}\marg{title}[~]\oarg{attachments}         \\
-    \cs{end\{agenda\}}
-  \end{tabular}
-\end{center}
-
-The default headers for the agenda table are ``Ärende'', ``Åtgärd'' and ``Bilaga''. If users want to customize
-this, the \textsf{agenda} environment takes three optional arguments for the table headers and can be used like this:
-
-\begin{center}
-  \begin{tabular}{l}
-    \cs{begin\{agenda\}\oarg{header 1}\oarg{header 2}\oarg{header 3}} \\
-    \ldots                                                            \\
-    \cs{end\{agenda\}}
-  \end{tabular}
-\end{center}
-
-
 
 \section{Technical notes}
 
