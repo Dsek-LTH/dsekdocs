@@ -352,38 +352,14 @@ The \cs{bilaga} command is an alias for the \cs{attachment} command.
 \section{The \textsf{dsekparagraphed} document class}
 The \textsf{dsekparagraphed} document class is meant to be used for the creation
 of guild documents that use a paragraphed structure, e.g. regulatory documents
-and minutes.  The only user facing thing that it provides is the
-\textsf{parasection} list environment.  It is intended to be the body of each
-section of a regulatory document; it begins right after the \cs{section} call
-and ends right before the next one.  Inside it, each paragraph is declared like
-so:
+and minutes.  Since this class builds upon the \textsf{dsekdoc} class,
+everything from the last section applies here as well.
 
-\begin{center}
-  \cs{paraitem}\marg{title}.
-\end{center}
-
-By default, all paragraphs follow the numbering format §\(X.Y\), where \(X\) is
-the section number and \(Y\) is the paragraph number.  This format can be
-altered with the following command:
-
-\begin{center}
-  \cs{setparanumformat}\marg{format}
-\end{center}
-
-The default format can be achieved like this:
-
-\begin{center}
-  \cs{setparanumformat}\texttt{\{§\cs{arabic}\{section\}.\cs{arabic}\{DsekParagraph\}\}}
-\end{center}
-
-If you want a single \texttt{paraitem} to have a special numbering (maybe not a
-number at all), you can do so like this:
-
-\begin{center}
-  \cs{paraitem}\oarg{numbering}\marg{title}
-\end{center}
-
-This won't step the paragraph counter.
+Paragraphs are inserted with the \cs{paragraph} command (it shadows the
+\LaTeX-default \cs{paragraph}).  Each paragraph is numbered and labeled
+according to what kind of section it is in.  So a paragraph under a \cs{section}
+would be labeled §\(X.Y\), where \(X\) is the section number and \(Y\) is the
+paragraph number.
 
 All paragraphs can be linked to using the \cs{hyperlink} command to create
 clickable links in the document.  So, to link to the paragraph §1.2, you would
@@ -392,6 +368,12 @@ write
 \begin{center}
   \cs{hyperlink}\texttt{\{par:§1.2\}\{See §1.2\} for further examples.}
 \end{center}
+
+The paragraphed part usually runs untill you start a new section, subsection
+etc. or until the end of the document.  Should you need to end the paragraphed
+section early, you can do so with \cs{endparagraphed}.  This can be useful if
+you want the whole page width available for signatures at the end of some
+meeting minutes, for example.
 
 \section{The \textsf{dsekmotion} document class}
 The \textsf{dsekmotion} document class is meant to be used for creating
