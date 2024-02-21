@@ -255,28 +255,27 @@ The \textsf{dsekdoc} document class takes two special options:
 All other arguments are passed through to the \textsf{article} document class.
 
 \subsection{Commands}
+\subsubsection{Document properties}
 Because of how the \cs{title}, \cs{author} and \cs{date} commands work, we can't
 easily use what is given to them for our own purposes, so as a replacement we
 have
 \begin{center}
   \cs{settitle}\marg{title}, \cs{setauthor}\marg{author} and \cs{setdate}\marg{date}
 \end{center}
-
 These commands wrap around the usual \cs{title} commands etc., so there's no
 need to use both.
 
-\subsubsection{Headers}
-In addition to the name of the guild and the date, the headers of the document
-will include a short version of the document title and the meeting it is meant
-for or when it was established.  Those are set with
+In addition to the default properties, you can also set the \emph{short title}
+and the \emph{meeting}.  These are displayed in the page headers of the
+document.  These can be set with
 
 \begin{center}
   \cs{setshorttitle}\marg{short title} and \cs{setmeeting}\marg{meeting}
 \end{center}
 
 \subsubsection{Cover page}
-For longer, more important documents it is nice to have a cover page for the
-document.  By default, the cover page is inserted with
+For longer, more important documents it is nice for them to have a cover page.
+By default, the cover page is inserted with
 
 \begin{center}
   \cs{coverpage}
@@ -294,8 +293,8 @@ subtitle.  It can be set with
 \end{center}
 
 \subsubsection{Reusing}
-To use any of the properties we have described in this section, change the
-``set'' in the command to ``use''.  So, to use the title you set with the
+To use any of the properties we have described in this section so far, change
+the ``set'' in the command to ``use''.  So, to use the title you set with the
 \cs{settitle} command in your document, you write \cs{usetitle} and it will be
 inserted.
 
