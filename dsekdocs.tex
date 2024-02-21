@@ -29,18 +29,6 @@ Engineering LTH, Lund University.
 This package contains macros for the inclusion of D-guild related stuff in any
 document.  To use it, write \cs{usepackage\{dsek\}}.
 
-\subsection{Fonts}
-The \textsf{dsek} package uses the free Domitian and \TeX Gyre Heros as stand
-ins for non-free Palatino and Helvetica fonts.
-
-It is worth noting that it by default uses old style figures, i.e. ``lower case
-numbers'', by default.  If you want to turn that off somewhere, like maybe in a
-table, use
-
-\cs{addfontfeatures\{Numbers=\{Monospaced,Lining\}\}}
-
-This makes the numbers full height and monospaced to increase readability.
-
 \subsection{Commands}
 
 \subsubsection{Text snippets}
@@ -241,6 +229,18 @@ The \textsf{dsekdoc} document class is meant to be used for any guild related
 documents for which the standard style is desired.  It is based of the
 \textsf{article} document class, but changes fonts, paragraph styles, headers
 and footers amongst a few other things.
+
+\subsection{Fonts}
+The \textsf{dsek} package uses the free Domitian and \TeX Gyre Heros as stand
+ins for non-free Palatino and Helvetica fonts.
+
+It is worth noting that it by default uses old style figures, i.e. ``lower case
+numbers'', by default.  If you want to turn that off somewhere, like maybe in a
+table, use
+
+\cs{addfontfeatures\{Numbers=\{Monospaced,Lining\}\}}
+
+This makes the numbers full height and monospaced to increase readability.
 
 \subsection{Options}
 The \textsf{dsekdoc} document class takes two special options:
