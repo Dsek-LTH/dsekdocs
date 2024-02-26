@@ -235,8 +235,9 @@ The signature command accepts the following options:
         entered texts.
   \item[\texttt{hspace=}\textlangle\textit{dim}\textrangle] Sets the height of
         the signature space.  By default it is set to 15mm.
-  \item[\texttt{signfile=}\textlangle\textit{filename.extension}\textrangle] Sets the file
-        from which an image of a signature is loaded. By default it is unset.
+  \item[\texttt{signfile=}\textlangle\textit{file}\textrangle]
+    Sets the file from which an image of a signature is loaded. By default it is
+    unset.  Be aware that some file formats (like SVG) might not work.
 \end{description}
 
 Additionally, the default signature height space for all signatures can be set
@@ -325,14 +326,14 @@ subtitle.  It can be set with
 \subsubsection{Reusing}
 To use any of the properties we have described in this section so far, change
 the ``set'' in the command to ``use''.  So, to use the title you set with the
-\cs{settitle} command in your document, you write \cs{usetitle} and it will be
-inserted.
+\cs{settitle} command in another part of your document, you write \cs{usetitle}
+and it will be inserted.
 
 \subsection{The agenda environment}
-The \textsf{dseknotice} document class provides a document environemtn for
-creating agendas for meetings and to populate them with issues.  The agenda is
+The \textsf{dseknotice} document class provides a document environment for
+typesetting meeting agendas and to populate them with issues.  The agenda is
 essentially a list of issues in a table format, containing four columns, where
-the first one is used for enumerating. The \textsf{issue} requires a title of
+the first one is used for enumerating. The \cs{issue} requires a title of
 the issue as the first argument, and provides two optional arguments for the
 type of action for the issue and attachments. The argument included for
 attachments could be a link to the attachments.
@@ -348,12 +349,12 @@ attachments could be a link to the attachments.
 \end{center}
 
 The default headers for the agenda table are ``Ärende'', ``Åtgärd'' and
-``Bilaga''. If users want to customize this, the \textsf{agenda} environment
+``Bilaga''. If users want to customize this, the \texttt{agenda} environment
 takes three optional arguments for the table headers and can be used like this:
 
 \begin{center}
   \begin{tabular}{l}
-    \cs{begin\{agenda\}\oarg{header 1}\oarg{header 2}\oarg{header 3}} \\
+    \cs{begin\{agenda\}}\oarg{header 1}\oarg{header 2}\oarg{header 3} \\
     \ldots                                                            \\
     \cs{end\{agenda\}}
   \end{tabular}
@@ -408,12 +409,12 @@ you want the whole page width available for signatures at the end of some
 meeting minutes, for example.
 
 \section{The \textsf{dsekmotion} document class}
-The \textsf{dsekmotion} document class is meant to be used for creating
+The \textsf{dsekmotion} document class is meant to be used for typesetting
 motions and propositions.
 
 \subsection{Options}
 Since motions and propositions are very similar, the \textsf{dsekmotion}
-document class has two options to switch between them:
+document class has options to switch between them:
 \begin{description}
   \item[\texttt{motion}] makes the document a motion. This is the default and
     can be omitted.

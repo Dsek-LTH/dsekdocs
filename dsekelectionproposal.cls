@@ -17,13 +17,16 @@
 
 \NewDocumentEnvironment{vemsection}{ } {
   \begin{multicols}{2}
-    } {
+} {
   \end{multicols}
   \vspace{\baselineskip}
 }
+
 \NewDocumentCommand \getenumcount { m } {
   \getrefnumber{#1}
 }
+
+%% FIXME: Rewrite this in Expl3
 \NewDocumentEnvironment{vemlist}{ m } {
   \begin{minipage}{\columnwidth}
     \ifnum\getenumcount{#1}>3 {
@@ -48,7 +51,7 @@
   storlek~fem.
   \vspace{\baselineskip}
   \begin{multicols}{2}
-    } {
+} {
   \end{multicols}
 }
 
