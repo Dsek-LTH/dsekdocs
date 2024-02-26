@@ -9,7 +9,7 @@
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{dsekregdoc}}
 
-\PassOptionsToClass{plural}{dsekregdoc}
+\PassOptionsToClass{plural, titlecoverpage}{dsekregdoc}
 
 \ProcessOptions \relax
 
