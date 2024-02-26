@@ -7,7 +7,7 @@
 
 \ExplSyntaxOn
 
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{dsekparagraphed}}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{dsekregdoc}}
 
 \PassOptionsToClass{n}{dsekregdoc}
 
