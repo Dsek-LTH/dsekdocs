@@ -427,6 +427,18 @@ paragraphed section early, you can do so with \cs{endparagraphed}.  This can be
 useful if you want the whole page width available for signatures at the end of
 some meeting minutes, for example.
 
+\section{The \textsf{dsekregdoc} document class}
+The \textsf{dsekregdoc} document class is to be used for the creation of
+regulatory documents.  It is based on the \textsf{dsekparagraphed} document
+class.  It features two new document properties:
+
+\begin{description}
+\item[adoptedon] The meeting during which the document was adopted.  Set with
+  \cs{setadoptedon}.
+\item[revisedon] The meeting during which the document was last revised.  Set
+  with \cs{setrevisedon}.
+\end{description}
+
 \section{The \textsf{dsekmotion} document class}
 The \textsf{dsekmotion} document class is meant to be used for typesetting
 motions and propositions.
