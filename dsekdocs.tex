@@ -458,8 +458,34 @@ class.  It features two new document properties:
   with \cs{setrevisedon}.
 \end{description}
 
+\section{The \textsf{dsekguideline} and \textsf{dsekpolicy} document classes}
+The \textsf{dsekguideline} and \textsf{dsekpolicy} document classes for
+typesetting guidelines and policies, respectively.  These classes are very
+similar, and are just thin wrappers around the \textsf{dsekregdoc} document
+class.  As such, they set the appropriate document properties (as described in
+\ref{props}) and just provide one command each:
 
+\begin{center}
+  \cs{riktlinjeför}\marg{subject} and \cs{policyför}\marg{subject}
+\end{center}
 
+So, if I were writing a policy about voting, I would write:
+
+\begin{center}
+  \cs{riktlinjeför}\texttt{\{röstning}\}
+\end{center}
+
+Be aware that these are just aliases to the \cs{settitle} command, which these
+classes change to ensure that document titles follow the same naming scheme.
+
+\section{The \textsf{dsekstatutes} and \textsf{dsekregulations} document classes}
+The \textsf{dsekregulations} and \textsf{dsekstatutes} document classes are
+meant for the typesetting of the guild statutes and the guild regulations,
+respectively.  They are thin wrappers around the \textsf{dsekregdoc} document
+class and set the appropriate document properties.
+
+Special for these are that they both use the cover page as the document title.
+See \ref{cover_page} for more info.
 
 \section{Technical notes}
 
