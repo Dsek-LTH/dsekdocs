@@ -394,19 +394,31 @@ according to what kind of section it is in.  So a paragraph under a \cs{section}
 would be labeled §\(X.Y\), where \(X\) is the section number and \(Y\) is the
 paragraph number.
 
-All paragraphs can be linked to using the \cs{hyperlink} command to create
-clickable links in the document.  So, to link to the paragraph §1.2, you would
-write
+\subsection{Cross-referencing}
+All paragraphs can be labeled with \cs{label} and linked to using \cs{ref}.  So,
+if I were to label a paragraph, like so:
 
 \begin{center}
-  \cs{hyperlink}\texttt{\{par:§1.2\}\{See §1.2\} for further examples.}
+  \cs{paragraph}\texttt{\{Examples\}} \cs{label}\texttt{\{examples\}}
 \end{center}
 
-The paragraphed part usually runs untill you start a new section, subsection
-etc. or until the end of the document.  Should you need to end the paragraphed
-section early, you can do so with \cs{endparagraphed}.  This can be useful if
-you want the whole page width available for signatures at the end of some
-meeting minutes, for example.
+I could then refer to it in another part of the document and it will be numbered
+correctly automatically:
+
+\begin{center}
+  \begin{tabular}{l | l}
+    \begin{minipage}{0.6\linewidth}
+      \texttt{See }\cs{ref}\texttt{\{examples\} for further examples.}
+    \end{minipage}
+     &
+    \begin{minipage}{0.4\linewidth}
+      See §1.2 for further examples.
+    \end{minipage}
+  \end{tabular}
+\end{center}
+
+This will also insert a hyperlink to the correct part of the document.
+
 
 \section{The \textsf{dsekmotion} document class}
 The \textsf{dsekmotion} document class is meant to be used for typesetting

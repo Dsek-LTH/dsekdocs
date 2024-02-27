@@ -138,7 +138,9 @@
 
 % This command creates a § label from a given number and label
 \cs_new_protected:Npn \__dsek_para_label:nn #1#2 {
-  \makebox[\g_dsek_para_num_dim][l]{\hypertarget{par:#1}{#1}}
+  % Set the text for labels to a § label
+  \tl_gset:cx {@currentlabel} {\tl_use:N \g_dsek_para_num_format_tl}
+  \makebox[\g_dsek_para_num_dim][l]{#1}
   \parbox[t]{\g_dsek_para_label_dim}{#2}
 }
 
@@ -153,7 +155,7 @@
   \IfValueTF{#1} {
     \item[\__dsek_para_label:nn{#1}{#2}]
   }{
-    \stepcounter{DsekParagraph}
+    \refstepcounter{DsekParagraph}
     \item[\__dsek_para_label:nn{\tl_use:N \g_dsek_para_num_format_tl}{#2}]
   }
 }
