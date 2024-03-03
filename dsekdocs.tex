@@ -105,6 +105,27 @@ accept these options as the optional arguments (comma separated if multiple):
   \end{tabular}
 \end{center}
 
+\subsubsection{Adding and striking}
+When proposing changes to documents we want to be able to highlight these
+changes.  For this purpose, the \textsf{dsek} package provides the \cs{add} and
+\cs{strike} commands.  They work as follows:
+
+\begin{center}
+  \begin{tabular}{l | l}
+    \begin{minipage}{0.5\linewidth}
+      \texttt{Sektionens färg är}
+      \cs{strike}\texttt{\{Rosa\}}\cs{add}\texttt{\{Råsa\}.} \\
+    \end{minipage}
+     &
+    \begin{minipage}{0.5\linewidth}
+      Sektionens färg är \strike{Rosa}\add{Råsa}.
+    \end{minipage}
+  \end{tabular}
+\end{center}
+
+The commands \cs{stryk} and \cs{läggtill} alias to \cs{strike} and \cs{add},
+respectively.
+
 \subsubsection{Lists}
 As it is often desirable to create so called ``att-listor'' to reflect decisions
 taken or the proposed actions in motions, facilities to create them are provided:
