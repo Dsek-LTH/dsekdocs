@@ -11,6 +11,7 @@
 \RequirePackage{graphicx}
 \RequirePackage{enumitem}
 \RequirePackage{xcolor}
+\RequirePackage{soul}
 
 \str_new:N \g_dsek_image_dir_str
 \str_gset:Nn \g_dsek_image_dir_str { images/ }
@@ -102,6 +103,23 @@
 \NewDocumentCommand{\Dprogsigil}{ O{} } {
   \__dsek_graphic:nx { D-program-sigil } { #1 }
 }
+
+%% Marking changes
+
+\NewDocumentCommand{\add}{ m } {
+  \sethlcolor{yellow}
+  \hl{#1}
+}
+
+\cs_new_eq:NN \läggtill \add
+
+\NewDocumentCommand{\strike}{ m } {
+  \sethlcolor{red}
+  \hl{#1}
+  \sethlcolor{yellow}
+}
+
+\cs_new_eq:NN \stryk \strike
 
 %% Lists
 
