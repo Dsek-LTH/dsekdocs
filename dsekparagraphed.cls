@@ -35,6 +35,9 @@
 % Number of the § paragraph
 \newcounter{DsekParagraph}
 
+% Absolute number of the § paragraph
+\newcounter{DsekParagraphAbsolute}
+
 % Format for the § number
 \tl_new:N \g_dsek_para_num_format_tl
 
@@ -155,7 +158,8 @@
   \IfValueTF{#1} {
     \item[\__dsek_para_label:nn{#1}{#2}]
   }{
-    \refstepcounter{DsekParagraph}
+    \stepcounter{DsekParagraph}
+    \refstepcounter{DsekParagraphAbsolute}
     \item[\__dsek_para_label:nn{\tl_use:N \g_dsek_para_num_format_tl}{#2}]
   }
 }
