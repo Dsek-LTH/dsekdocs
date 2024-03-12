@@ -418,6 +418,40 @@ document class has options to switch between them:
   \item[\texttt{proposition}] makes the document a proposition.
 \end{description}
 
+\section{The \textsf{dsekelectionproposal} document class}
+The \textsf{dsekelectionproposal} document class is meant for the documents in
+which nomination commitees announce who they nominate to different positions.
+The class provides three environments and one command to make creating such
+documents as easy as possible.  The \texttt{vemsection} and \texttt{vemlist}
+environments are intended for creating a list of proposed candidates, like this:
+
+\begin{center}
+  \begin{minipage}{0.4\linewidth}
+    \cs{begin\{vemsection\}}        \\
+    \cs{begin\{vemlist\}\{Post 1\}} \\
+    \cs{item} \texttt{Donald Knuth} \\
+    \cs{item} \texttt{Ada Lovelace} \\
+    \cs{end\{vemlist\}}             \\
+    \cs{begin\{vemlist\}\{Post 2\}} \\
+    \cs{item} \texttt{Alan Turing}  \\
+    \cs{end\{vemlist\}}             \\
+    \cs{end\{vemsection\}}
+  \end{minipage}
+\end{center}
+
+Also provided is the \texttt{statistikpage} environment and \cs{statistik}
+command for typesetting statistics about the amount of candidates that applied
+for the position.  They can be utilized like this:
+
+\begin{center}
+  \begin{minipage}{0.4\linewidth}
+    \cs{begin\{statistikpage\}}     \\
+    \cs{statistik}\texttt{\{Post 1\}\{100-104\}} \\
+    \cs{statistik}\texttt{\{Post 2\}\{0-4\}} \\
+    \cs{end\{statistikpage\}}
+  \end{minipage}
+\end{center}
+
 \section{The \textsf{dsekparagraphed} document class}
 The \textsf{dsekparagraphed} document class is meant to be used for the creation
 of guild documents that use a paragraphed structure, e.g. regulatory documents
