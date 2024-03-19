@@ -128,7 +128,8 @@ respectively.
 
 \subsubsection{Lists}
 As it is often desirable to create so called ``att-listor'' to reflect decisions
-taken or the proposed actions in motions, facilities to create them are provided:
+taken or the proposed actions in motions, facilities to create them are
+provided:
 
 \begin{center}
   \begin{tabular}{l}
@@ -252,13 +253,13 @@ results in
 The signature command accepts the following options:
 \begin{description}
   \item[\texttt{width=}\textlangle\textit{dim}\textrangle] Sets the width of the
-        signature.  By default, it is set to the maximum of the widths of the
-        entered texts.
+    signature.  By default, it is set to the maximum of the widths of the
+    entered texts.
   \item[\texttt{hspace=}\textlangle\textit{dim}\textrangle] Sets the height of
-        the signature space.  By default it is set to 15mm.
-  \item[\texttt{signfile=}\textlangle\textit{file}\textrangle]
-    Sets the file from which an image of a signature is loaded. By default it is
-    unset.  Be aware that some file formats (like SVG) might not work.
+    the signature space.  By default it is set to 15mm.
+  \item[\texttt{signfile=}\textlangle\textit{file}\textrangle] Sets the file
+    from which an image of a signature is loaded. By default it is unset.  Be
+    aware that some file formats (like SVG) might not work.
 \end{description}
 
 Additionally, the default signature height space for all signatures can be set
@@ -313,7 +314,8 @@ Because of how the \cs{title}, \cs{author} and \cs{date} commands work, we can't
 easily use what is given to them for our own purposes, so as a replacement we
 have
 \begin{center}
-  \cs{settitle}\marg{title}, \cs{setauthor}\marg{author} and \cs{setdate}\marg{date}
+  \cs{settitle}\marg{title}, \cs{setauthor}\marg{author} and
+  \cs{setdate}\marg{date}
 \end{center}
 These commands wrap around the usual \cs{title} commands etc., so there's no
 need to use both.
@@ -356,10 +358,10 @@ and it will be inserted.
 The \textsf{dseknotice} document class provides a document environment for
 typesetting meeting agendas and to populate them with issues.  The agenda is
 essentially a list of issues in a table format, containing four columns, where
-the first one is used for enumerating. The \cs{issue} requires a title of
-the issue as the first argument, and provides two optional arguments for the
-type of action for the issue and attachments. The argument included for
-attachments could be a link to the attachments.
+the first one is used for enumerating. The \cs{issue} requires a title of the
+issue as the first argument, and provides two optional arguments for the type of
+action for the issue and attachments. The argument included for attachments
+could be a link to the attachments.
 
 \begin{center}
   \begin{tabular}{l}
@@ -490,7 +492,6 @@ correctly automatically:
 This will also insert a hyperlink to the correct part of the document.
 
 \subsection{Technical notes}
-
 The paragraphed part of the document usually runs until you start a new section,
 subsection etc. or until the end of the document.  Should you need to end the
 paragraphed section early, you can do so with \cs{endparagraphed}.  This can be
@@ -552,6 +553,6 @@ The \textsf{dsekdoc} and \textsf{dsekparagraphed} document classes make use of
 the \href{https://ctan.org/pkg/fontspec}{\textsf{fontspec}} and
 \href{https://ctan.org/pkg/polyglossia}{\textsf{polyglossia}} packages, both of
 which are incompatible with \textsf{pdflatex}.  So, to use them, use
-\textsf{xelatex} or \textsf{lualatex} instead.
+\textsf{xelatex} or \textsf{lualatex} insitead.
 
 \end{document}
