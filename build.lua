@@ -37,7 +37,7 @@ checkruns = 2					-- allow for an extra run when needed
 
 -- Typesetting documentation
 
-typesetexe = "xelatex"
+typesetexe = "lualatex"
 
 -- Announcements
 ancmts = {}
