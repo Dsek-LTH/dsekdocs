@@ -13,6 +13,7 @@
 \str_const:Nn \c_dsek_minutes_board_type_str { board }
 \str_const:Nn \c_dsek_minutes_guild_type_str { guild }
 \str_const:Nn \c_dsek_minutes_study_council_type_str { study-council }
+\str_const:Nn \c_dsek_minutes_ceq_type_str { ceq }
 
 \str_new:N \g_dsek_minutes_type_str
 % default to guild meeting
@@ -25,6 +26,8 @@
    {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_guild_type_str}
 \DeclareOption{study-council}
    {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_study_council_type_str}
+\DeclareOption{ceq}
+   {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_ceq_type_str}
 
 %% Alternative options for easier access
 \DeclareOption{styr}
@@ -48,6 +51,9 @@
 \DeclareOption{srdmöte}
    {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_study_council_type_str}
 
+\DeclareOption{course}
+   {\str_set_eq:NN \g_dsek_minutes_type_str \c_dsek_minutes_ceq_type_str}
+
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{dsekparagraphed}}
 
 \ProcessOptions \relax
@@ -70,6 +76,10 @@
 \str_if_eq:NNT { \g_dsek_minutes_type_str }
     { \c_dsek_minutes_study_council_type_str }
     {\setshorttitle{SRD-mötesprotokoll}}
+
+\str_if_eq:NNT { \g_dsek_minutes_type_str }
+    { \c_dsek_minutes_ceq_type_str }
+    {\setshorttitle{CEQ-mötesprotokoll}}
 
 %%% Attendance
 
