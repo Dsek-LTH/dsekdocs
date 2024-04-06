@@ -103,6 +103,11 @@
 \cs_set_eq:Nc \__dsek_oldsection:n {section} % Sections
 
 \RenewDocumentCommand \section { s m } {
+  %% If there have been paragraphs before the sections, match the counter.
+  \bool_lazy_and:nnT {\bool_if_p:n \g__dsek_para_begun_bool}
+       {\int_compare_p:n {0 == \arabic{section}}} {
+    \setcounter{section}{\arabic{DsekParagraph}}
+  }
   \__dsek_para_end_possible_section:
   \bool_if:NTF {#1} {
     \__dsek_oldsection:n*{#2}
@@ -116,6 +121,12 @@
 \cs_set_eq:Nc \__dsek_oldsubsection:n {subsection} % Subsections
 
 \RenewDocumentCommand \subsection { s m } {
+  %% If there have been paragraphs on this level before the subsections, match
+  %% the counter.
+  \bool_lazy_and:nnT {\bool_if_p:n \g__dsek_para_begun_bool}
+       {\int_compare_p:n {0 == \arabic{subsection}}} {
+    \setcounter{subsection}{\arabic{DsekParagraph}}
+  }
   \__dsek_para_end_possible_section:
   \IfBooleanTF{#1} {
     \__dsek_oldsubsection:n*{#2}
@@ -129,6 +140,12 @@
 \cs_set_eq:Nc \__dsek_oldsubsubsection:n {subsubsection} % Subsubsections
 
 \NewDocumentCommand \subbsubsection { s m } {
+  %% If there have been paragraphs on this level before the subsubsections,
+  %% match the counter.
+  \bool_lazy_and:nnT {\bool_if_p:n \g__dsek_para_begun_bool}
+       {\int_compare_p:n {0 == \arabic{subsubsection}}} {
+    \setcounter{subsubsection}{\arabic{DsekParagraph}}
+  }
   \__dsek_para_end_possible_section:
   \IfBooleanTF{#1} {
     \__dsek_oldsubsubsection:n*{#2}
