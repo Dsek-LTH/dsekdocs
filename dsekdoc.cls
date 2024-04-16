@@ -240,7 +240,7 @@
   \renewcommand{\arraystretch}{1.15}
   \begin{center}
     \addfontfeatures{Numbers={Monospaced,Lining}}
-    \begin{longtable}[c]{lp{0.47\textwidth}l p{0.11\textwidth}}
+    \begin{longtable}[c]{lp{0.6\textwidth}l p{0.11\textwidth}}
       \textbf{Nr.} &
       \IfValueTF{#1}{\textbf{#1}}{\textbf{Ärende}} &
       \IfValueTF{#2}{\textbf{#2}}{\textbf{Åtgärd}} &
